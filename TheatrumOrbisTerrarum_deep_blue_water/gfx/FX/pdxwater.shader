@@ -144,16 +144,6 @@ PixelShader =
 			MipFilter = "Linear"
 			MinFilter = "Linear"
 		}
-
-		IndirectionMap =
-		{
-			AddressV = "Clamp"
-			MagFilter = "Point"
-			AddressU = "Clamp"
-			Index = 13
-			MipFilter = "Linear"
-			MinFilter = "Linear"
-		}
 	}
 }
 
@@ -270,11 +260,11 @@ PixelShader =
 		{
 			float vScaledTime = vTime_HalfPixelOffset.x * vTimeSpeed;
 			float vScaleUV =5.0f; //25.0f - bigger numbers = smaller waves
-			float2 time1 = vScaledTime * float2( 0.3f, 0.7f )*0.25f;
-			float2 time2 = -vScaledTime * 0.25f * float2( 0.8f, 0.2f )*0.25f;
+			float2 time1 = vScaledTime * float2( 0.3f, 0.7f )*0.25f; //added *0.25f
+			float2 time2 = -vScaledTime * 0.25f * float2( 0.8f, 0.2f )*0.25f; //added *0.25f
 			float2 uv1 = vScaleUV * uv;
 			float2 uv2 = vScaleUV * uv * 0.3; // 0.75
-			float noiseScale = 12.0f; //5.0
+			float noiseScale = 5.0f; //5.0
 			float3 noiseNormal1 = tex2D( WaterNoise, uv1 * noiseScale + time1 * 1.0f ).rgb - 0.5f;
 			float3 noiseNormal2 = tex2D( WaterNoise, uv2 * noiseScale + time2 * 1.0f ).rgb - 0.5f;
 			float3 normalNoise = noiseNormal1 + noiseNormal2 + float3( 0.0f, 0.0f, 0.3f );
@@ -325,8 +315,8 @@ PixelShader =
 			// Region colors (provinces)
 			float2 flippedUV = Input.uv;
 			flippedUV.y = 1.0f - flippedUV.y;
-			float4 vSample = tex2D( ProvinceColorMap, flippedUV )*0.05f; // transparency of color overlay
-			waterColor.rgb = lerp( waterColor.rgb, vSample.rgb, saturate( vSample.a ) ); // brightness used in the addon
+			float4 vSample = tex2D( ProvinceColorMap, flippedUV )*0.15f; // transparency of color overlay
+			waterColor.rgb = lerp( waterColor.rgb, vSample.rgb, saturate( vSample.a ) )*0.95f; // only brightness setting used in the DW addon
 
 			float vIceFade = 0.0f;
 			waterColor = ApplyIce( waterColor, Input.pos.xz, normal, vFoWColor, Input.uv_ice, vIceFade );
@@ -352,7 +342,7 @@ PixelShader =
 		#endif
 
 			float fresnelBias = 0.8f; // 0.2f brightness
-			float fresnel = saturate( dot( -vEyeDir, normal ) ) * 0.2f; // 0.5 brightness
+			float fresnel = saturate( dot( -vEyeDir, normal ) ) * 0.95f; // 0.5 brightness
 			fresnel = saturate( fresnelBias + ( 1.0f - fresnelBias ) * pow( 0.95f - fresnel, 3.0f ) ); // ( 1.0f - fresnel, 10.0f ) 
 			fresnel *= (1.0f-vIceFade); //No fresnel when we have snow
 			

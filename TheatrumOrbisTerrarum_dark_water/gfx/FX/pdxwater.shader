@@ -144,16 +144,6 @@ PixelShader =
 			MipFilter = "Linear"
 			MinFilter = "Linear"
 		}
-
-		IndirectionMap =
-		{
-			AddressV = "Clamp"
-			MagFilter = "Point"
-			AddressU = "Clamp"
-			Index = 13
-			MipFilter = "Linear"
-			MinFilter = "Linear"
-		}
 	}
 }
 

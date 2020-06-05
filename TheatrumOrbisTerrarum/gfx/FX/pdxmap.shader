@@ -101,18 +101,19 @@ PixelShader =
 		## Should be after ProvinceSecondaryColorMapPoint, so we sample linearly, when we get OpenGL 3 
 		ProvinceSecondaryColorMap = 
 		{
-			AddressV = "Clamp"
-			MagFilter = "Point"
-			AddressU = "Clamp"
+			AddressV = "Wrap"
+			MagFilter = "Linear"
+			AddressU = "Wrap"
 			Index = 6
-			MipFilter = "Point"
-			MinFilter = "Point"
+			MipFilter = "Linear"
+			MinFilter = "Linear"
 		}
-		IndirectionMap =
+
+		ProvinceSecondaryColorMapPoint = 
 		{
-			AddressV = "Clamp"
+			AddressV = "Wrap"
 			MagFilter = "Point"
-			AddressU = "Clamp"
+			AddressU = "Wrap"
 			Index = 7
 			MipFilter = "Point"
 			MinFilter = "Point"
@@ -151,11 +152,11 @@ PixelShader =
 		ProvinceColorMap = 
 		{
 			AddressV = "Clamp"
-			MagFilter = "Point"
+			MagFilter = "Linear"
 			AddressU = "Clamp"
 			Index = 11
-			MipFilter = "Point"
-			MinFilter = "Point"
+			MipFilter = "Linear"
+			MinFilter = "Linear"
 		}
 
 		ShadowMap = 
@@ -180,9 +181,9 @@ PixelShader =
 
 		MudTexture = 
 		{
-			AddressV = "Clamp"
+			AddressV = "Wrap"
 			MagFilter = "Linear"
-			AddressU = "Clamp"
+			AddressU = "Wrap"
 			Index = 14
 			MipFilter = "Linear"
 			MinFilter = "Linear"
@@ -265,7 +266,7 @@ float mipmapLevel( float2 uv )
 #endif //PDX_OPENGL
 }
 
-float4 sample_terrain( float IndexU, float IndexV, float2 vTileRepeat, float vMipTexels, float lod, float vTiles )
+float4 sample_terrain( float IndexU, float IndexV, float2 vTileRepeat, float vMipTexels, float lod )
 {
 	vTileRepeat = frac( vTileRepeat );
 
@@ -274,10 +275,10 @@ float4 sample_terrain( float IndexU, float IndexV, float2 vTileRepeat, float vMi
 	vTileRepeat += 0.01;
 #endif
 	
-	float vTexelsPerTile = vMipTexels / vTiles;
+	float vTexelsPerTile = vMipTexels / NUM_TILES;
 
 	vTileRepeat *= ( vTexelsPerTile - 1.0f ) / vTexelsPerTile;
-	return float4( ( float2( IndexU, IndexV ) + vTileRepeat ) / vTiles + 0.5f / vMipTexels, 0.0f, lod );
+	return float4( ( float2( IndexU, IndexV ) + vTileRepeat ) / NUM_TILES + 0.5f / vMipTexels, 0.0f, lod );
 }
 
 void calculate_index( float4 IDs, out float4 IndexU, out float4 IndexV, out float vAllSame )
@@ -294,7 +295,7 @@ void calculate_index( float4 IDs, out float4 IndexU, out float4 IndexV, out floa
 
 float3 calculate_secondary( float2 uv, float3 vColor, float2 vPos )
 {
-	float4 vSample = GetProvinceColorSampled( uv, IndirectionMap, ProvinceIndirectionMapSize, ProvinceSecondaryColorMap, ProvinceColorMapSize );
+	float4 vSample = tex2D( ProvinceSecondaryColorMap, uv );
 	float4 vMask = tex2D( OccupationMask, vPos / 11.0f ).rgba; //  8.0f occupation lines scale
 	return lerp( vColor, vSample.rgb, saturate( vSample.a * vMask.a ) )*1.25f; //regulate brightness of colored map modes (<1.0 = darker, >1.0 = brighter);
 }
@@ -304,7 +305,26 @@ float3 calculate_secondary_compressed( float2 uv, float3 vColor, float2 vPos )
 	float4 vMask = tex2D( OccupationMask, vPos / 11.0 ).rgba; //  8.0f occupation lines terrain scale 
 
 	// Point sample the color of this province. 
-	float4 vSecondary = GetProvinceColorSampled( uv, IndirectionMap, ProvinceIndirectionMapSize, ProvinceSecondaryColorMap, ProvinceColorMapSize );
+#ifdef PDX_OPENGL
+	// Currently, both samplers be identical in OpenGL. Will be fixed if we up to OpenGL 3
+	float4 vPointSample = tex2D( ProvinceSecondaryColorMap, uv );
+
+	// USE THIS CODE WHEN WE GET OPENGL 3
+	// REMEMBER TO SWAP SAMPLER ORDER
+	// Both ProvinceSecondaryColorMap samplers are identical in OpenGL so use texelFetch
+	//	const int MAX_LOD = 0;
+	//	int2 iActualTexel = textureSize( ProvinceSecondaryColorMap, MAX_LOD ) * uv;
+	//	float4 vPointSample = texelFetch( ProvinceSecondaryColorMap, iActualTexel, MAX_LOD );
+
+#else
+	float4 vPointSample = tex2D( ProvinceSecondaryColorMapPoint, uv );
+#endif // PDX_OPENGL
+
+	float4 vLinearSample = tex2D( ProvinceSecondaryColorMap, uv );
+	//Use color of point sample and transparency of linear sample
+	float4 vSecondary = float4( 
+		vPointSample.rgb, 
+		vLinearSample.a );
 
 	const int nDivisor = 6;
 	int3 vTest = int3(vSecondary.rgb * 255.0);
@@ -327,10 +347,9 @@ float3 calculate_secondary_compressed( float2 uv, float3 vColor, float2 vPos )
 	return vColor * ( 1.0 - vSecondary.a ) + ( vSecondColor / float(nDivisor) ) * vSecondary.a;
 }
 
-bool GetFoWAndTI( float3 PrePos, out float4 vFoWColor, out float4 vMonsoonColor, out float TI, out float4 vTIColor )
+bool GetFoWAndTI( float3 PrePos, out float4 vFoWColor, out float TI, out float4 vTIColor )
 {
 	vFoWColor = GetFoWColor( PrePos, FoWTexture); // better displays winter in colored map modes by adding *1.25f	
-	vMonsoonColor = GetFoWColor( PrePos, MudTexture);
 	TI = GetTI( vFoWColor );	
 	vTIColor = GetTIColor( PrePos, TITexture );
 	return ( TI - 0.99f ) * 1000.0f <= 0.0f;
@@ -477,8 +496,8 @@ PixelShader =
 			clip( Input.prepos.y + TERRAIN_WATER_CLIP_HEIGHT - WATER_HEIGHT );
 		#endif	
 			float fTI;
-			float4 vFoWColor, vTIColor, vMonsoonColor;	
-			if( !GetFoWAndTI( Input.prepos, vFoWColor, vMonsoonColor, fTI, vTIColor ) )
+			float4 vFoWColor, vTIColor;	
+			if( !GetFoWAndTI( Input.prepos, vFoWColor, fTI, vTIColor ) )
 			{
 				return float4( vTIColor.rgb, 1.0f );
 			}
@@ -494,33 +513,38 @@ PixelShader =
 			
 			float lod = clamp( trunc( mipmapLevel( vTileRepeat ) - 0.5f ), 0.0f, 6.0f );
 			float vMipTexels = pow( 2.0f, ATLAS_TEXEL_POW2_EXPONENT - lod );
-			float3 vHeightNormalSample = normalize( tex2D( HeightNormal, Input.uv2 ).rbg - 0.5f );
+			float3 vHeightNormalSample = normalize( tex2D( HeightNormal, Input.uv2 ).rbg - 0.5f )*.77f; //added *1.2 to make the snow transition smoother in colored map modes
 			
-			float4 vTerrainSamplePosition = sample_terrain( IndexU.w, IndexV.w, vTileRepeat, vMipTexels, lod, NUM_TILES );
+			float4 vTerrainSamplePosition = sample_terrain( IndexU.w, IndexV.w, vTileRepeat, vMipTexels, lod );
 			float4 vTerrainDiffuseSample = tex2Dlod( TerrainDiffuse, vTerrainSamplePosition );
 
-			float4 vMudSamplePosition = sample_terrain( IndexU.w, IndexV.w, vTileRepeat, vMipTexels, lod, 1.0f );
-			float4 vMudDiffuseSample = tex2Dlod( MudDiffuse, vMudSamplePosition );
-			float4 vMudNormalSamplePosition = sample_terrain( 2.0f, 3.0f, vTileRepeat, vMipTexels, lod, NUM_TILES);
 
-	#ifdef TERRAIN_SHADER
+
+
+
+
+
+
 		#ifdef NO_SHADER_TEXTURE_LOD
 			float3 vTerrainNormalSample = float3( 0, 1, 0 );
 			float3 vMudNormalSample = vTerrainNormalSample;
+
 		#else
 			float3 vTerrainNormalSample = tex2Dlod( TerrainNormal, vTerrainSamplePosition ).rbg - 0.5f;
-			float3 vMudNormalSample = tex2Dlod( TerrainNormal, vMudNormalSamplePosition ).rgb - 0.5f;
+
+		
 		#endif //NO_SHADER_TEXTURE_LOD
+
+
+	#ifdef COLOR_SHADER
+			float4 vColorMapSample = tex2D( ProvinceColorMap, Input.uv );
 	#endif
-		#ifdef COLOR_SHADER
-			float4 vColorMapSample = GetProvinceColorSampled( Input.uv, IndirectionMap, ProvinceIndirectionMapSize, ProvinceColorMap, ProvinceColorMapSize );
-		#endif
 			
 			if ( vAllSame < 1.0f && vBorderLookup_HeightScale_UseMultisample_SeasonLerp.z < 8.0f )
 			{
-				float4 TerrainSampleX = sample_terrain( IndexU.x, IndexV.x, vTileRepeat, vMipTexels, lod, NUM_TILES );
-				float4 TerrainSampleY = sample_terrain( IndexU.y, IndexV.y, vTileRepeat, vMipTexels, lod, NUM_TILES );
-				float4 TerrainSampleZ = sample_terrain( IndexU.z, IndexV.z, vTileRepeat, vMipTexels, lod, NUM_TILES );
+				float4 TerrainSampleX = sample_terrain( IndexU.x, IndexV.x, vTileRepeat, vMipTexels, lod );
+				float4 TerrainSampleY = sample_terrain( IndexU.y, IndexV.y, vTileRepeat, vMipTexels, lod );
+				float4 TerrainSampleZ = sample_terrain( IndexU.z, IndexV.z, vTileRepeat, vMipTexels, lod );
 				float4 ColorRD = tex2Dlod( TerrainDiffuse, TerrainSampleX );
 				float4 ColorLU = tex2Dlod( TerrainDiffuse, TerrainSampleY );
 				float4 ColorRU = tex2Dlod( TerrainDiffuse, TerrainSampleZ );
@@ -545,7 +569,7 @@ PixelShader =
 					lerp( ColorRD, vTerrainDiffuseSample, vBlendFactors.y ),
 					vBlendFactors.z );
 
-		#ifdef TERRAIN_SHADER
+
 			#ifndef NO_SHADER_TEXTURE_LOD
 				float3 terrain_normalRD = tex2Dlod( TerrainNormal, TerrainSampleX ).rbg - 0.5f;
 				float3 terrain_normalLU = tex2Dlod( TerrainNormal, TerrainSampleY ).rbg - 0.5f;
@@ -555,23 +579,24 @@ PixelShader =
 					( ( 1.0f - vBlendFactors.x ) * terrain_normalRU  + vBlendFactors.x * terrain_normalLU ) * ( 1.0f - vBlendFactors.z ) +
 					( ( 1.0f - vBlendFactors.y ) * terrain_normalRD + vBlendFactors.y * vTerrainNormalSample ) * vBlendFactors.z;
 			#endif
-		#endif
 			}
 
 			float3 TerrainColor = lerp( tex2D( TerrainColorTint, Input.uv2 ), tex2D( TerrainColorTintSecond, Input.uv2 ), vBorderLookup_HeightScale_UseMultisample_SeasonLerp.w ).rgb;
 			float3 vOut;
+            float kryoalpha;
 	#ifdef TERRAIN_SHADER
 		#ifdef TERRAIN_AND_COLOR_SHADER
 			const float fTestThreshold = 0.82f;
 			if( vColorMapSample.a < fTestThreshold )
 		#endif
 			{
-				vFoWColor = vFoWColor * .55f; // Kryo's edit for terrain fog of war
+                kryoalpha = .75f;
+                //vFoWColor = vFoWColor * .7f; // Kryo's edit for terrain fog of war
+                vFoWColor = vFoWColor * .55f; // Kryo's edit for terrain fog of war
 				vHeightNormalSample = CalcNormalForLighting( vHeightNormalSample, vTerrainNormalSample );
 
 				vTerrainDiffuseSample.rgb = GetOverlay( vTerrainDiffuseSample.rgb, TerrainColor, 0.75f );
 				vTerrainDiffuseSample.rgb = ApplySnow( vTerrainDiffuseSample.rgb, Input.prepos, vHeightNormalSample, vFoWColor, FoWDiffuse );
-				vTerrainDiffuseSample.rgb = ApplyMonsoon( vTerrainDiffuseSample.rgb, Input.prepos, vHeightNormalSample, vMudNormalSample, vMonsoonColor, vTerrainDiffuseSample.a, vMudDiffuseSample.rgb );
 				vTerrainDiffuseSample.rgb = calculate_secondary_compressed( Input.uv, vTerrainDiffuseSample.rgb, Input.prepos.xz );
 
 				vOut = CalculateMapLighting( vTerrainDiffuseSample.rgb, vHeightNormalSample )*1.6f; // add *1.x to make terrain brighter
@@ -582,13 +607,15 @@ PixelShader =
 			else
 		#endif
 			{
-				vFoWColor = vFoWColor * 0.6f; //Kryo's edit for color fog of war
-				//vHeightNormalSample = CalcNormalForLighting( vHeightNormalSample, vTerrainNormalSample );
+                kryoalpha = 1.0f;
+                //vFoWColor = vFoWColor * 1.25f; //Kryo's edit for color fog of war
+                vFoWColor = vFoWColor * 0.6f; //Kryo's edit for color fog of war
+				vHeightNormalSample = CalcNormalForLighting( vHeightNormalSample, vTerrainNormalSample );
 
 				vTerrainDiffuseSample.rgb = GetOverlay( vTerrainDiffuseSample.rgb, TerrainColor, 0.5f );
-				//float2 snowBlend = float2( 0.55f, 0.45f ); //  0.55f, 0.45f
-				//vTerrainDiffuseSample.rgb = ApplySnow( vTerrainDiffuseSample.rgb, Input.prepos, vHeightNormalSample, vFoWColor, FoWDiffuse ) * snowBlend.x + vTerrainDiffuseSample.rgb * snowBlend.y;
-				//vTerrainDiffuseSample.rgb = calculate_secondary_compressed( Input.uv, vTerrainDiffuseSample.rgb, Input.prepos.xz );	
+				float2 snowBlend = float2( 0.55f, 0.45f ); //  0.55f, 0.45f
+				vTerrainDiffuseSample.rgb = ApplySnow( vTerrainDiffuseSample.rgb, Input.prepos, vHeightNormalSample, vFoWColor, FoWDiffuse ) * snowBlend.x + vTerrainDiffuseSample.rgb * snowBlend.y;
+				vTerrainDiffuseSample.rgb = calculate_secondary_compressed( Input.uv, vTerrainDiffuseSample.rgb, Input.prepos.xz );	
 
 			    //TestCam scales the camera height above sea level to the interval (0,∞) with interest in making the transition start height = .5
 				float testCam = ( ( vCamPos.y - WATER_HEIGHT ) * .002f );
@@ -597,12 +624,9 @@ PixelShader =
 				{
 				colorRange = testCam ;
 				}
-				//colorRange = .4f * colorRange + .05f;
-				//colorRange = .2f * colorRange + .5f; //Even More Opacity
-				//colorRange = .12f * colorRange + .5f; //Even More Opacity 1.19
+				//colorRange = .4f * colorRange + .05f; // TOT 1.18 setting
 				colorRange = .35f * colorRange + .05f;
 				//float2 vBlend = float2( .70f, .3f ); // Transparent version
-				//float2 vBlend = float2( .2f, .7f ); // Opaque version
 				float2 vBlend = float2( 1.1f - colorRange ,  colorRange); // Dynamic version (.95 in negi version)
 				vOut = (vTerrainDiffuseSample.rgb * vBlend.x + vColorMapSample.rgb * vBlend.y);
 				vOut = CalculateMapLighting( vOut, vHeightNormalSample )*1.25f; //regulates brightness of colored mapmodes on all zoom stages
@@ -615,7 +639,7 @@ PixelShader =
 			vOut *= fShadowTerm;
 
 			vOut = ApplyDistanceFog( vOut, Input.prepos, vFoWColor, FoWDiffuse );
-			return float4( lerp( ComposeSpecular( vOut, 0.0f ), vTIColor.rgb, fTI ), 1.0f );
+			return float4( lerp( ComposeSpecular( vOut, 0.0f ), vTIColor.rgb, fTI ), kryoalpha );
 		}
 	]]
 
