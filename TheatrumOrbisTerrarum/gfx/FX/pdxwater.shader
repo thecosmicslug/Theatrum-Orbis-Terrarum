@@ -325,9 +325,8 @@ PixelShader =
 			// Region colors (provinces)
 			float2 flippedUV = Input.uv;
 			flippedUV.y = 1.0f - flippedUV.y;
-			float4 vSample = tex2D( ProvinceColorMap, flippedUV )*0.05f; // transparency of color overlay
-			waterColor.rgb = lerp( waterColor.rgb, vSample.rgb, saturate( vSample.a ) ); // brightness used in the addon
-
+			float4 vSample = GetProvinceColorSampled( flippedUV, IndirectionMap, ProvinceIndirectionMapSize, ProvinceColorMap, ProvinceColorMapSize, 1 )*0.05f; // transparency of color overlay;
+			waterColor.rgb = lerp( waterColor.rgb, vSample.rgb, saturate( vSample.a ) );
 			float vIceFade = 0.0f;
 			waterColor = ApplyIce( waterColor, Input.pos.xz, normal, vFoWColor, Input.uv_ice, vIceFade );
 			
