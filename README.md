@@ -17,7 +17,7 @@ Map lighting, water, dynamic transparency for colored map modes and some other t
 Extremely customizable
 Improves performance
 
-Works with EU4 1.29.* | Ironman compatible | Achievement compatible | No checksum change
+Works with EU4 1.30.* | Ironman compatible | Achievement compatible | No checksum change
 
 I have also had to upload fixes for:
 
