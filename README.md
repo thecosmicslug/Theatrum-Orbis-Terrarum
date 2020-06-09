@@ -1,10 +1,10 @@
 # Theatrum-Orbis-Terrarum
 Theatrum Orbis Terrarum Mod for Europa Universalis IV 
 
-THIS IS AN UNOFFICIAL FIX, I was able to fix the mod-- It may not be perfect because I have never created/fixed an EU4 mod before, but I hope it will help until @Kyro returns to us :D
-
 The original mod by @Kyro can be found at:
 https://steamcommunity.com/sharedfiles/filedetails/?id=570256235
+
+I was able to fix the mod-- It may not be perfect because I have never created/fixed an EU4 mod before, but I hope it will help until @Kyro returns to us :D
 
 Theatrum Orbis Terrarum translates to "Theatre of the World" and is considered to be the first true modern atlas. It was created in 1570 by flemish cartographer Abraham Ortelius. This mod tries to bring its look and feel to Europa Universalis IV.
 
@@ -18,6 +18,8 @@ Extremely customizable
 Improves performance
 
 Works with EU4 1.30.* | Ironman compatible | Achievement compatible | No checksum change
+
+The sourcecode can be viewed & downloaded for non-steam users from my GitHub page - https://github.com/thecosmicslug/Theatrum-Orbis-Terrarum
 
 I have also had to upload fixes for:
 
@@ -38,6 +40,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1976651882
 
 Theatrum Orbis Terrarum (Add-On: Even More Opacity)
 https://steamcommunity.com/sharedfiles/filedetails/?id=1869087770
+
+Theatrum Orbis Terrarum for M&T
+https://steamcommunity.com/sharedfiles/filedetails/?id=1981837759
 
 The Following Addons give a compatibility warning, but appear to work fine without a fix.
 
