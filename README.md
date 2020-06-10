@@ -51,6 +51,3 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=790533313
 
 Theatrum Orbis Terrarum (Add-On: Warm Colors)
 https://steamcommunity.com/sharedfiles/filedetails/?id=579035821
-
-Theatrum Orbis Terrarum - Interface Fonts
-https://steamcommunity.com/sharedfiles/filedetails/?id=794921274
