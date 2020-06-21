@@ -18,7 +18,7 @@ guiTypes = {
 		{
 			name ="hre_bg_extended"
 			spriteType = "GFX_hre_bg_extended"
-			position = { x= 0 y = 0 }
+			position = { x= -21 y = 17 }
 		}
 
 		iconType =
@@ -30,7 +30,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "join_league_button"
-			position = { x= 35 y = 98 }
+			position = { x= 22 y = 98 }
 			quadTextureSprite ="GFX_join_league_button"
 			tooltip = ""
 			tooltipText =""
@@ -43,7 +43,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "join_heretic_league_button"
-			position = { x= 644 y = 98 }
+			position = { x= 804 y = 98 }
 			quadTextureSprite ="GFX_join_heretic_league_button"
 			tooltip = ""
 			tooltipText =""
@@ -58,7 +58,7 @@ guiTypes = {
 		{
 			name ="hre_religion_icon"
 			spriteType = "GFX_province_view_religion"
-			position = { x= 55 y = 115 }
+			position = { x= 43 y = 115 }
 			hint_tag = "hint_religion"
 			allwaystransparent = yes
 		}
@@ -83,9 +83,10 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "dominantfaith_label"
-			position = { x = 636 y = 113 }
+			position = { x = 650 y = 113 }
 			textureFile = ""
-			font = "vic_18"
+			#font = "vic_18"
+			font = "vic_18s"
 			borderSize = {x = 4 y = 0}
 			text = "HRE_DOMINANTFAITH"
 			maxWidth = 130
@@ -117,7 +118,7 @@ guiTypes = {
 		8
 			name ="hre_war_peace_icon"
 			spriteType = "GFX_hre_war_peace_strip"
-			position = { x= 346 y = 98 }
+			position = { x= 593 y = 110 }
 			hint_tag = "hint_religion"
 			frame = 1
 			scale = 0.8
@@ -127,14 +128,14 @@ guiTypes = {
 		{
 			name ="hre_religion_icon_2"
 			spriteType = "GFX_province_view_religion"
-			position = { x= 359 y = 110 }
+			position = { x= 598 y = 115 }
 			hint_tag = "hint_religion"
 			allwaystransparent = yes
 		}
 
 		instantTextBoxType = {
 			name = "hre_label"
-			position = { x = 76 y = 58 }
+			position = { x = 146 y = 58 }
 			format = centre
 			textureFile = ""
 			# font = "vic_29"
@@ -207,9 +208,9 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "freecity_label"
-			position = { x = 344 y = 522 }
+			position = { x = 344 y = 520 }
 			textureFile = ""
-			font = "vic_18"
+			font = "vic_18s"
 			borderSize = {x = 4 y = 4}
 			maxWidth = 140
 			maxHeight = 32
@@ -218,7 +219,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "members_label"
-			position = { x = 302 y = 486 }
+			position = { x = 560 y = 520 }
 			textureFile = ""
 			# font = "vic_18"
 			font = "vic_18s" #kryo
@@ -240,14 +241,14 @@ guiTypes = {
 			font = "vic_18s" # kryo
 			borderSize = {x = 4 y = 0}
 			text = "HRE_IMPERIALAUTHORITY"
-			maxWidth = 130
+			maxWidth = 200
 			maxHeight = 32
 			format = left
 		}
 
 		instantTextBoxType = {
 			name = "influence_value"
-			position = { x = 269 y = 176 }
+			position = { x = 355 y = 125 }
 			textureFile = ""
 			# font = "vic_29"
 			font = "vic_22s" # kryo
@@ -262,7 +263,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "influence_growth"
 			# position = { x = 265 y = 215 }
-			position = { x = 265 y = 212 } # kryo
+			position = { x = 445 y = 125 } # kryo
 			textureFile = ""
 			# font = "vic_22"
 			font = "vic_22s" # kryo
@@ -278,7 +279,7 @@ guiTypes = {
 		{
 			name ="emperor_shield"
 			quadTextureSprite = "GFX_shield_thin"
-			position = { x= 136 y = 166 }
+			position = { x= 170 y = 130 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -290,7 +291,7 @@ guiTypes = {
 		{
 			name ="benefits_icon"
 			spriteType = "GFX_hre_emp_benefits_icon"
-			position = { x= 209 y = 230 }
+			position = { x= 247 y = 203 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -298,7 +299,7 @@ guiTypes = {
 		{
 			name ="diplomatic_actions_icon"
 			spriteType = "GFX_more_dip_actions_icon"
-			position = { x= 125 y = 231 }
+			position = { x= 160 y = 205 }
 			Orientation = "UPPER_LEFT"
 		}
 

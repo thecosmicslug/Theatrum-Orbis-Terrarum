@@ -1762,93 +1762,6 @@ guiTypes = {
 				}
 			}
 
-			### BUILD MERC VIEW
-			windowType = {
-				name = "build_merc_view"
-				backGround=""
-				position = { x= 28 y=137 }
-				size = { x=1024 y=100 }
-				moveable = 0
-				dontRender = ""
-				horizontalBorder= ""
-				verticalBorder= ""
-				fullScreen = no
-
-				iconType =
-				{
-					name ="background"
-					spriteType = "GFX_build_unit_bg"
-					position = { x= -14 y = -37 }
-					Orientation = "UPPER_LEFT"
-				}
-
-				guiButtonType = {
-					name = "back_button"
-					position = { x=175 y =408}
-					quadTextureSprite ="GFX_province_back_button"
-					tooltip = ""
-					tooltipText =""
-					delayedTooltipText = ""
-					buttonText = "PW_BACK"
-					buttonFont = "vic_18"
-					shortcut = "ESCAPE"
-					clicksound = back_click
-				}
-
-				instantTextBoxType = {
-					name = "label_merc"
-					position = { x = 15 y = -27 }
-					textureFile = ""
-					font = "vic_18"
-					borderSize = {x = 4 y = 4}
-					text = "PW_MERCENARY_REGIMENTS"
-					maxWidth = 250
-					maxHeight = 20
-					format = left
-					fixedsize = yes
-				}
-
-
-				iconType = {
-					name ="icon_fire"
-					spriteType = "GFX_icon_fire"
-					position = { x= 304 y = -30 }
-				}
-				iconType = {
-					name ="icon_shock"
-					spriteType = "GFX_icon_shock"
-					position = { x= 341 y = -30 }
-				}
-				iconType = {
-					name ="icon_morale"
-					spriteType = "GFX_icon_morale"
-					position = { x= 377 y = -30 }
-				}
-
-				instantTextBoxType = {
-					name = "label_buildq"
-					position = { x = 15 y = 235 }
-					textureFile = ""
-					font = "vic_18"
-					borderSize = {x = 4 y = 4}
-					text = "Build Queue has x"
-					maxWidth = 250
-					maxHeight = 20
-					format = left
-					fixedsize = yes
-				}
-				listboxType = {
-					name = "buildqueue"
-					position = { x = 0 y = 267 }
-					backGround=""
-					size = { x=433 y = 144}
-					horizontal = 0
-					spacing = 0
-					scrollbartype = "standardlistbox_slider"
-					borderSize = {x = 0 y = 0}
-				}
-			}
-
 			### BUILD NAVY VIEW
 			windowType = {
 				name = "build_navy_view"
@@ -2834,7 +2747,7 @@ guiTypes = {
 				{
 					name ="provinceview_building_bg"
 					spriteType = "GFX_provinceview_building_bg"
-					position = { x= 14 y = 122 }
+					position = { x= -3 y = 116 }
 				}
 
 				instantTextBoxType = {
@@ -2879,7 +2792,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "province_values_label"
 					#position = { x = 30 y = 464 }
-					position = { x = 30 y = 467 } #kryo
+					position = { x = 30 y = 358 } #kryo
 					textureFile = ""
 					font = "vic_22"
 					borderSize = {x = 2 y = 2}
@@ -2893,13 +2806,13 @@ guiTypes = {
 				{
 					name ="naval_forcelimit_icon"
 					spriteType = "GFX_naval_forcelimit_icon"
-					position = { x= 30 y = 534 }
+					position = { x= 38 y = 437 }
 					Orientation = "UPPER_LEFT"
 				}
 
 				instantTextBoxType = {
 					name = "naval_forcelimit_value"
-					position = { x = 100 y = 539 }
+					position = { x = 53 y = 440 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 2 y = 2}
@@ -2913,13 +2826,13 @@ guiTypes = {
 				{
 					name ="land_forcelimit_icon"
 					spriteType = "GFX_land_forcelimit_icon"
-					position = { x= 180 y = 534 }
+					position = { x= 133 y = 437 }
 					Orientation = "UPPER_LEFT"
 				}
 
 				instantTextBoxType = {
 					name = "land_forcelimit_value"
-					position = { x = 245 y = 539 }
+					position = { x = 150 y = 440 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 2 y = 2}
@@ -3024,14 +2937,14 @@ guiTypes = {
 				{
 					name ="governing_capacity_icon"
 					spriteType = "GFX_governing_capacity"
-					position = { x= 214 y = 534  }
+					position = { x= 220 y = 427  }
 					Orientation = "UPPER_LEFT"
 					scale = 0.75
 				}
 				
 				instantTextBoxType = {
 					name = "capacity_value"
-					position = { x = 262 y = 547 }
+					position = { x = 263 y = 440 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 2 y = 2}
@@ -3046,13 +2959,13 @@ guiTypes = {
 				{
 					name ="build_allowed_icon"
 					spriteType = "GFX_technologyView_show_buildings"
-					position = { x= 32 y = 495 }
+					position = { x= 35 y = 390 }
 					Orientation = "UPPER_LEFT"
 				}
 
 				instantTextBoxType = {
 					name = "build_allowed_value"
-					position = { x = 66 y = 500}
+					position = { x = 66 y = 395 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 2 y = 2}
@@ -3067,13 +2980,13 @@ guiTypes = {
 				{
 					name ="build_cost_modifier_icon"
 					spriteType = "GFX_build_cost"
-					position = { x= 129 y = 499 }
+					position = { x= 129 y = 390 }
 					Orientation = "UPPER_LEFT"
 				}
 
 				instantTextBoxType = {
 					name = "build_cost_modifier"
-					position = { x = 150 y = 500 }
+					position = { x = 150 y = 395 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 2 y = 2}
@@ -3087,13 +3000,13 @@ guiTypes = {
 				{
 					name ="build_time_modifier_icon"
 					spriteType = "GFX_build_time"
-					position = { x= 224 y = 496 }
+					position = { x= 224 y = 390 }
 					Orientation = "UPPER_LEFT"
 				}
 
 				instantTextBoxType = {
 					name = "build_time_modifier"
-					position = { x = 245 y = 500 }
+					position = { x = 245 y = 395 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 2 y = 2}
@@ -3366,14 +3279,14 @@ guiTypes = {
 					{
 						name ="governing_capacity_icon"
 						spriteType = "GFX_governing_capacity"
-						position = { x= 220 y = 640  }
+						position = { x= 205 y = 590  }
 						Orientation = "UPPER_LEFT"
 						scale = 0.75
 					}
 					
 					instantTextBoxType = {
 						name = "capacity_value"
-						position = { x = 260 y = 654 }
+						position = { x = 245 y = 600 }
 						textureFile = ""
 						font = "vic_18"
 						borderSize = {x = 2 y = 2}

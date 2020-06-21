@@ -1424,7 +1424,7 @@ guiTypes = {
 			{
 				name ="papacy_icon"
 				quadTextureSprite = "GFX_menubar_floating_strip"
-				position = { x= 227 y = -20 }
+				position = { x= -2227 y = -20 }
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -1457,14 +1457,14 @@ guiTypes = {
 			{
 				name = "papal_influence_icon"
 				spriteType = "GFX_papal_influence"
-				position = { x = 11 y = -17 }
+				position = { x = 11 y = -15 }
 				Orientation = "UPPER_LEFT"
 				hint_tag = "hint_papalinfluence"
 			}
 			
 			instantTextBoxType = {
 				name = "papal_influence_value"
-				position = { x = 52 y = -8 }
+				position = { x = 45 y = -5 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "3,1"
@@ -1502,14 +1502,14 @@ guiTypes = {
 			{
 				name = "reform_desire_icon"
 				spriteType = "GFX_icon_catholic_reform_desire"
-				position = { x = 120 y = -15 }
+				position = { x = 110 y = -14 }
 				Orientation = "UPPER_LEFT"
 				hint_tag = "hint_reformdesire"
 			}
 			
 			instantTextBoxType = {
 				name = "reform_desire_value"
-				position = { x = 157 y = -8 }
+				position = { x = 135 y = -5 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "3,1"
@@ -1717,7 +1717,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "religiousunity_value"
 			#position = { x = 138 y = 340 }
-			position = { x = 138 y = 342 } #kryo
+			position = { x = 50 y = 338 } #kryo
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "%%%"
@@ -1734,13 +1734,13 @@ guiTypes = {
 		iconType =	{
 			name ="missionary_strength_icon"
 			spriteType = "GFX_icon_missionary"
-			position = { x= 393 y = 332 }
+			position = { x= 100 y = 330 }
 			Orientation = "UPPER_LEFT"
 		}		
 		
 		instantTextBoxType = {
 			name = "missionary_strength_value"
-			position = { x = 434 y = 340 }
+			position = { x = 125 y = 338 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "TEMP"
@@ -1754,7 +1754,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "conversion"
 			#position = { x = 215 y = 339 }
-			position = { x = 215 y = 342 } #kryo
+			position = { x = 215 y = 338 } #kryo
 			font = "vic_18s" #kryo
 			borderSize = {x = 0 y = 0}
 			text = "CONVERT"

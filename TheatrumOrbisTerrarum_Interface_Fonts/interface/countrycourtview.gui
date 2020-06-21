@@ -97,7 +97,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "monarch_ruler_age"
-			position = { x = 450 y = 118 }
+			position = { x = 450 y = 115 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -226,7 +226,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "monarch_heir_age"
-			position = { x = 450 y = 181 }
+			position = { x = 450 y = 179 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -394,7 +394,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "monarch_queen_age"
-			position = { x = 450 y = 244 }
+			position = { x = 450 y = 242 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -745,7 +745,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "advisor_activefor"
-			position = { x = 271 y = 51 }
+			position = { x = 271 y = 50 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
