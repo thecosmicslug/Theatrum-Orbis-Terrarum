@@ -1,5 +1,5 @@
-name="Theatrum Orbis Terrarum (Add-On: Dark Borders)"
-path="mod/TheatrumOrbisTerrarum_darkborders"
+name="Theatrum Orbis Terrarum for 1.30+  (Add-On: Dark Borders)"
+version="1.30"
 tags={
 	"Map"
 	"Graphics"
@@ -7,3 +7,5 @@ tags={
 }
 picture="thumbnail.png"
 supported_version="1.30.*.*"
+path="/home/daddy/.local/share/Paradox Interactive/Europa Universalis IV/mod/TheatrumOrbisTerrarum_darkborders"
+remote_file_id="2155175305"

@@ -1,9 +1,11 @@
-name="Theatrum Orbis Terrarum - Fraktur Interface Fonts"
-path="mod/TheatrumOrbisTerrarum_fraktur_interface"
+name="Theatrum Orbis Terrarum for 1.30+  (Add-On: Fraktur Interface Fonts)"
+version="1.30"
 tags={
-	"Map"
 	"Graphics"
+	"Map"
 	"Theatrum Orbis Terrarum"
 }
 picture="thumbnail.png"
 supported_version="1.30.*.*"
+path="/home/daddy/.local/share/Paradox Interactive/Europa Universalis IV/mod/TheatrumOrbisTerrarum_fraktur_interface"
+remote_file_id="2155177022"

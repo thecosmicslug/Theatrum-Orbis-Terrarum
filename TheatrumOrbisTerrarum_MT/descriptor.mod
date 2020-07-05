@@ -1,13 +1,13 @@
-name="Theatrum Orbis Terrarum for M&T - Fixed for 1.30+"
-dependencies={
-	"MEIOU and Taxes v2.52"
-}
+name="Theatrum Orbis Terrarum for 1.30+  (Add-On: M&T Fix)"
+version="1.30"
 tags={
 	"Graphics"
 	"Map"
-	"Fixes"
 	"MEIOU and Taxes"
 	"Theatrum Orbis Terrarum"
+}
+dependencies={
+	"MEIOU and Taxes v2.52"
 }
 picture="thumbnail.png"
 supported_version="1.30.*.*"

@@ -1,1 +1,0 @@
-pick a border5.dds file from one of the folders and replace the one in map\terrain

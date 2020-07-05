@@ -1,9 +1,11 @@
-name="Theatrum Orbis Terrarum (Add-On: Flat Map)"
-path="mod/TheatrumOrbisTerrarum_flatmap_addon"
+name="Theatrum Orbis Terrarum for 1.30+ (Add-On: Flat Map)"
+version="1.30"
 tags={
-	"Map"
 	"Graphics"
+	"Map"
 	"Theatrum Orbis Terrarum"
 }
 picture="thumbnail.png"
 supported_version="1.30.*.*"
+path="/home/daddy/.local/share/Paradox Interactive/Europa Universalis IV/mod/TheatrumOrbisTerrarum_flatmap_addon"
+remote_file_id="2155176359"
