@@ -60,7 +60,6 @@ guiTypes = {
 
 		instantTextBoxType = { 
 			name = "DateText"
-			#position = { x = -227 y = 13 }
 			position = { x = -227 y = 11 }
 			textureFile = ""
 			font = "vic_18s" #kryo

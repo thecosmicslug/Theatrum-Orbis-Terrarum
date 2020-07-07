@@ -152,8 +152,8 @@ guiTypes = {
 			rightbutton = "upButton"
 			size = {x =12 y =12 }
 			position = {x= 0 y =0}
-			priority = 100			
-			borderSize = {x = 12 y = 12}	
+			priority = 100
+			borderSize = {x = 12 y = 12}
 			maxValue =1
 			minValue =0
 			stepSize =0.01
@@ -196,7 +196,7 @@ guiTypes = {
 			rightbutton = "upButton"
 			size = {x =12 y =12 }
 			position = {x= 0 y =0}
-			priority = 100			
+			priority = 100
 			borderSize = {x = 12 y = 12}
 			maxValue = 1
 			minValue = 0

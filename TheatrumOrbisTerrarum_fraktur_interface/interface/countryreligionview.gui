@@ -286,7 +286,7 @@ guiTypes = {
 			# This background will be hidden beneath religionpanel_bg_bottom
 			# in the smallest resolution in most cases (but not harmonization view for example)
 			name ="religionpanel_bg_top"
-			spriteType = "GFX_country_religion_view_bg_bottom_standard"
+			spriteType = "GFX_country_religion_view_bg"
 			position = { x= -7 y = -10 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -296,16 +296,16 @@ guiTypes = {
 			name ="religionpanel_bg_bottom"
 			if_resolution = {
 				max_height = 899
-				spriteType = "GFX_country_religion_view_bg_bottom_standard"
+				spriteType = "GFX_country_religion_view_bg"
 			}
 			if_resolution = {
 				max_height = 1079
 				min_height = 900
-				spriteType = "GFX_country_religion_view_bg_bottom_large"
+				spriteType = "GFX_country_religion_view_bg_large"
 			}
 			if_resolution = {
 				min_height = 1080
-				spriteType = "GFX_country_religion_view_bg_bottom_huge"
+				spriteType = "GFX_country_religion_view_bg_huge"
 			}
 			position = { x= -7 y = -10 }
 			Orientation = "UPPER_LEFT"
@@ -337,7 +337,6 @@ guiTypes = {
 		###Current religion
 		instantTextBoxType = {
 			name = "current_religion_name"
-			#position = { x = 84 y =126 }
 			position = { x = 70 y =123 } #kryo
 			textureFile = ""
 			font = "vic_22s" #kryo
@@ -1424,7 +1423,7 @@ guiTypes = {
 			{
 				name ="papacy_icon"
 				quadTextureSprite = "GFX_menubar_floating_strip"
-				position = { x= 227 y = -20 }
+				position = { x= -2227 y = -20 }
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -1457,19 +1456,42 @@ guiTypes = {
 			{
 				name = "papal_influence_icon"
 				spriteType = "GFX_papal_influence"
-				position = { x = 11 y = -17 }
+				position = { x = 9 y = -14 }
 				Orientation = "UPPER_LEFT"
 				hint_tag = "hint_papalinfluence"
 			}
 			
 			instantTextBoxType = {
 				name = "papal_influence_value"
-				position = { x = 52 y = -8 }
+				position = { x = 45 y = -5 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "3,1"
 				maxWidth = 40
 				maxHeight = 45
+				Orientation = "UPPER_LEFT"
+				format = centre
+			}
+		
+			
+					
+			iconType =
+			{
+				name = "reform_resistance_icon"
+				spriteType = "GFX_icon_catholic_religious_resistance"
+				position = { x = 198 y = -23 }
+				scale = 0.75
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextBoxType = {
+				name = "reform_resistance_value"
+				position = { x = 245 y = -5 }
+				font = "vic_18"
+				borderSize = {x = 0 y = 0}
+				text = "3,1"
+				maxWidth = 55
+				maxHeight = 25
 				Orientation = "UPPER_LEFT"
 				format = centre
 			}
@@ -1479,14 +1501,14 @@ guiTypes = {
 			{
 				name = "reform_desire_icon"
 				spriteType = "GFX_icon_catholic_reform_desire"
-				position = { x = 120 y = -15 }
+				position = { x = 110 y = -12 }
 				Orientation = "UPPER_LEFT"
 				hint_tag = "hint_reformdesire"
 			}
 			
 			instantTextBoxType = {
 				name = "reform_desire_value"
-				position = { x = 157 y = -8 }
+				position = { x = 135 y = -5 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "3,1"
@@ -1682,23 +1704,17 @@ guiTypes = {
 		
 		
 		###Religious unity
-		instantTextBoxType = {
-			name = "religiousunity_label"
-			#position = { x = 18 y = 337 }
-			position = { x = 18 y = 342 } #kryo
-			font = "vic_22"
-			borderSize = {x = 0 y = 0}
-			text = "religious_unity"
-			maxWidth = 120
-			maxHeight = 50
+
+		iconType =	{
+			name ="religious_unity_icon_with_frame"
+			spriteType = "GFX_religious_unity_icon_with_frame"
+			scale=0.7
+			position = { x= 17 y = 332 }
 			Orientation = "UPPER_LEFT"
-			format = left
-			hint_tag = "hint_unity"
-		}
-			
+		}		
+
 		instantTextBoxType = {
 			name = "religiousunity_value"
-			#position = { x = 138 y = 340 }
 			position = { x = 138 y = 342 } #kryo
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1708,6 +1724,8 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			format = centre
 		}
+		
+
 		
 		
 		###Missionary Strength
@@ -1733,7 +1751,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "conversion"
-			#position = { x = 215 y = 339 }
 			position = { x = 215 y = 342 } #kryo
 			font = "vic_18s" #kryo
 			borderSize = {x = 0 y = 0}
@@ -1907,7 +1924,15 @@ guiTypes = {
 		
 		
 		###Defender of the Faith
-		guiButtonType = 
+
+        iconType = {
+			name ="defender_of_the_faith_tier"
+			spriteType = "GFX_defender_of_the_faith_tier"
+			position = { x=355 y=260 }
+			Orientation = "UPPER_LEFT"
+        }
+
+        guiButtonType = 
 		{
 			name ="become_Defender_of_the_Faith"
 			quadTextureSprite = "GFX_become_Defender_of_the_Faith"
@@ -1920,9 +1945,22 @@ guiTypes = {
 		
 		guiButtonType = 
 		{
+			name ="defender_of_the_faith_emperor_button"
+			quadTextureSprite = "GFX_become_Defender_of_the_Faith"
+			position = { x = 408 y = 265 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			Orientation = "UPPER_LEFT"
+			scale = 0.6
+		}
+
+		guiButtonType = 
+		{
 			name ="defender_of_the_faith_button"
-			quadTextureSprite = "button_defender_of_faith"
-			position = { x = 414 y = 258 }
+			quadTextureSprite = "GFX_become_Defender_of_the_Faith"
+			position = { x = 398 y = 265 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -1933,7 +1971,7 @@ guiTypes = {
 		{
 			name ="defender_of_the_faith_shield"
 			quadTextureSprite = "GFX_shield_thin"
-			position = { x = 401 y = 250 }
+			position = { x = 393 y = 260 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -1941,12 +1979,23 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 	#		scale = 0.75
 		}
-	
+		guiButtonType = 
+		{
+			name ="defender_of_the_faith_emperor_shield"
+			quadTextureSprite = "GFX_shield_medium"
+			position = { x = 403 y = 260 }
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			Orientation = "UPPER_LEFT"
+	#		scale = 0.75
+		}
+
 # Needs txt linking	
 		instantTextBoxType = {
 				name = "defender_title"
-				#position = { x = 360 y = 235 }
-				position = { x = 355 y = 233 } #kryo
+				position = { x = 360 y = 235 }
 				textureFile = ""
 				font = "vic_18s" #kryo
 				borderSize = {x = 4 y = 4}	
@@ -1981,7 +2030,6 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "title"
-				#position = { x = 70 y =138 }
 				position = { x = 70 y =136 } #kryo
 				format = centre
 				font = "vic_22s" #kryo
@@ -2513,6 +2561,59 @@ guiTypes = {
 	################# Church aspect item (for selection) For Protestants
 	windowType = {
 		name = "countryreligionview_aspectitem_protestant"
+		backGround =""
+		position = { x=10 y=-20 }	
+		size = { x=50 y=46 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		Orientation = "UPPER_LEFT"
+		
+		iconType =
+		{
+			name ="aspect_icon"
+			spriteType = "GFX_hindu_deities_strip"
+			position = { x= 45 y = -14 }
+		}
+		
+		instantTextBoxType = {
+			name = "aspect_name"
+			position = { x= -42 y = 6 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "AspectName"	
+			maxWidth = 102
+			maxHeight = 24
+			Orientation = "UPPER_LEFT"
+			format = left
+		}
+		
+		instantTextBoxType = {
+			name = "aspect_effect"
+			position = { x = 98 y = -2 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "AspectEffect"	
+			maxWidth = 206
+			maxHeight = 24
+			Orientation = "UPPER_LEFT"
+			format = left
+		}
+		
+		guiButtonType = {
+			name = "pick_aspect"
+			position = { x=301 y = 1}
+			quadTextureSprite ="GFX_standard_button_71"
+			buttonText = "SELECT"
+			buttonFont = "vic_18"
+			Orientation = "LEFT"
+		}
+	}
+	
+	################################################################################################
+	################# Church aspect item (for selection) For Protestants
+	windowType = {
+		name = "countryreligionview_aspectitem_hussite"
 		backGround =""
 		position = { x=10 y=-20 }	
 		size = { x=50 y=46 }

@@ -83,7 +83,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "modifier_name"
-			#position = { x = 80 y = 3 }
 			position = { x = 80 y = 5 } #kryo
 			font = "vic_18s" #kryo
 			borderSize = {x = 0 y = 0}
@@ -96,7 +95,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "modifier_effect"
-			#position = { x = 80 y = 25 }
 			position = { x = 80 y = 32 } #kryo
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}

@@ -126,7 +126,7 @@ guiTypes = {
 		}
 		
 		guiButtonType = {
-			name ="sort_us_blockade"
+			name ="sort_us_economy"
 			quadTextureSprite = "GFX_sort_blockade_icon"
 			position = { x = 279 y = 119}
 			buttonFont = "vic_18"
@@ -169,7 +169,7 @@ guiTypes = {
 		}
 		
 		guiButtonType = {
-			name ="sort_them_blockade"
+			name ="sort_them_economy"
 			quadTextureSprite = "GFX_sort_blockade_icon"
 			position = { x = 639 y = 119 }
 			buttonFont = "vic_18"
@@ -233,7 +233,6 @@ guiTypes = {
 		}
 		
 		instantTextBoxType= {
-			#position = {x = 202 y = 58 }
 			position = {x = 202 y = 60 } #kryo
 			name = "startofwar"
 			font = "Arial12" #kryo
@@ -940,11 +939,11 @@ guiTypes = {
 		}
 		
 		instantTextBoxType={
-			position = {x = 252 y = 8 }
-			name = "blockadeValue"
+			position = {x = 248 y = 8 }
+			name = "economyValue"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 40
+			maxWidth = 48
 			maxHeight = 18
 			text = "x"	
 			orientation = "UPPER_LEFT"

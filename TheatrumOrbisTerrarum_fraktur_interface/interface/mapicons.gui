@@ -654,7 +654,6 @@ guiTypes = {
 		}	
 		
 		instantTextBoxType={
-			#position = {x = 24 y  = 29 }
 			position = {x = 24 y  = 27 } #kryo
 			name = "unit_strenght"
 			font = "Arial12"
@@ -871,7 +870,6 @@ guiTypes = {
 		}	
 		
 		instantTextBoxType={
-			#position = {x = 7 y  = 29 }
 			position = {x = 7 y  = 27 } #kryo
 			name = "unit_strenght"
 			font = "Arial12"
@@ -1300,6 +1298,75 @@ guiTypes = {
 			position = { x= 0 y = 0 }
 			scale = 0.75
 		}	
+	}
+
+	windowType = {
+		name = "cardinal_mapicon"
+		position = { x=0 y= 24 }
+		size = { x=48 y=48 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+
+		iconType = {
+			name ="icon"
+			spriteType = "GFX_cardinal_icon"
+			position = { x= 0 y = 0 }
+		}
+	}
+
+	windowType = {
+		name = "revolution_mapicon"
+		position = { x=0 y=0 }
+		size = { x=64 y=64 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		
+		
+		iconType =
+		{
+			name ="revolution_spread_progress"
+			spriteType = "GFX_unit_relocation_progressbar"
+			position = { x= 13 y = 45 }
+		}
+		iconType =
+		{
+			name ="revolution_spread_progressframe"
+			spriteType = "GFX_diplomacy_morale_frame"
+			position = { x= 17 y = 25 }
+			rotation = -1.5708
+			scale = 1.5
+
+		}
+		iconType = {
+			name ="revolution_spread_icon"
+			spriteType = "GFX_revolution_spread"
+			position = { x= 13 y = 13 }
+	
+		}
+		iconType = {
+			name ="revolution_center_icon"
+			spriteType = "GFX_center_of_revolution"
+			position = { x= 13 y = 0 }
+			scale = 0.75
+		}
+	}
+
+	windowType = {
+		name = "imperial_modifier_mapicon"
+		position = { x=0 y=0 }
+		size = { x=64 y=64 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+
+		iconType = {
+			name ="icon"
+			spriteType = "GFX_hre_member"
+			position = { x= 32 y = 0 }
+			scale = 1.5
+		}
 	}
 
 }

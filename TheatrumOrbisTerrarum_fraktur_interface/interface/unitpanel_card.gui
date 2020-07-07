@@ -4,6 +4,11 @@ guiTypes = {
 	### UNIT CARD
 	###
 
+	positionType = {
+		name = "unitpanel_mercenary_attach_shift"
+		position = { x = 20 y = 0 }
+	}
+
 	windowType = {
 		name = "unitpanel"
 		backGround=""
@@ -468,7 +473,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "unitleader"
-			#position = { x = 220 y = 52 }
 			position = { x = 220 y = 50 } #kryo
 			textureFile = ""
 			font = "vic_18"
@@ -667,7 +671,25 @@ guiTypes = {
 				buttonFont = "vic_18"
 				shortcut = "a"
 			}	
-			
+
+		instantTextBoxType = {
+			name = "mercenary_manpower"
+			position = { x = 357 y = 80 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 70
+			maxHeight = 32
+
+			format = centre
+		}
+
+		iconType ={
+			name ="mercenary_manpower_icon"
+			spriteType = "GFX_icon_manpower"
+			position = { x = 410 y = 74 }
+		}
 
 			guiButtonType = {
 				name = "remove_unit_from_selection_button"

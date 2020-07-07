@@ -158,7 +158,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "faction_label"
-			#position = { x = 0 y =20 }
 			position = { x = 0 y =22 }
 			format = centre
 			textureFile = ""
@@ -239,7 +238,6 @@ guiTypes = {
 			
 		instantTextBoxType = {
 			name = "faction_value"
-			#position = { x= 460 y = 95 }
 			position = { x= 460 y = 99 } #kryo
 			font = "vic_22"
 			borderSize = {x = 1 y = 1}
@@ -257,7 +255,6 @@ guiTypes = {
 			}
 		instantTextBoxType = {
 			name = "faction_label"
-			#position = { x= 170 y = 33 }
 			position = { x= 170 y = 35 } #kryo
 			font = "vic_18s" #kryo
 			borderSize = {x = 1 y = 1}

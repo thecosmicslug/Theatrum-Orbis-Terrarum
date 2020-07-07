@@ -121,14 +121,13 @@ guiTypes = {
 			position = { x= 588 y = 45 }
 			Orientation = "UPPER_LEFT"
 		}
-
+		
 		iconType =
 		{
 			name ="achievement_progress_text_bg"
 			spriteType = "GFX_achievement_progress_text_bg"
 			position = { x= 598 y = 6 }
 			Orientation = "UPPER_LEFT"
-
 		}
 		
 		

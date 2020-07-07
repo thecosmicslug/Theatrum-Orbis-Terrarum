@@ -199,7 +199,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "splendor"
-			#position = { x = 40 y =172 }
 			position = { x = 40 y =174 }
 			font = "vic_18" #kryo
 			borderSize = {x = 0 y = 0}
@@ -339,7 +338,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "name"
-			#position = { x = 64 y = 2 }
 			position = { x = 64 y = 4 }
 			font = "vic_18" # kryo vic_18
 			borderSize = {x = 0 y = 0}
@@ -352,7 +350,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "desc"
-			#position = { x = 64 y = 20 }
 			position = { x = 64 y = 22 }
 			font = "Arial12" # kryo vic_18
 			borderSize = {x = 0 y = 0}
@@ -384,7 +381,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "progress_text"
-			#position = { x = 470 y = 8 }
 			position = { x = 470 y = 10 }
 			font = "vic_18" #kryo
 			borderSize = {x = 0 y = 0}

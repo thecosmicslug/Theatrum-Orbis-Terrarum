@@ -69,11 +69,10 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "total_tech_penalty2"
 			position = { x = 63 y = 115 }
-			#position = { x = 63 y = 119 } #kryo
 			textureFile = ""
 			font = "vic_18s" #kryo vic_22
 			borderSize = {x = 4 y = 4}	
-			maxWidth = 250
+			maxWidth = 350
 			maxHeight = 32
 			format = left
 			text = "Total Tech Penalty: 70%"
@@ -115,7 +114,6 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "institutions_title"
 				position = { x = 52 y = -28 }
-				#position = { x = 52 y = -27 } #kryo
 				textureFile = ""
 				font = "vic_18s" #kryo
 				borderSize = {x = 4 y = 4}	
@@ -193,7 +191,6 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "name"
 				position = { x = 28 y = 156 }
-				#position = { x = 28 y = 153 }
 				textureFile = ""
 				font = "vic_22s" #kryo
 				borderSize = {x = 4 y = 4}	
@@ -344,7 +341,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "current_tech_level"
-			#position = { x = 52 y = 29 }
 			position = { x = 52 y = 26 } #kryo
 			textureFile = ""
 			font = "vic_22s"
@@ -426,7 +422,6 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "time_value"
 			position = { x = 430 y = 29 }
-			#position = { x = 430 y = 32 } #kryo
 			textureFile = ""
 			font = "standard" #kryo vic_22
 			borderSize = {x = 4 y = 4}	
@@ -640,7 +635,7 @@ guiTypes = {
 		
 		iconType =
 		{
-			name ="tech_max_states"
+			name ="tech_governing_capacity"
 			spriteType = "GFX_icon_states"
 			position = { x= 478 y = 125 }
 			Orientation = "UPPER_LEFT"
@@ -648,7 +643,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType = {
-			name = "tech_max_states_value"
+			name = "tech_governing_capacity_value"
 			position = { x = 492 y = 125 }
 			textureFile = ""
 			font = "vic_18"
@@ -694,7 +689,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "current_tech_level"
-			#position = { x = 52 y = 10 }
 			position = { x = 52 y = 7 } #kryo
 			textureFile = ""
 			font = "vic_22s" #kryo
@@ -773,7 +767,6 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "time_value"
 			position = { x = 430 y = 9 }
-			#position = { x = 430 y = 12 } #kryo
 			textureFile = ""
 			font = "standard" #kryo vic_22
 			borderSize = {x = 4 y = 4}	
@@ -1125,7 +1118,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "current_tech_level"
-			#position = { x = 52 y = 9 }
 			position = { x = 52 y = 6 } #kryo
 			textureFile = ""
 			font = "vic_22s" #kryo
@@ -1204,7 +1196,6 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "time_value"
 			position = { x = 430 y = 9 }
-			#position = { x = 430 y = 12 } #kryo
 			textureFile = ""
 			font = "standard" #kryo vic_22
 			borderSize = {x = 4 y = 4}	
@@ -2030,7 +2021,7 @@ guiTypes = {
 		{
 			name ="item_button"
 			spriteType = "GFX_icon_maneuver"
-			position = { x= 0 y = 0 }
+			position = { x= -5 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
 	}

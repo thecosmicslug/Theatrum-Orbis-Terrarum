@@ -909,8 +909,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "subject_name"
-				#position = { x = 52 y = 10 }
-				position = { x = 52 y = 11 } #kryo
+				position = { x = 52 y = 11 }
 				format = left
 				font = "vic_18s" #kryo
 				maxWidth = 220

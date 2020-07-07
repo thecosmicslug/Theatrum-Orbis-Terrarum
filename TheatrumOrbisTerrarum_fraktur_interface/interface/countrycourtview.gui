@@ -83,7 +83,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "monarch_title"
-			#position = { x = 35 y = 118 }
 			position = { x = 35 y = 114 } #kryo
 			textureFile = ""
 			font = "vic_18s" #kryo
@@ -97,7 +96,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "monarch_ruler_age"
-			#position = { x = 450 y = 118 }
 			position = { x = 440 y = 114 }
 			textureFile = ""
 			font = "vic_18" #kryo
@@ -113,7 +111,6 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "monarch_adm_value"
 			position = { x = 28 y = 148 }
-			#position = { x = 28 y = 142 } #kryo
 			textureFile = ""
 			font = "vic_22s" #kryo
 			borderSize = {x = 4 y = 4}	
@@ -135,7 +132,6 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "monarch_dip_value"
 			position = { x = 78 y = 148 }
-			#position = { x = 78 y = 142 } #kryo
 			textureFile = ""
 			font = "vic_22s" #kryo
 			borderSize = {x = 4 y = 4}	
@@ -157,7 +153,6 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "monarch_mil_value"
 			position = { x = 128 y = 148 }
-			#position = { x = 128 y = 142 } #kryo
 			textureFile = ""
 			font = "vic_22s" #kryo
 			borderSize = {x = 4 y = 4}	
@@ -214,7 +209,6 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "monarch_heir_name"
 			position = { x = 35 y = 181 }
-			#position = { x = 35 y = 179 } #kryo
 			textureFile = ""
 			font = "vic_18s" #kryo
 			borderSize = {x = 4 y = 4}	
@@ -358,7 +352,16 @@ guiTypes = {
 			clicksound = back_click
 		}	
 		
-		
+		guiButtonType = {
+			name = "assign_heir_button"
+			position = { x= 486	y = 203 }
+			quadTextureSprite ="GFX_assign_heir_button"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}	
 
 		### Queen ###
 		
@@ -373,7 +376,6 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "monarch_queen_name"
 			position = { x = 35 y = 244 }
-			#position = { x = 35 y = 242 } #kryo
 			textureFile = ""
 			font = "vic_18s"
 			borderSize = {x = 4 y = 4}	
@@ -800,7 +802,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
 		}
-
+		
 		guiButtonType = {
 			name = "advisor_promote"
 			position = { x=299 y = -1 }
@@ -810,6 +812,7 @@ guiTypes = {
 			delayedTooltipText= ""
 			buttonFont = "vic_18"
 		}
+
 		instantTextBoxType = {
 			name = "advisor_ability_skill"
 			position = { x = 100 y = 0 }
@@ -836,7 +839,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "ability_skill"
-			#position = { x = 445 y = 4 }
 			position = { x = 445 y = 5 } #kryo
 			textureFile = ""
 			font = "vic_36"
@@ -859,7 +861,6 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "power"
 			position = { x = 370 y = 47 }
-			#position = { x = 370 y = 46 }
 			textureFile = ""
 			font = "Arial12" # vic_18
 			borderSize = {x = 4 y = 4}	
@@ -967,8 +968,6 @@ guiTypes = {
 
 		iconType ={
 			name ="advisor_indicator_religion_icon"
-
-
 			spriteType = "GFX_province_view_religion"
 			position = { x= -37 y = 8 }
 			Orientation = "UPPER_LEFT"

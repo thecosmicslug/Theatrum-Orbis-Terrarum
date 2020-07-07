@@ -5,6 +5,9 @@ tags={
 	"Map"
 	"Theatrum Orbis Terrarum"
 }
+dependencies={
+	"Theatrum Orbis Terrarum for 1.30+"
+}
 picture="thumbnail.png"
 supported_version="1.30.*.*"
 path="/home/daddy/.local/share/Paradox Interactive/Europa Universalis IV/mod/TheatrumOrbisTerrarum_fraktur_interface"

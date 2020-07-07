@@ -14,12 +14,39 @@ guiTypes = {
 		iconType =
 		{
 			name ="engagement_bg"
-			spriteType = "GFX_build_unit_entry_merc"
+			spriteType = "GFX_build_unit_entry_combat"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.4
 		}
-	
+
+		iconType =
+		{
+			name ="disengagement_bg"
+			spriteType = "GFX_build_unit_entry_disengaged"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.4
+		}
+
+		iconType =
+		{
+			name ="demoralized_bg"
+			spriteType = "GFX_build_unit_entry_demoralized"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.4
+		}
+
+		iconType =
+		{
+			name ="reserve_bg"
+			spriteType = "GFX_build_unit_entry_reserve"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			scale = 0.4
+		}
+		
 		iconType =
 		{
 			name ="navy_icon"
@@ -149,7 +176,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "label_battlename"
-			#position = { x = 45 y = 28 }
 			position = { x = 45 y = 30 } #kryo
 			textureFile = ""
 			font = "vic_18s" #kryo
@@ -265,7 +291,6 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "leader_name"
-				#position = { x = 90 y = 6 }
 				position = { x = 90 y = 5 } #kryo
 				textureFile = ""
 				font = "vic_18"
@@ -307,7 +332,6 @@ guiTypes = {
 		
 			instantTextBoxType = {
 				name = "morale_label"
-				#position = { x = 106 y = 93 }
 				position = { x = 106 y = 92 } #kryo
 				textureFile = ""
 				font = "vic_18"
@@ -629,7 +653,6 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "leader_name"
-				#position = { x = 90 y = 6 }
 				position = { x = 90 y = 5 } #kryo
 				textureFile = ""
 				font = "vic_18"
@@ -671,7 +694,6 @@ guiTypes = {
 		
 			instantTextBoxType = {
 				name = "morale_label"
-				#position = { x = 106 y = 93 }
 				position = { x = 106 y = 92 } #kryo
 				textureFile = ""
 				font = "vic_18"

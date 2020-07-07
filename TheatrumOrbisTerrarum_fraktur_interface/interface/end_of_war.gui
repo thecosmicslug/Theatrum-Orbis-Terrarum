@@ -155,7 +155,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "preheader"
-			#position = { x = 76 y = 16 }
 			position = { x = 76 y = 18 } #kryo
 			textureFile = ""
 			font = "vic_18s" #kryo
@@ -169,7 +168,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "header"
-			#position = { x = 76 y = 42 }
 			position = { x = 76 y = 44 } #kryo
 			textureFile = ""
 			font = "vic_22s"
@@ -200,7 +198,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "our_losses"
-			#position = { x = 30 y = 87 }
 			position = { x = 75 y = 89 } #kryo
 			textureFile = ""
 			font = "vic_18s" #kryo
@@ -213,7 +210,6 @@ guiTypes = {
 	
 		instantTextBoxType = {
 			name = "enemy_losses"
-			#position = { x = 290 y = 87 }
 			position = { x = 335 y = 89 } #kryo
 			textureFile = ""
 			font = "vic_18s" #kryo
