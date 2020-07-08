@@ -1,14 +1,15 @@
-Theatrum Orbis Terrarum Mod for Europa Universalis IV
+[img]https://github.com/thecosmicslug/Theatrum-Orbis-Terrarum/raw/master/BACKUP/images/banner.png[/img]
 
-Following the release of v1.29 [i]Theatrum Orbis Terrarum Mod[/i] no longer worked, the original author had not updated it. I have never made a mod for EU4 before, so it may not be perfect but it no longer crashes & the code has been put online in the hope other people can help me keep this mod collection going.
+Following the release of v1.29 [i][b]Theatrum Orbis Terrarum[/i][/b] no longer worked, the original author had not updated it. I have never made a mod for EU4 before, so it may not be perfect but it no longer crashes & the code has been put online in the hope other people can help me keep this mod collection going.
 Even more mods from the collection broke with the v1.30 update, so I fixed them also and decided to put the whole collection offline, even the working ones just incase the original author ever takes them offline.
 
 The original mod by @Kyro can be found at: https://steamcommunity.com/sharedfiles/filedetails/?id=570256235
 
 Theatrum Orbis Terrarum translates to "Theatre of the World" and is considered to be the first true modern atlas. It was created in 1570 by flemish cartographer Abraham Ortelius. This mod tries to bring its look and feel to Europa Universalis IV.
 
-Works with EU4 1.30.* | Ironman compatible | Achievement compatible | No checksum change
+Works with EU4 1.30.* | [img]https://github.com/thecosmicslug/Theatrum-Orbis-Terrarum/raw/master/BACKUP/images/ironman.png[/img] | No checksum change
 
+[img]https://github.com/thecosmicslug/Theatrum-Orbis-Terrarum/raw/master/BACKUP/images/seperator.png[/img]
 
 [b][u]Features:[/u][/b]
 
@@ -22,84 +23,90 @@ Works with EU4 1.30.* | Ironman compatible | Achievement compatible | No checksu
     
     This is a complete overhaul of the map, the GUI and many other things. Therefore any other mod that modifies the map, the GUI or water is NOT compatible.
 
+[img]https://github.com/thecosmicslug/Theatrum-Orbis-Terrarum/raw/master/BACKUP/images/seperator.png[/img]
 
 [b][u]Notes:[/u][/b]
 
     Turning off Post Effects in the option menu will lead to a slightly different look. (a bit darker, no season effects, even less shadows)
     You can turn off the trees in in the option menu
 
+[img]https://github.com/thecosmicslug/Theatrum-Orbis-Terrarum/raw/master/BACKUP/images/seperator.png[/img]
 
 [b][u]Special Thanks to[/u][/b]
 
     Ryvoin for the basic terrain and water textures.
-    Negi for the magic code that makes transparency dynamic and his effort on porting it to 1.19 
+    Negi for the magic code that makes transparency dynamic and his effort on porting it to 1.19
     
+[img]https://github.com/thecosmicslug/Theatrum-Orbis-Terrarum/raw/master/BACKUP/images/seperator.png[/img]
 
 [b][u]Opacity Add-Ons (pick one)[/u][/b] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1976651882]Add-On: More Opacity[/url] 
-Makes the mapmodes a bit more colorful and reduces dynamic transparency.
+    [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1976651882]Add-On: More Opacity[/url]
+    Makes the mapmodes a bit more colorful and reduces dynamic transparency.
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1867768464]Add-On: Medium Opacity[/url] 
-Makes the mapmodes more colorful and has just a little dynamic transparency. (more colorful than "More Opacity" but less colorful than "Even More Opacity")
+    [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1867768464]Add-On: Medium Opacity[/url]
+    Makes the mapmodes more colorful and has just a little dynamic transparency. (more colorful than "More Opacity" but less colorful than "Even More Opacity")
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1869087770]Add-On: Even More Opacity[/url] 
-Makes the mapmodes much more colorful and has almost no dynamic transparency.
+    [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1869087770]Add-On: Even More Opacity[/url]
+    Makes the mapmodes much more colorful and has almost no dynamic transparency.
 
 
 [b][u]Water Add-Ons[/u][/b]  (pick either none, Blue or Deep Blue - "Dark water" darkens any of the three water colors)
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1868260444]Add-On: Blue Water[/url]
-Changes the water to light blue.
+    [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1868260444]Add-On: Blue Water[/url]
+    Changes the water to light blue.
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1867739203]Add-On: Deep Blue Water[/url] 
-Changes the water to deep blue.
+    [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1867739203]Add-On: Deep Blue Water[/url]
+    Changes the water to deep blue.
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1871173505]Add-On: Dark Water[/url] 
-Turns the water dark. Can be combined with other water Add-Ons.
+    [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1871173505]Add-On: Dark Water[/url]
+    Turns the water dark. Can be combined with other water Add-Ons.
 
 
 [b][u]Other Add-Ons[/u][/b] (can be used in any combination)
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2155175305]Add-On: Dark Borders[/url] 
-Dark country borders. Contains 9 different country border styles to choose from.
+    [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2155175305]Add-On: Dark Borders[/url]
+    Dark country borders. Contains 9 different country border styles to choose from.
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2127907482]Add-On: Dynamic Borders[/url] 
-Province borders, state borders and sea borders fade out when zooming out. Country borders become more visible and dark when zooming out.
+    [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2127907482]Add-On: Dynamic Borders[/url] 
+    Province borders, state borders and sea borders fade out when zooming out. Country borders become more visible and dark when zooming out.
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1973690584]Add-On: Warm Colors[/url] 
-Slightly warmer color temperature
+    [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1973690584]Add-On: Warm Colors[/url]
+    Slightly warmer color temperature
 
 
 [b][u]Interface Font Add-Ons[/u][/b]
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2127152376]Theatrum Orbis Terrarum - Interface Fonts[/url] 
+    [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2127152376]Theatrum Orbis Terrarum - Interface Fonts[/url]
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2155177022]Theatrum Orbis Terrarum - Fraktur Interface Fonts[/url] 
+    [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2155177022]Theatrum Orbis Terrarum - Fraktur Interface Fonts[/url]
 
 
 [b][u]Add-Ons that change checksum[/u][/b] (no achievements possible)
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2155628326]Add-On: Random New World[/url] 
-If you want to use this mod with a Random New World, you'll need to install the RNW Add-On. (disables achievements)
+    [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2155628326]Add-On: Random New World[/url] 
+    If you want to use this mod with a Random New World, you'll need to install the RNW Add-On. (disables achievements)
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2155176359]Add-On: Flat Map[/url] 
-Subscribe to this for a completely flat map. (disables achievements)
-
+    [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2155176359]Add-On: Flat Map[/url] 
+    Subscribe to this for a completely flat map. (disables achievements)
+    
+[img]https://github.com/thecosmicslug/Theatrum-Orbis-Terrarum/raw/master/BACKUP/images/seperator.png[/img]
 
 [b][u]List of known compatible mods and mod types:[/u][/b]
 
- [list]
-    [*]Custom Flag Symbols
-    [*]Roma Universalis
-    [*]Extended Timeline
-    [*]All flag mods
-    [*]Mods that change the unit sprites
-    [*]Loading screens
-    [*]Event pictures (like the Chapel)
-[/list] 
+    [list]
+        [*]Custom Flag Symbols
+        [*]Roma Universalis
+        [*]Extended Timeline
+        [*]All flag mods
+        [*]Mods that change the unit sprites
+        [*]Loading screens
+        [*]Event pictures (like the Chapel)
+    [/list]
 
+[img]https://github.com/thecosmicslug/Theatrum-Orbis-Terrarum/raw/master/BACKUP/images/seperator.png[/img]
 
 [b][u]Compatibility Patches[/u][/b]
 
-    [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1981837759]Theatrum Orbis Terrarum for MEIOU & Taxes[/url] - Standalone version of "Theatrum Orbis Terrarum" for M&T
+    [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1981837759]Theatrum Orbis Terrarum for MEIOU & Taxes[/url]
+    The Standalone version of "Theatrum Orbis Terrarum" for M&T
