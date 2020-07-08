@@ -3,7 +3,7 @@ Theatrum Orbis Terrarum translates to "Theatre of the World" and is considered t
 Works with EU4 1.30.* | Ironman compatible | Achievement compatible | No checksum change
 
 
-Features:
+[b][u]Features:[/u][/b]
 
     Borders, seamless terrain textures, recolored trees, recolored rivers, unique fog of war, pause banner, map font, Interface fonts
     Terra Incognita with pictures from the actual atlas
@@ -12,64 +12,76 @@ Features:
     Map lighting, water, dynamic transparency for colored map modes and some other things
     Extremely customizable
     Improves performance 
+    
+    This is a complete overhaul of the map, the GUI and many other things. Therefore any other mod that modifies the map, the GUI or water is NOT compatible.
 
 
-Opacity Add-Ons (pick one)
+[b][u]Notes:[/u][/b]
 
-Add-On: More Opacity
+    Turning off Post Effects in the option menu will lead to a slightly different look. (a bit darker, no season effects, even less shadows)
+    You can turn off the trees in in the option menu
+
+
+[b][u]Special Thanks to[/u][/b]
+
+    Ryvoin for the basic terrain and water textures.
+    Negi for the magic code that makes transparency dynamic and his effort on porting it to 1.19 
+    
+
+[b][u]Opacity Add-Ons (pick one)[/u][/b] 
+
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1976651882]Add-On: More Opacity[/url] 
 Makes the mapmodes a bit more colorful and reduces dynamic transparency.
 
-Add-On: Medium Opacity
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1867768464]Add-On: Medium Opacity[/url] 
 Makes the mapmodes more colorful and has just a little dynamic transparency. (more colorful than "More Opacity" but less colorful than "Even More Opacity")
 
-Add-On: Even More Opacity
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1869087770]Add-On: Even More Opacity[/url] 
 Makes the mapmodes much more colorful and has almost no dynamic transparency.
 
 
-Water Add-Ons (pick either none, Blue or Deep Blue - "Dark water" darkens any of the three water colors)
+[b][u]Water Add-Ons[/u][/b]  (pick either none, Blue or Deep Blue - "Dark water" darkens any of the three water colors)
 
-Add-On: Blue Water
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1868260444]Add-On: Blue Water[/url]
 Changes the water to light blue.
 
-Add-On: Deep Blue Water
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1867739203]Add-On: Deep Blue Water[/url] 
 Changes the water to deep blue.
 
-Add-On: Dark Water
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1871173505]Add-On: Dark Water[/url] 
 Turns the water dark. Can be combined with other water Add-Ons.
 
 
-Other Add-Ons (can be used in any combination)
+[b][u]Other Add-Ons[/u][/b] (can be used in any combination)
 
-Add-On: Dark Borders
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2155175305]Add-On: Dark Borders[/url] 
 Dark country borders. Contains 9 different country border styles to choose from.
 
-Add-On: Dynamic Borders
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2127907482]Add-On: Dynamic Borders[/url] 
 Province borders, state borders and sea borders fade out when zooming out. Country borders become more visible and dark when zooming out.
 
-Add-On: Warm Colors
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1973690584]Add-On: Warm Colors[/url] 
 Slightly warmer color temperature
 
 
-Interface Font Add-Ons
+[b][u]Interface Font Add-Ons[/u][/b]
 
-Theatrum Orbis Terrarum - Interface Fonts
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2127152376]Theatrum Orbis Terrarum - Interface Fonts[/url] 
 
-Theatrum Orbis Terrarum - Fraktur Interface Fonts
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2155177022]Theatrum Orbis Terrarum - Fraktur Interface Fonts[/url] 
 
 
-Add-Ons that change checksum (no achievements possible)
+[b][u]Add-Ons that change checksum[/u][/b] (no achievements possible)
 
-Add-On: Random New World
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2155628326]Add-On: Random New World[/url] 
 If you want to use this mod with a Random New World, you'll need to install the RNW Add-On. (disables achievements)
 
-Add-On: Flat Map
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2155176359]Add-On: Flat Map[/url] 
 Subscribe to this for a completely flat map. (disables achievements)
 
 
-
-This is a complete overhaul of the map, the GUI and many other things. Therefore any other mod that modifies the map, the GUI or water is NOT compatible.
-
-List of known compatible mods and mod types:
+[b][u]List of known compatible mods and mod types:[/u][/b]
 
     Custom Flag Symbols
     Roma Universalis
@@ -80,19 +92,6 @@ List of known compatible mods and mod types:
     Event pictures (like the Chapel) 
 
 
-Compatibility Patches
+[b][u]Compatibility Patches[/u][/b]
 
-    Theatrum Orbis Terrarum for MEIOU & Taxes
-    Standalone version of "Theatrum Orbis Terrarum (Carthoge Reloaded)" for M&T
-
-
-Notes:
-
-    Turning off Post Effects in the option menu will lead to a slightly different look. (a bit darker, no season effects, even less shadows)
-    You can turn off the trees in in the option menu
-
-
-Special Thanks to
-
-    Ryvoin for the basic terrain and water textures.
-    Negi for the magic code that makes transparency dynamic and his effort on porting it to 1.19 
+    [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1981837759]Theatrum Orbis Terrarum for MEIOU & Taxes[/url] - Standalone version of "Theatrum Orbis Terrarum" for M&T
