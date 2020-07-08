@@ -1,9 +1,14 @@
-Add-On for Theatrum Orbis Terrarum (Carthoge Reloaded) that changes the interface fonts. Can also be used as a standalone mod.
 
-    Ironman and achievement compatible, multiplayer friendly
-    Compatible with any mod that doesn't modify the interface or fonts
-    Compatible with VD:TGX and similar mods
-    Compatible with map font mods 
+ [b]Fixed again but I expect lots of the new dialog etc will need tweaking to match the original edits so please report bugs in the comments[/b]
+
+Add-On for Theatrum Orbis Terrarum that changes the interface fonts. Can also be used as a standalone mod.
+
+[list]
+	[*]Ironman and achievement compatible, multiplayer friendly
+	[*]Compatible with any mod that doesn't modify the interface or fonts
+	[*]Compatible with VD:TGX and similar mods
+	[*]Compatible with map font mods 
+[/list]
 
 
 If you want to use this mod together with Banners 2, use this compatibility patch by Phalanx.
@@ -14,3 +19,6 @@ How to make this compatibility patch compatible with the TOT base mod:
     open interface\topbar.gui, edit line 726 to
     	text = ""	
     save and close topbar.gui, confirm changes to zip file
+    
+[img]https://raw.githubusercontent.com/thecosmicslug/Theatrum-Orbis-Terrarum/master/BACKUP/images/seperator.png[/img]
+    
