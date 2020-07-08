@@ -1,4 +1,4 @@
-[img]https://raw.githubusercontent.com/thecosmicslug/Theatrum-Orbis-Terrarum/raw/master/BACKUP/images/banner.png[/img]
+[img]https://raw.githubusercontent.com/thecosmicslug/Theatrum-Orbis-Terrarum/master/BACKUP/images/banner.png[/img]
 
 Following the release of v1.29 [i][b]Theatrum Orbis Terrarum[/i][/b] no longer worked, the original author had not updated it. I have never made a mod for EU4 before, so it may not be perfect but it no longer crashes & the code has been put online in the hope other people can help me keep this mod collection going.
 Even more mods from the collection broke with the v1.30 update, so I fixed them also and decided to put the whole collection offline, even the working ones just incase the original author ever takes them offline.
@@ -7,8 +7,9 @@ The original mod by @Kyro can be found at: https://steamcommunity.com/sharedfile
 
 Theatrum Orbis Terrarum translates to "Theatre of the World" and is considered to be the first true modern atlas. It was created in 1570 by flemish cartographer Abraham Ortelius. This mod tries to bring its look and feel to Europa Universalis IV.
 
-Works with EU4 1.30.* | [img]https://raw.githubusercontent.com/thecosmicslug/Theatrum-Orbis-Terrarum/raw/master/BACKUP/images/ironman.png[/img] | No checksum change
+Works with EU4 1.30.* - Versions for playing older games of EU4 are available on the [url=https://github.com/thecosmicslug/Theatrum-Orbis-Terrarum]GitHub[/url] Page
 
+[img]https://raw.githubusercontent.com/thecosmicslug/Theatrum-Orbis-Terrarum/master/BACKUP/images/ironman.png[/img]
 [img]https://raw.githubusercontent.com/thecosmicslug/Theatrum-Orbis-Terrarum/master/BACKUP/images/seperator.png[/img]
 
 [b][u]Features:[/u][/b]
@@ -22,6 +23,9 @@ Works with EU4 1.30.* | [img]https://raw.githubusercontent.com/thecosmicslug/The
     Improves performance 
     
     This is a complete overhaul of the map, the GUI and many other things. Therefore any other mod that modifies the map, the GUI or water is NOT compatible.
+
+The full source-code for the mods and all previous versions are available for anyone to access on GitHub at:
+https://github.com/thecosmicslug/Theatrum-Orbis-Terrarum
 
 [img]https://raw.githubusercontent.com/thecosmicslug/Theatrum-Orbis-Terrarum/master/BACKUP/images/seperator.png[/img]
 
