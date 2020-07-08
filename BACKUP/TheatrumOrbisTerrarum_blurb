@@ -1,3 +1,11 @@
+
+Theatrum Orbis Terrarum Mod for Europa Universalis IV
+
+Following the release of v1.29 [i]Theatrum Orbis Terrarum Mod[/i] no longer worked, the original author had not updated it. I have never made a mod for EU4 before, so it may not be perfect but it no longer crashes & the code has been put online in the hope other people can help me keep this mod collection going.
+Even more mods from the collection broke with the v1.30 update, so I fixed them also and decided to put the whole collection offline, even the working ones just incase the original author ever takes them offline.
+
+The original mod by @Kyro can be found at: https://steamcommunity.com/sharedfiles/filedetails/?id=570256235
+
 Theatrum Orbis Terrarum translates to "Theatre of the World" and is considered to be the first true modern atlas. It was created in 1570 by flemish cartographer Abraham Ortelius. This mod tries to bring its look and feel to Europa Universalis IV.
 
 Works with EU4 1.30.* | Ironman compatible | Achievement compatible | No checksum change
@@ -83,14 +91,15 @@ Subscribe to this for a completely flat map. (disables achievements)
 
 [b][u]List of known compatible mods and mod types:[/u][/b]
 
-    Custom Flag Symbols
-    Roma Universalis
-    Extended Timeline
-    All flag mods
-    Mods that change the unit sprites
-    Loading screens
-    Event pictures (like the Chapel) 
-
+ [list]
+    [*]Custom Flag Symbols
+    [*]Roma Universalis
+    [*]Extended Timeline
+    [*]All flag mods
+    [*]Mods that change the unit sprites
+    [*]Loading screens
+    [*]Event pictures (like the Chapel)
+[/list] 
 
 [b][u]Compatibility Patches[/u][/b]
 
