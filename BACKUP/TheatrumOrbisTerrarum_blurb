@@ -1,0 +1,98 @@
+Theatrum Orbis Terrarum translates to "Theatre of the World" and is considered to be the first true modern atlas. It was created in 1570 by flemish cartographer Abraham Ortelius. This mod tries to bring its look and feel to Europa Universalis IV.
+
+Works with EU4 1.30.* | Ironman compatible | Achievement compatible | No checksum change
+
+
+Features:
+
+    Borders, seamless terrain textures, recolored trees, recolored rivers, unique fog of war, pause banner, map font, Interface fonts
+    Terra Incognita with pictures from the actual atlas
+    Trade routes and arrows, slim occupation lines, straits, unreachable trade nodes checkers
+    Dark unit shields, shield and flag overlay, great power symbols and shields, movement arrows, selected unit indicator, fort symbols
+    Map lighting, water, dynamic transparency for colored map modes and some other things
+    Extremely customizable
+    Improves performance 
+
+
+Opacity Add-Ons (pick one)
+
+Add-On: More Opacity
+Makes the mapmodes a bit more colorful and reduces dynamic transparency.
+
+Add-On: Medium Opacity
+Makes the mapmodes more colorful and has just a little dynamic transparency. (more colorful than "More Opacity" but less colorful than "Even More Opacity")
+
+Add-On: Even More Opacity
+Makes the mapmodes much more colorful and has almost no dynamic transparency.
+
+
+Water Add-Ons (pick either none, Blue or Deep Blue - "Dark water" darkens any of the three water colors)
+
+Add-On: Blue Water
+Changes the water to light blue.
+
+Add-On: Deep Blue Water
+Changes the water to deep blue.
+
+Add-On: Dark Water
+Turns the water dark. Can be combined with other water Add-Ons.
+
+
+Other Add-Ons (can be used in any combination)
+
+Add-On: Dark Borders
+Dark country borders. Contains 9 different country border styles to choose from.
+
+Add-On: Dynamic Borders
+Province borders, state borders and sea borders fade out when zooming out. Country borders become more visible and dark when zooming out.
+
+Add-On: Warm Colors
+Slightly warmer color temperature
+
+
+Interface Font Add-Ons
+
+Theatrum Orbis Terrarum - Interface Fonts
+
+Theatrum Orbis Terrarum - Fraktur Interface Fonts
+
+
+Add-Ons that change checksum (no achievements possible)
+
+Add-On: Random New World
+If you want to use this mod with a Random New World, you'll need to install the RNW Add-On. (disables achievements)
+
+Add-On: Flat Map
+Subscribe to this for a completely flat map. (disables achievements)
+
+
+
+This is a complete overhaul of the map, the GUI and many other things. Therefore any other mod that modifies the map, the GUI or water is NOT compatible.
+
+List of known compatible mods and mod types:
+
+    Custom Flag Symbols
+    Roma Universalis
+    Extended Timeline
+    All flag mods
+    Mods that change the unit sprites
+    Loading screens
+    Event pictures (like the Chapel) 
+
+
+Compatibility Patches
+
+    Theatrum Orbis Terrarum for MEIOU & Taxes
+    Standalone version of "Theatrum Orbis Terrarum (Carthoge Reloaded)" for M&T
+
+
+Notes:
+
+    Turning off Post Effects in the option menu will lead to a slightly different look. (a bit darker, no season effects, even less shadows)
+    You can turn off the trees in in the option menu
+
+
+Special Thanks to
+
+    Ryvoin for the basic terrain and water textures.
+    Negi for the magic code that makes transparency dynamic and his effort on porting it to 1.19 

@@ -1,0 +1,20 @@
+This Add-On for Theatrum Orbis Terrarum (Carthoge Reloaded) makes border visibility dynamic, depending on the zoom level.
+
+Province borders
+Will start to fade out when country names appear, full transparency a bit after unit icons disappear.
+
+State borders
+Will start to fade out later than province border.
+
+Sea province borders
+Will fade out to full transparency a bit later than province borders.
+
+Country borders
+Will become more visibe when zooming out. Basically thick dark borders when zoomed out, Dark borders with golden ornaments when zoomed in.
+
+Rivers
+Will also fade out, but not to full transparancy.
+
+Ironman and achievement compatible. Can be used with any other Add-On or as a standalone mod (sea province borders will be hard to spot with the vanilla water). Can also be used with all versions of Rev. Borders Mod (replaces RBM borders).
+
+Special Thanks to El Kebabini for the idea to make province borders fade out which made me pick up this project again.
