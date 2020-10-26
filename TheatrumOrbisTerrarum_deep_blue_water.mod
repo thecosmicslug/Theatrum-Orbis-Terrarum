@@ -10,5 +10,5 @@ dependencies={
 }
 picture="thumbnail.png"
 supported_version="1.30.*.*"
-path="/home/daddy/.local/share/Paradox Interactive/Europa Universalis IV/mod/TheatrumOrbisTerrarum_deep_blue_water"
+path="mod/TheatrumOrbisTerrarum_deep_blue_water"
 remote_file_id="1867739203"
