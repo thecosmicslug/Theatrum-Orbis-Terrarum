@@ -11,5 +11,5 @@ tags={
 }
 picture="thumbnail.png"
 supported_version="1.29.*.*"
-path="/home/danny/.local/share/Paradox Interactive/Europa Universalis IV/mod/TheatrumOrbisTerrarum_MT"
+path="mod/TheatrumOrbisTerrarum_MT"
 remote_file_id="1981837759"
