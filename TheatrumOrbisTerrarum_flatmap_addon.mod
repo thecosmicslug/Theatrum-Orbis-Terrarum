@@ -7,5 +7,5 @@ tags={
 }
 picture="thumbnail.png"
 supported_version="1.30.*.*"
-path="/home/daddy/.local/share/Paradox Interactive/Europa Universalis IV/mod/TheatrumOrbisTerrarum_flatmap_addon"
+path="mod/TheatrumOrbisTerrarum_flatmap_addon"
 remote_file_id="2155176359"
