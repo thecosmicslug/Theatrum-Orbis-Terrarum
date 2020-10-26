@@ -7,5 +7,5 @@ tags={
 }
 picture="thumbnail.png"
 supported_version="1.30.*.*"
-path="/home/daddy/.local/share/Paradox Interactive/Europa Universalis IV/mod/TheatrumOrbisTerrarum_darkborders"
+path="mod/TheatrumOrbisTerrarum_darkborders"
 remote_file_id="2155175305"
