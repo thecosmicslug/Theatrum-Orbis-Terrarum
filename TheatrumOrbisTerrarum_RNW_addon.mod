@@ -6,5 +6,5 @@ tags={
 	"Theatrum Orbis Terrarum"
 }
 picture="thumbnail.png"
-supported_version="1.30.*.*"
+supported_version="1.31.*.*"
 path="mod/TheatrumOrbisTerrarum_RNW_addon"
