@@ -6,6 +6,6 @@ tags={
 	"Theatrum Orbis Terrarum"
 }
 picture="thumbnail.png"
-supported_version="1.30.*.*"
+supported_version="1.31.*.*"
 path="mod/TheatrumOrbisTerrarum_darkborders"
 remote_file_id="2155175305"
