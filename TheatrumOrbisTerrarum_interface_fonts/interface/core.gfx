@@ -177,7 +177,7 @@ spriteTypes = {
 		size= {x=32 y=32 }
 		texturefile = "gfx//interface//small_tiles_dialog.dds"
 		borderSize = { x=8 y=8 }
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {
@@ -304,16 +304,11 @@ spriteTypes = {
 	textSpriteType = {
 		name = "mini_button"
 		texturefile = "gfx//interface//minibutton.tga"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
 	}
 
 	spriteType = {
 		name = "button_left"
 		texturefile = "gfx//interface//button_left.tga"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
-		
 	}
 
 	spriteType = {
@@ -334,8 +329,6 @@ spriteTypes = {
 	textSpriteType = {
 		name = "button_type_1"
 		texturefile = "gfx//interface//button_type_1.tga"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
 		
 		clicksound = click
 	}
@@ -359,8 +352,6 @@ spriteTypes = {
 	textSpriteType = {
 		name = "button_type_6"
 		texturefile = "gfx//interface//button_type_6.tga"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
 		
 		clicksound = click
 	}
@@ -368,8 +359,6 @@ spriteTypes = {
 	textSpriteType = {
 		name = "button_type_7"
 		texturefile = "gfx//interface//button_type_7.tga"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
 		
 		clicksound = click
 	}
@@ -377,8 +366,6 @@ spriteTypes = {
 	textSpriteType = {
 		name = "button_type_8"
 		texturefile = "gfx//interface//button_type_8.dds"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
 		
 		clicksound = click
 	}	
@@ -386,8 +373,6 @@ spriteTypes = {
 	textSpriteType = {
 		name = "button_type_9"
 		texturefile = "gfx//interface//button_type_9.tga"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
 		
 		clicksound = click
 	}
@@ -395,8 +380,6 @@ spriteTypes = {
 	textSpriteType = {
 		name = "button_type_4"
 		texturefile = "gfx//interface//button_type_4.tga"
-		noOfFrames = 1
-		effectFile = "gfx/FX/buttonstate.lua"
 		
 		clicksound = click
 	}

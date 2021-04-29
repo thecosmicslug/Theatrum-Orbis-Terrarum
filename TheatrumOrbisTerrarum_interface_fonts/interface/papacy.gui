@@ -67,7 +67,6 @@ guiTypes = {
 			position = { x = 65 y =43 }
 			format = centre
 			textureFile = ""
-			# font = "vic_29"
 			font = "vic_22s" #kryo
 			borderSize = {x = 4 y = 4}
 			text = "PAPACY_THE_HOLY_SEE"
@@ -232,8 +231,8 @@ guiTypes = {
 		}
 		guiButtonType = {
 				name = "sort_chance"
-				position = { x = 398 y =258 }
-				quadTextureSprite ="GFX_sort_100"
+				position = { x = 400 y =260 }
+				quadTextureSprite ="GFX_sort_88"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -260,7 +259,6 @@ guiTypes = {
 			position = { x = 169 y = 230 }
 
 			textureFile = ""
-			# font = "vic_18"
 			font = "vic_18s" #kryo
 			borderSize = {x = 0 y = 0}
 			text = "PAPACY_ACTIVE_CARDINALS"
@@ -385,7 +383,7 @@ guiTypes = {
 		guiButtonType = {
 				name = "close_button"
 				position = { x=345 y =646}
-				quadTextureSprite ="button_type_1"	
+				quadTextureSprite ="button_type_1"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""

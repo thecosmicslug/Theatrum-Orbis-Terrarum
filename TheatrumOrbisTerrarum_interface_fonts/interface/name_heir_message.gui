@@ -73,7 +73,6 @@ guiTypes = {
 		{
 			name = "Line3"
 			font = "vic_18s" #kryo vic_22
-			#position = { x= 96 y= 87 }
 			position = { x= 96 y= 127 }
 			borderSize = { x = 0 y = 0 }	
 			text = ""

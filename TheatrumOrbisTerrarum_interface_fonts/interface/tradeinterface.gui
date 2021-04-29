@@ -37,7 +37,6 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			#position = { x=29 y=4}
 			position = { x=29 y=2} #kryo
 			name = "NextNodeButton_label"
 			font = "vic_18s" # kryo vic_18

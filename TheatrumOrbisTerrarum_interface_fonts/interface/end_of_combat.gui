@@ -160,7 +160,6 @@ guiTypes = {
 		### battle name
 		instantTextBoxType = {
 				name = "Line1"
-				#position = { x = 71 y = 21 }
 				position = { x = 71 y = 18 } #kryo
 				textureFile = ""
 				font = "vic_22s" #kryo

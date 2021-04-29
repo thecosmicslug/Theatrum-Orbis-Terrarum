@@ -107,7 +107,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "government_name"
-			#position = { x = 95 y =118 }
 			position = { x = 95 y =120 } #kryo
 			textureFile = ""
 			font = "vic_18s" #kryo
@@ -312,7 +311,7 @@ guiTypes = {
 			spriteType = "GFX_government_revolution_bar_frame"
 			position = { x = 402 y = 313 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
@@ -370,7 +369,7 @@ guiTypes = {
 			iconType =
 			{
 				name ="statists"
-				spriteType = "GFX_republic_icon"
+				spriteType = "GFX_statists"
 				position = { x= 43 y = -24 }
 				frame = 1
 			}
@@ -378,7 +377,7 @@ guiTypes = {
 			iconType =
 			{
 				name ="monarchists"
-				spriteType = "GFX_monarchism_icon"
+				spriteType = "GFX_monarchists"
 				position = { x= 254 y = -29 }
 				frame = 1
 			}
@@ -475,7 +474,7 @@ guiTypes = {
 				name = "shogun_interaction_list"
 				position = { x = 39 y = 78 }
 				backGround = ""
-				size = { x = 200 y = 120 }
+				size = { x = 270 y = 120 }
 				Orientation = "UPPER_LEFT"
 				horizontal = 1
 				spacing = 0
@@ -497,7 +496,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "monarch_cultures"
-			#position = { x = 50 y = 314 }
 			position = { x = 50 y = 316 } #kryo
 			textureFile = ""
 			font = "vic_18s" #kryo
@@ -1013,7 +1011,7 @@ guiTypes = {
 			spriteType = "GFX_russian_government_bar_frame"
 			position = { x = 5 y = 48 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		iconType = {
@@ -1028,7 +1026,7 @@ guiTypes = {
 			spriteType = "GFX_russian_government_bar_frame"
 			position = { x = 123 y = 48 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		iconType = {
@@ -1043,7 +1041,7 @@ guiTypes = {
 			spriteType = "GFX_russian_government_bar_frame"
 			position = { x = 241 y = 48 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 
@@ -1114,7 +1112,7 @@ guiTypes = {
 			spriteType = "GFX_cossacks_government_bar_frame"
 			position = { x = 5 y = 48 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		iconType = {
@@ -1129,7 +1127,7 @@ guiTypes = {
 			spriteType = "GFX_cossacks_government_bar_frame"
 			position = { x = 123 y = 48 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		iconType = {
@@ -1144,7 +1142,7 @@ guiTypes = {
 			spriteType = "GFX_cossacks_government_bar_frame"
 			position = { x = 241 y = 48 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 
@@ -1215,7 +1213,7 @@ guiTypes = {
 			spriteType = "GFX_mamluk_mechanic_bar_frame"
 			position = { x = 14 y = 70 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		iconType = {
@@ -1230,7 +1228,7 @@ guiTypes = {
 			spriteType = "GFX_mamluk_mechanic_bar_frame"
 			position = { x = 124 y = 70 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		iconType = {
@@ -1245,7 +1243,7 @@ guiTypes = {
 			spriteType = "GFX_mamluk_mechanic_bar_frame"
 			position = { x = 234 y = 70 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 
@@ -1372,7 +1370,7 @@ guiTypes = {
 			spriteType = "GFX_tribal_federation_bar_frame"
 			position = { x = 53 y = 68 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 
@@ -1752,3 +1750,4 @@ guiTypes = {
 			scale = 0.5
 		}
 	}
+}

@@ -610,7 +610,6 @@ guiTypes = {
 		### BOTTOM PART
 		instantTextBoxType = {
 			name = "trade_node_label"
-			#position = { x = 165 y =364 }
 			position = { x = 165 y =366 } #kryo
 			textureFile = ""
 			font = "vic_18s" #kryo vic_22			

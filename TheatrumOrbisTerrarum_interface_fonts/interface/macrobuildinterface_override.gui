@@ -13,7 +13,7 @@ guiTypes = {
 		verticalBorder= ""
 		fullscreen = no
 		
-		iconType = {
+		guiButtonType = {
 			name = "category_banner_icon"
 			position = { x = 10 y = 0 }
 			spriteType = "GFX_macrobuild_entry_frame_390_thin"
@@ -100,7 +100,7 @@ guiTypes = {
 		verticalBorder= ""
 		fullscreen = no
 		
-		iconType = {
+		guiButtonType = {
 			name = "category_banner_icon"
 			position = { x = 10 y = 0 }
 			spriteType = "GFX_macrobuild_entry_frame_390_thin"
@@ -184,7 +184,7 @@ guiTypes = {
 		verticalBorder= ""
 		fullscreen = no
 		
-		iconType = {
+		guiButtonType = {
 			name = "category_banner_icon"
 			position = { x = 10 y = 0 }
 			spriteType = "GFX_macrobuild_entry_frame_318"
@@ -255,7 +255,7 @@ guiTypes = {
 		verticalBorder= ""
 		fullscreen = no
 		
-		iconType = {
+		guiButtonType = {
 			name = "category_banner_icon"
 			position = { x = 6 y = 0 }
 			spriteType = "GFX_macrobuild_entry_frame_390"
@@ -403,7 +403,7 @@ guiTypes = {
 			text = ""
 			orientation = "UPPER_LEFT"
 			format = center
-			#allwaystransparent = yes
+			#alwaystransparent = yes
 		}
 		
 		guiButtonType = {
@@ -427,7 +427,7 @@ guiTypes = {
 			text = ""
 			orientation = "UPPER_LEFT"
 			format = center
-			#allwaystransparent = yes
+			#alwaystransparent = yes
 		}
 		
 		guiButtonType = {
@@ -451,7 +451,7 @@ guiTypes = {
 			text = ""
 			orientation = "UPPER_LEFT"
 			format = center
-			#allwaystransparent = yes
+			#alwaystransparent = yes
 		}
 		
 		guiButtonType = {
@@ -524,7 +524,7 @@ guiTypes = {
 			text = ""
 			orientation = "UPPER_LEFT"
 			format = center
-			#allwaystransparent = yes
+			#alwaystransparent = yes
 		}
 		
 		instantTextBoxType = {
@@ -537,7 +537,7 @@ guiTypes = {
 			text = ""
 			orientation = "UPPER_LEFT"
 			format = center
-			#allwaystransparent = yes
+			#alwaystransparent = yes
 		}
 		
 		instantTextBoxType = {
@@ -550,7 +550,7 @@ guiTypes = {
 			text = ""
 			orientation = "UPPER_LEFT"
 			format = center
-			#allwaystransparent = yes
+			#alwaystransparent = yes
 		}
 
 		guiButtonType = {
@@ -618,7 +618,7 @@ guiTypes = {
 			maxWidth = 40
 			maxHeight = 20
 			format = right
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 
@@ -661,7 +661,7 @@ guiTypes = {
 			maxWidth = 254
 			maxHeight = 18
 			format = center
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}		
 
 		guiButtonType =
@@ -679,7 +679,7 @@ guiTypes = {
 			position = { x= 288 y = 5 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.6
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		instantTextBoxType={
@@ -691,7 +691,7 @@ guiTypes = {
 			maxHeight = 18
 			text = ""
 			format = center
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 	}	
@@ -1168,7 +1168,7 @@ guiTypes = {
 				name ="listbox"
 				position = { x = 19 y = 40 }
 				backGround=""
-				size = { x= 272 y = 420 }
+				size = { x= 390 y = 420 }
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -1672,19 +1672,19 @@ guiTypes = {
 				name = "build_troops_button"
 				position = { x= -8 y = -6 }
 				quadTextureSprite ="GFX_macro_land_tab_units"
-				shortcut = "l"
+				shortcut = "a"
 			}
 			guiButtonType = {
 				name = "recruit_mercs_button"
 				position = { x= 43 y = -6 }
 				quadTextureSprite = "GFX_macro_land_tab_mercenaries"
-				shortcut = "m"
+				shortcut = "s"
 			}
 			guiButtonType = {
 				name = "land_templates_button"
 				position = { x= 94 y = -6 }
 				quadTextureSprite ="GFX_macro_land_tab_templates"
-				shortcut = "t"
+				shortcut = "d"
 			}
 		}
 		#################################
@@ -1888,22 +1888,22 @@ guiTypes = {
 				buttonFont = "vic_18_black"
 			}
 			
-			##### Mercenary Infantry #####
+			##### Cost #####
 			iconType = {
-				name = "merc_infantry_icon"
-				position = { x=216 y = 130 }
-				spriteType ="GFX_infantry_icon"
+				name = "money_icon"
+				position = { x=218 y = 185 }
+				spriteType ="GFX_icon_gold"
 			}
 
 			instantTextBoxType={
-				name = "merc_infantry_amount"
-				position = {x = 260 y = 143 }
+				name = "1_time_cost"
+				position = {x = 268 y = 180 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}	
-				maxWidth = 64
+				maxWidth = 105
 				maxHeight = 18
-				text = "12"
-				format = center
+				text = "ONE_TIME_COST"
+				format = left
 			}
 
 			instantTextBoxType={
@@ -2391,7 +2391,7 @@ guiTypes = {
 		
 		instantTextBoxType={
 			name = "force_limit"
-			position = {x = 25 y = 526 }
+			position = {x = 28 y = 526 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 380
@@ -2401,7 +2401,7 @@ guiTypes = {
 		
 		instantTextBoxType={
 			name = "units_in_production"
-			position = {x = 25 y = 543 }
+			position = {x = 28 y = 543 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 380
@@ -2463,37 +2463,37 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "status_button"
-				position = { x= 89 y = 9 }
+				position = { x= 59 y = 9 }
 				quadTextureSprite ="GFX_sort_states_status"
 			}
 
 			guiButtonType = {
 				name = "provinces_button"
-				position = { x= 130 y = 9 }
+				position = { x= 95 y = 9 }
 				quadTextureSprite ="GFX_sort_states_provinces"
 			}
 
 			guiButtonType = {
-				name = "development_button"
-				position = { x= 171 y = 9 }
+				name = "development_button_top"
+				position = { x= 128 y = 9 }
 				quadTextureSprite ="GFX_sort_state_development"
 			}
 
 			guiButtonType = {
 				name = "income_button"
-				position = { x= 212 y = 9 }
+				position = { x= 165 y = 9 }
 				quadTextureSprite ="GFX_sort_states_income"
 			}
 
 			guiButtonType = {
 				name = "prosperity_button"
-				position = { x= 253 y = 9 }
+				position = { x= 203 y = 9 }
 				quadTextureSprite ="GFX_sort_states_prosperity"
 			}
 
 			smoothListboxType = {
 				name ="listbox"
-				position = { x = -35 y = 30 }
+				position = { x = -35 y = 34 }
 				backGround=""
 				size = { x= 393 y = 415 }
 				horizontal = 0
@@ -2646,7 +2646,7 @@ guiTypes = {
 			maxWidth = 200
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 			fixedsize = yes
 			truncate = yes
 		}	
@@ -2660,7 +2660,7 @@ guiTypes = {
 			maxWidth =64
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		instantTextBoxType = {
 			name = "cav"
@@ -2671,7 +2671,7 @@ guiTypes = {
 			maxWidth =64
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		instantTextBoxType = {
 			name = "art"
@@ -2682,7 +2682,7 @@ guiTypes = {
 			maxWidth =64
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 	
@@ -2712,7 +2712,7 @@ guiTypes = {
 			maxWidth = 200
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 			fixedsize = yes
 			truncate = yes
 		}	
@@ -2726,7 +2726,7 @@ guiTypes = {
 			maxWidth =64
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		instantTextBoxType = {
 			name = "light"
@@ -2737,7 +2737,7 @@ guiTypes = {
 			maxWidth =64
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		instantTextBoxType = {
 			name = "galley"
@@ -2748,7 +2748,7 @@ guiTypes = {
 			maxWidth =64
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		instantTextBoxType = {
 			name = "transport"
@@ -2759,7 +2759,7 @@ guiTypes = {
 			maxWidth =64
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 
@@ -2778,7 +2778,7 @@ guiTypes = {
 			name ="improve_relations_BG"
 			spriteType = "GFX_macro_diplomacy_slot"
 			position = { x= -20 y = 0 }
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}			
 
 		instantTextBoxType = {
@@ -2857,7 +2857,7 @@ guiTypes = {
 			maxHeight = 20	
 			format = center
 			fixedsize = yes
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		
@@ -2879,7 +2879,7 @@ guiTypes = {
 			maxHeight = 20
 			format = left
 			fixedsize = yes
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
@@ -2892,7 +2892,7 @@ guiTypes = {
 			maxHeight = 20
 			format = left
 			fixedsize = yes
-			allwaystransparent = yes
+			alwaystransparent = yes
 			orientation = "UPPER_RIGHT"
 		}
 
@@ -2900,7 +2900,7 @@ guiTypes = {
 			name ="modifier_1_icon"
 			spriteType = ""
 			position = { x = -128 y = 23 }
-			allwaystransparent = yes
+			alwaystransparent = yes
 			orientation = "UPPER_RIGHT"
 			spriteType = "GFX_idea_unknown"
 			scale = 0.5
@@ -2916,7 +2916,7 @@ guiTypes = {
 			maxHeight = 20
 			format = left
 			fixedsize = yes
-			allwaystransparent = yes
+			alwaystransparent = yes
 			orientation = "UPPER_RIGHT"
 		}
 
@@ -2924,7 +2924,7 @@ guiTypes = {
 			name ="modifier_2_icon"
 			spriteType = ""
 			position = { x = -35 y = 23 }
-			allwaystransparent = yes
+			alwaystransparent = yes
 			orientation = "UPPER_RIGHT"
 			spriteType = "GFX_idea_unknown"
 			scale = 0.5
@@ -2940,7 +2940,7 @@ guiTypes = {
 			maxHeight = 20
 			format = left
 			fixedsize = yes
-			allwaystransparent = yes
+			alwaystransparent = yes
 			orientation = "UPPER_RIGHT"
 		}
 
@@ -2948,7 +2948,7 @@ guiTypes = {
 			name ="modifier_3_icon"
 			spriteType = ""
 			position = { x = -128 y = 48 }
-			allwaystransparent = yes
+			alwaystransparent = yes
 			orientation = "UPPER_RIGHT"
 			spriteType = "GFX_idea_unknown"
 			scale = 0.5
@@ -2964,7 +2964,7 @@ guiTypes = {
 			maxHeight = 20
 			format = left
 			fixedsize = yes
-			allwaystransparent = yes
+			alwaystransparent = yes
 			orientation = "UPPER_RIGHT"
 		}
 
@@ -2972,7 +2972,7 @@ guiTypes = {
 			name ="modifier_4_icon"
 			spriteType = ""
 			position = { x = -35 y = 48 }
-			allwaystransparent = yes
+			alwaystransparent = yes
 			orientation = "UPPER_RIGHT"
 			spriteType = "GFX_idea_unknown"
 			scale = 0.5
@@ -2989,7 +2989,7 @@ guiTypes = {
 			format = left
 			vertical_alignment = bottom
 			fixedsize = yes
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
@@ -3003,7 +3003,7 @@ guiTypes = {
 			format = left
 			vertical_alignment = bottom
 			fixedsize = yes
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 
@@ -3059,7 +3059,7 @@ guiTypes = {
 			maxHeight = 20	
 			format = left
 			fixedsize = yes
-			allwaystransparent = yes
+			alwaystransparent = yes
 			orientation = "LOWER_RIGHT"
 		}		
 		
@@ -3067,7 +3067,7 @@ guiTypes = {
 			name ="infantry_count_icon"
 			spriteType = "GFX_infantry_icon"
 			position = { x = -305 y = -38 }
-			allwaystransparent = yes
+			alwaystransparent = yes
 			orientation = "LOWER_RIGHT"
 			scale = 0.7
 		}
@@ -3082,7 +3082,7 @@ guiTypes = {
 			maxHeight = 20	
 			format = left
 			fixedsize = yes
-			allwaystransparent = yes
+			alwaystransparent = yes
 			orientation = "LOWER_RIGHT"
 		}		
 		
@@ -3090,7 +3090,7 @@ guiTypes = {
 			name ="cavalry_count_icon"
 			spriteType = "GFX_cavalry_icon"
 			position = { x = -210 y = -38 }
-			allwaystransparent = yes
+			alwaystransparent = yes
 			orientation = "LOWER_RIGHT"
 			scale = 0.7
 		}
@@ -3105,7 +3105,7 @@ guiTypes = {
 			maxHeight = 20	
 			format = left
 			fixedsize = yes
-			allwaystransparent = yes
+			alwaystransparent = yes
 			orientation = "LOWER_RIGHT"
 		}		
 		
@@ -3113,7 +3113,7 @@ guiTypes = {
 			name ="artillery_count_icon"
 			spriteType = "GFX_artillery_icon"
 			position = { x = -123 y = -38 }
-			allwaystransparent = yes
+			alwaystransparent = yes
 			orientation = "LOWER_RIGHT"
 			scale = 0.7
 		}
@@ -3128,7 +3128,6 @@ guiTypes = {
 			maxHeight = 20	
 			format = left
 			fixedsize = yes
-			allwaystransparent = yes
 			orientation = "LOWER_RIGHT"
 		}		
 		
@@ -3136,7 +3135,6 @@ guiTypes = {
 			name = "manpower_icon"
 			spriteType ="GFX_icon_manpower"	
 			position = { x = -28 y = -38 }
-			allwaystransparent = yes
 			orientation = "LOWER_RIGHT"
 		}
 	}
@@ -3145,7 +3143,7 @@ guiTypes = {
 		name = "states_tab_administration_entry"
 		backGround=""
 		position = { x=0 y =0}	
-		size = { x=330 y = 36}
+		size = { x=345 y = 40}
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -3226,6 +3224,18 @@ guiTypes = {
 		}
 
 		guiButtonType = {
+			name = "concentrate_development"
+			quadTextureSprite = "GFX_concentrate_development"
+			position = { x = 270 y = 1 }
+		}
+		
+		guiButtonType = {
+			name = "centralize_state"
+			quadTextureSprite = "GFX_centralize_state_button"
+			position = { x = 300 y = 1 }
+		}
+
+		guiButtonType = {
 			name = "abandon_state"
 			quadTextureSprite = "GFX_abandon_state_button"
 			position = { x = 330 y = 0 }
@@ -3258,7 +3268,6 @@ guiTypes = {
 		iconType = {
 			name = "background"
 			position = { x = -2 y = 0 }
-			allwaystransparent = yes
 			quadTextureSprite = "GFX_macrobuild_entry_frame_390"
 		}
 		
@@ -3314,7 +3323,7 @@ guiTypes = {
 		iconType = {
 			name = "background"
 			position = { x = -4 y = -3 }
-			allwaystransparent = yes
+			alwaystransparent = yes
 			quadTextureSprite = "GFX_states_tab_delegate_administration_entry"
 		}
 		

@@ -105,7 +105,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
-			text = "Stability"
+			text = "stability"
 			maxWidth = 130
 			maxHeight = 32
 			format = left
@@ -200,7 +200,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "overex_progress_value"
-			#position = { x = 282 y = 226 }
 			position = { x = 282 y = 229 } #kryo
 			textureFile = ""
 			font = "vic_22"
@@ -452,7 +451,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "administrative_efficiency_value"
-			#position = { x = 212 y = 258 }
 			position = { x = 212 y = 259 } #kryo
 			textureFile = ""
 			font = "vic_18"
@@ -541,7 +539,7 @@ guiTypes = {
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
-			text = "States"	
+			text = "States"
 			maxWidth = 96
 			maxHeight = 24
 			format = left
@@ -565,7 +563,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "sub_title"
-			#position = { x = 171 y = 352 }
 			position = { x = 55 y = 354 } #kryo
 			textureFile = ""
 			font = "vic_18s" #kryo
@@ -653,8 +650,8 @@ guiTypes = {
 			position = { x = 292 y = 354 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 4 y = 4}	
-			text = "CV_BREAK_COUNTRY"	
+			borderSize = {x = 4 y = 4}
+			text = "CV_BREAK_COUNTRY"
 			maxWidth = 140
 			maxHeight = 32
 			format = left
@@ -720,8 +717,8 @@ guiTypes = {
 				name ="sort_overext_tax"
 				quadTextureSprite = "GFX_sort_62_dev"
 				position = { x = 114 y = 46 }
-				buttonFont = "vic_18"
-				buttonText = "LEDGER_DEVELOPMENT"
+#				buttonFont = "vic_18"
+#				buttonText = "LEDGER_DEVELOPMENT"
 				pdx_tooltip = "SORT_BY_DEVELOPMENT"
 				pdx_tooltip_delayed = ""
 			}
@@ -760,8 +757,8 @@ guiTypes = {
 				name ="sort_cores"
 				quadTextureSprite = "GFX_sort_79_core"
 				position = { x = 404 y = 46 }
-				buttonFont = "vic_18"
-				buttonText = "GIVE_UP_CORES"
+#				buttonFont = "vic_18"
+#				buttonText = "GIVE_UP_CORES"
 				pdx_tooltip = "GIVE_UP_CORES"
 				pdx_tooltip_delayed = ""
 			}
@@ -782,7 +779,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "back"
 				position = { x= 4 y = 216 }
-				quadTextureSprite ="GFX_button_straight_87_32"	
+				quadTextureSprite ="GFX_button_straight_87_32"
 				buttonText = "BACK"
 				buttonFont = "vic_18"
 				shortcut = "z"
@@ -1218,11 +1215,10 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "progress_target_name"
-			#position = { x = 42 y = 32 }
 			position = { x = 42 y = 35 } #kryo
 			font = "vic_18"
-			#borderSize = {x = 4 y = 4}	
-			text = "Independance for Gotland"	
+			#borderSize = {x = 4 y = 4}
+			text = "Independance for Gotland"
 			maxWidth = 273
 			maxHeight = 16
 			format = left
@@ -1599,7 +1595,7 @@ guiTypes = {
 			maxHeight = 22
 			fixedsize = yes
 			format = centre
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 	}
@@ -1636,7 +1632,7 @@ guiTypes = {
 			maxHeight = 22
 			fixedsize = yes
 			format = centre
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 
@@ -1672,7 +1668,7 @@ guiTypes = {
 			maxHeight = 22
 			fixedsize = yes
 			format = centre
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 
@@ -1681,13 +1677,13 @@ guiTypes = {
 	name = "demand_entry"
 	backGround=""
 	position = { x= 0 y=0 }
-	size = { x=245 y= 20 }
+	size = { x=245 y= 75 }
 	moveable = 0
 	dontRender = ""
 	horizontalBorder= ""
 	verticalBorder= ""
 	fullScreen = no
-	#allwaystransparent = yes
+	#alwaystransparent = yes
 
 	instantTextBoxType = {
 		name = "demand_text"
@@ -1696,11 +1692,11 @@ guiTypes = {
 		font = "vic_18"
 		borderSize = {x = 0 y = 0}
 		text = ""
-		maxWidth = 245
-		maxHeight = 20
+		maxWidth = 200
+		maxHeight = 70
 		format = left
 		fixedsize = yes
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 }
 

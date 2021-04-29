@@ -67,7 +67,7 @@ guiTypes = {
 			position = { x= 13 y = 15 }
 			Orientation = "UPPER_LEFT"
 			frame = 2
-			allwaystransparent = yes			
+			alwaystransparent = yes			
 		}	
 
 
@@ -101,7 +101,7 @@ guiTypes = {
 			spriteType = "GFX_no_peace"
 			position = { x= 1 y = 15 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes			
+			alwaystransparent = yes			
 		}
 
 
@@ -464,7 +464,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "summary"
-			#position = { x = 220 y = 350 }
 			position = { x = 220 y = 353 } #kryo
 			textureFile = ""
 			font = "vic_18s" #kryo
@@ -594,7 +593,6 @@ guiTypes = {
 ##############################################
 		instantTextBoxType = {
 			name = "offer_score_label"
-			#position = { x = 265 y = 498 }
 			position = { x = 265 y = 500 } #kryo
 			textureFile = ""
 			font = "vic_22"
@@ -607,7 +605,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "offer_score"
-			#position = { x = 317 y = 498 }
 			position = { x = 317 y = 500 } #kryo
 			textureFile = ""
 			font = "vic_22"
@@ -636,7 +633,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "war_name"
-			#position = { x = 100 y = 15 }
 			position = { x = 100 y = 18 } #kryo
 			textureFile = ""
 			font = "vic_18s" #kryo
@@ -656,7 +652,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "warscore"
-			#position = { x = 262 y = 60 }
 			position = { x = 262 y = 58 } #kryo
 			textureFile = ""
 			font = "vic_22s" #kryo
@@ -669,7 +664,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "warscore_label"
-			#position = { x = 178 y = 57 }
 			position = { x = 178 y = 58 } #kryo
 			textureFile = ""
 			font = "vic_22s" #kryo

@@ -74,7 +74,6 @@ guiTypes = {
 			name = "incomes_listbox"
 			backGround = ""
 			position = { x=40 y=145 }
-			position = { x=40 y=145 }
 			size = { x=180 y=300 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
@@ -92,7 +91,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "incomes_total_text"
-			#position = { x = 38 y =373 }
 			position = { x = 38 y =375 } #kryo
 			textureFile = ""
 			font = "vic_22"
@@ -105,7 +103,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "incomes_total"
-			#position = { x = 143 y =373 }
 			position = { x = 143 y =375 } #kryo
 			textureFile = ""
 			font = "vic_22"
@@ -153,7 +150,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "expences_total_text"
-			#position = { x = 283 y =398 }
 			position = { x = 283 y =400 } #kryo
 			textureFile = ""
 			font = "vic_22"
@@ -166,7 +162,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "expenses_total"
-			#position = { x = 388 y =398 }
 			position = { x = 388 y =400 } #kryo
 			textureFile = ""
 			font = "vic_22"
@@ -199,7 +194,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "balance"
-			#position = { x = 380 y =441 }
 			position = { x = 380 y =442 } #kryo
 			textureFile = ""
 			font = "vic_36"
@@ -335,7 +329,7 @@ guiTypes = {
 			maxWidth = 100
 			maxHeight = 32
 			format = right
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}		
 		
 		guiButtonType =
@@ -366,7 +360,6 @@ guiTypes = {
 			quadTextureSprite= "GFX_raise_war_tax"
 			position = { x= 43 y = 396 }
 			Orientation = "LOWER_LEFT"
-
 			buttonFont = "vic_18"
 			clicksound = war_taxes
 			hint_tag = "hint_wartaxes"
@@ -390,12 +383,8 @@ guiTypes = {
 			position = { x= 135 y = 396 }
 			Orientation = "LOWER_LEFT"
  			buttonFont = "vic_18"		
-
-
-
 		}
 		
-
 		################################################################################################
 		### --- Repay loan window
 		

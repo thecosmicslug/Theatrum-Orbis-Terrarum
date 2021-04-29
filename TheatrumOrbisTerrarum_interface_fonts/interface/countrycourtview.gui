@@ -81,9 +81,19 @@ guiTypes = {
 			clicksound = back_click
 		}			
 
+		guiButtonType = {
+			name = "extend_regency_button"
+			position = { x= 440	y = 139 }
+			quadTextureSprite ="GFX_abdicate_button"	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}			
+
 		instantTextBoxType = {
 			name = "monarch_title"
-			#position = { x = 35 y = 118 }
 			position = { x = 35 y = 115 } #kryo
 			textureFile = ""
 			font = "vic_18s" #kryo
@@ -111,7 +121,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "monarch_adm_value"
-			#position = { x = 28 y = 148 }
 			position = { x = 28 y = 142 } #kryo
 			textureFile = ""
 			font = "vic_22s" #kryo
@@ -133,7 +142,6 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "monarch_dip_value"
-			#position = { x = 78 y = 148 }
 			position = { x = 78 y = 142 } #kryo
 			textureFile = ""
 			font = "vic_22s" #kryo
@@ -155,7 +163,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "monarch_mil_value"
-			#position = { x = 128 y = 148 }
 			position = { x = 128 y = 142 } #kryo
 			textureFile = ""
 			font = "vic_22s" #kryo
@@ -212,7 +219,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "monarch_heir_name"
-			#position = { x = 35 y = 181 }
 			position = { x = 35 y = 179 } #kryo
 			textureFile = ""
 			font = "vic_18s" #kryo
@@ -380,7 +386,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "monarch_queen_name"
-			#position = { x = 35 y = 244 }
 			position = { x = 35 y = 242 } #kryo
 			textureFile = ""
 			font = "vic_18s"
@@ -502,7 +507,7 @@ guiTypes = {
 			spacing = 2.5
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 
@@ -783,7 +788,7 @@ guiTypes = {
 			position = { x= -13 y = 10 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.9
-			allwaystransparent = yes
+			alwaystransparent = yes
 			frame = 17
 		}
 
@@ -845,7 +850,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "ability_skill"
-			#position = { x = 445 y = 4 }
 			position = { x = 445 y = 5 } #kryo
 			textureFile = ""
 			font = "vic_36"
@@ -875,7 +879,7 @@ guiTypes = {
 			maxWidth = 125
 			maxHeight = 32
 			format = center
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}	
 
 		guiButtonType = 
@@ -979,7 +983,7 @@ guiTypes = {
 			position = { x= -37 y = 8 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.9
-			allwaystransparent = yes
+			alwaystransparent = yes
 			frame = 17
 		}
 

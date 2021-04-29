@@ -755,7 +755,58 @@ guiTypes = {
 				delayedTooltipText = ""
 				buttonText = "MESSAGE_BUTTON_CLEAR"
 				buttonFont = "vic_18"
-			}		
+			}
+
+			guiButtonType = {
+				name = "messageicon_pause_all"
+				position = { x=544 y =146 }
+				quadTextureSprite ="GFX_messageicon_pause"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonFont = "Main_14_black"
+			}
+			
+			guiButtonType = {
+				name = "messageicon_dialog_all"
+				position = { x=562 y =146 }
+				quadTextureSprite ="GFX_messageicon_dialog"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonFont = "Main_14_black"
+			}
+			
+			guiButtonType = {
+				name = "messageicon_icon_all"
+				position = { x=580 y =144}
+				quadTextureSprite ="GFX_mailbox_icon"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonFont = "Main_14_black"
+			}
+			
+			guiButtonType = {
+				name = "messageicon_log_all"
+				position = { x=604 y =145}
+				quadTextureSprite ="GFX_messageicon_log"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonFont = "Main_14_black"
+			}
+
+			guiButtonType = {
+				name = "messageicon_map_all"
+				position = { x=624 y =145}
+				quadTextureSprite ="GFX_messageicon_map"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				buttonFont = "Main_14_black"
+			}
+			
 
 			#### FILTER BUTTONS ##########
 			#### Theese 4 buttons are not yet linked so they can change filter ######### 
@@ -782,6 +833,7 @@ guiTypes = {
 				text = "TO_ME"	
 				orientation = "UPPER_LEFT"
 				format = center
+				alwaystransparent = yes
 			}
 			
 			
@@ -806,6 +858,7 @@ guiTypes = {
 				text = "FROM_ME"	
 				orientation = "UPPER_LEFT"
 				format = center
+				alwaystransparent = yes
 			}
 			
 			
@@ -830,6 +883,7 @@ guiTypes = {
 				text = "INTERESTING"	
 				orientation = "UPPER_LEFT"
 				format = center
+				alwaystransparent = yes
 			}
 			
 			
@@ -854,6 +908,7 @@ guiTypes = {
 				text = "OTHERS"	
 				orientation = "UPPER_LEFT"
 				format = center
+				alwaystransparent = yes
 			}
 			
 			####
@@ -942,6 +997,7 @@ guiTypes = {
 				text = "PW_RESET"	
 				orientation = "UPPER_LEFT"
 				format = center
+				alwaystransparent = yes
 			}
 			
 			
@@ -967,6 +1023,7 @@ guiTypes = {
 				text = "MENU_BAR_CLOSE"	
 				orientation = "UPPER_LEFT"
 				format = center
+				alwaystransparent = yes
 			}
 			
 			
@@ -1275,7 +1332,7 @@ guiTypes = {
 			text = ""	
 			orientation = "UPPER_LEFT"
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		instantTextBoxType={
@@ -1288,7 +1345,7 @@ guiTypes = {
 			text = ""	
 			orientation = "UPPER_LEFT"
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		
@@ -1316,7 +1373,7 @@ guiTypes = {
 			text = ""	
 			orientation = "UPPER_LEFT"
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		instantTextBoxType={
@@ -1329,7 +1386,7 @@ guiTypes = {
 			text = ""	
 			orientation = "UPPER_LEFT"
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		
@@ -1600,7 +1657,7 @@ guiTypes = {
 			priority = 100
 			size = { x=265 y=246 }
 			borderSize = {x = 32 y = 32}
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}	
 		
 	
@@ -2128,7 +2185,7 @@ guiTypes = {
 			maxWidth = 50
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		instantTextBoxType = {
@@ -2142,7 +2199,7 @@ guiTypes = {
 			maxHeight = 10
 			format = left
 			fixedsize = yes
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		instantTextBoxType = {
@@ -2155,7 +2212,7 @@ guiTypes = {
 			maxWidth = 50
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 
@@ -2372,7 +2429,7 @@ guiTypes = {
 			
 
 			font = "garamond_14"
-			allwaystransparent = yes
+			alwaystransparent = yes
 
 			borderSize = {x = 0 y = 0}
 			text = ""	

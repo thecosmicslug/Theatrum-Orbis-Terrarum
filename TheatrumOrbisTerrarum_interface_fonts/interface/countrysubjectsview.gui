@@ -69,7 +69,7 @@ guiTypes = {
 			name = "interaction_icon"
 			spriteType = "GFX_support_loyalists_button_icon"
 			position = { x= 0 y = 0 }
-			Orientation = "CENTER_LEFT"
+			Orientation = "UPPER_LEFT"
 		}
 	}
 
@@ -862,11 +862,11 @@ guiTypes = {
 				name ="subject_actions_bg"
 				if_resolution = {
 					max_height = 1079
-					spriteType = "GFX_subjects_extension_bg"
+					spriteType = "GFX_subjects_extension_bg_new"
 				}
 				if_resolution = {
 					min_height = 1080
-					spriteType = "GFX_subjects_extension_bg_huge"
+					spriteType = "GFX_subjects_extension_bg_huge_new"
 				}
 				position = { x= 0 y = 0 }
 				Orientation = "UPPER_LEFT"
@@ -916,6 +916,7 @@ guiTypes = {
 				maxHeight = 32
 				Orientation = "UPPER_LEFT"
 				text = "INTERACTIONS"
+				fixedsize = yes
 			}
 
 			iconType = {
@@ -1119,6 +1120,26 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "legitimacy_value"
 				position = { x = 46 y = 128 }
+				format = right
+				font = "vic_22"
+				text = "100"
+				maxWidth = 70
+				maxHeight = 32
+				Orientation = "UPPER_LEFT"
+				fixedsize = yes
+			}
+
+			iconType =
+			{
+				name ="governing_capacity_icon"
+				spriteType = "GFX_governing_capacity"
+				position = { x= 22 y = 156 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			instantTextBoxType = {
+				name = "governing_capacity_value"
+				position = { x = 46 y = 158 }
 				format = right
 				font = "vic_22"
 				text = "100"

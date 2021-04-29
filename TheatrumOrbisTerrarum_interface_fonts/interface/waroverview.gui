@@ -233,7 +233,6 @@ guiTypes = {
 		}
 		
 		instantTextBoxType= {
-			#position = {x = 202 y = 58 }
 			position = {x = 202 y = 60 } #kryo
 			name = "startofwar"
 			font = "Arial12" #kryo

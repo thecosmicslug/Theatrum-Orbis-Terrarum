@@ -64,7 +64,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "unique_ideas_idea_title"
-			#position = { x = 85 y = 128 }
 			position = { x = 92 y = 128 } #kryo
 			textureFile = ""
 			font = "vic_18s" #kryo
@@ -393,7 +392,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "ideas_idea_title"
-			#position = { x = 30 y = 6 }
 			position = { x = 30 y = 4 } #kryo
 			textureFile = ""
 			font = "vic_18s" #kryo vic_18
@@ -621,7 +619,7 @@ guiTypes = {
 			maxWidth = 220
 			maxHeight = 32
 			format = centre
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}			
 	}	
 	
@@ -665,7 +663,6 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "ideas_idea_title"
-			#position = { x = 45 y = 8 }
 			position = { x = 45 y = 6 } #kryo
 			textureFile = ""
 			font = "vic_18"
