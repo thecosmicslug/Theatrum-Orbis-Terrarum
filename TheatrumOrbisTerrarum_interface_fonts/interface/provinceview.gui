@@ -1354,7 +1354,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "defensiveness_value"
-				position = { x = 310 y = 408 }
+				position = { x = 364 y = 408 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 4}
@@ -2400,7 +2400,7 @@ guiTypes = {
 			{
 				name = "supply_depots"
 				spriteType = "GFX_supply_depots_icon"
-				position = { x = 306 y = 8 }
+				position = { x = 283 y = 8 }
 			}
 
 
@@ -2436,14 +2436,14 @@ guiTypes = {
 			{
 				name = "abandon_state"
 				quadTextureSprite = "GFX_abandon_state_button"
-				position = { x = 372 y = 6 }
+				position = { x = 378 y = 9 }
 			}
 
 			guiButtonType =
 			{
 				name = "core_all"
 				quadTextureSprite = "GFX_core_all_button"
-				position = { x = 408 y = 6 }
+				position = { x = 408 y = 9 }
 			}
 
 
@@ -2809,7 +2809,7 @@ guiTypes = {
 				{
 					name ="provinceview_building_bg"
 					spriteType = "GFX_provinceview_building_bg"
-					position = { x= -3 y = 116 }
+					position = { x= -3 y = 115 }
 				}
 
 				instantTextBoxType = {
@@ -2841,7 +2841,7 @@ guiTypes = {
 			windowType = {
 				name = "province_values_window"
 				backGround=""
-				position = { x=0 y=0 }
+				position = { x=4 y=-106 }
 				size = { x=475 y=480 }
 				dontRender = ""
 				horizontalBorder= ""
@@ -2892,13 +2892,13 @@ guiTypes = {
 				{
 					name ="naval_forcelimit_icon"
 					spriteType = "GFX_naval_forcelimit_icon"
-					position = { x= 38 y = 437 }
+					position = { x= 33 y = 542 }
 					Orientation = "UPPER_LEFT"
 				}
 
 				instantTextBoxType = {
 					name = "naval_forcelimit_value"
-					position = { x = 53 y = 440 }
+					position = { x = 72 y = 547 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 2 y = 2}
@@ -2912,13 +2912,13 @@ guiTypes = {
 				{
 					name ="land_forcelimit_icon"
 					spriteType = "GFX_land_forcelimit_icon"
-					position = { x= 133 y = 437 }
+					position = { x= 130 y = 542 }
 					Orientation = "UPPER_LEFT"
 				}
 
 				instantTextBoxType = {
 					name = "land_forcelimit_value"
-					position = { x = 150 y = 440 }
+					position = { x = 148 y = 547 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 2 y = 2}
@@ -3044,7 +3044,7 @@ guiTypes = {
 				{
 					name ="build_allowed_icon"
 					spriteType = "GFX_technologyView_show_buildings"
-					position = { x= 35 y = 390 }
+					position = { x= 32 y = 495 }
 					Orientation = "UPPER_LEFT"
 				}
 
@@ -3319,7 +3319,7 @@ guiTypes = {
 					{
 						name ="naval_forcelimit_icon"
 						spriteType = "GFX_naval_forcelimit_icon"
-						position = { x= 30 y = 634 }
+						position = { x= 30 y = 633 }
 						Orientation = "UPPER_LEFT"
 					}
 
@@ -3339,7 +3339,7 @@ guiTypes = {
 					{
 						name ="land_forcelimit_icon"
 						spriteType = "GFX_land_forcelimit_icon"
-						position = { x= 120 y = 634 }
+						position = { x= 120 y = 633 }
 						Orientation = "UPPER_LEFT"
 					}
 
@@ -3364,14 +3364,14 @@ guiTypes = {
 					{
 						name ="governing_capacity_icon"
 						spriteType = "GFX_governing_capacity"
-						position = { x= 205 y = 590  }
+						position = { x= 205 y = 588  }
 						Orientation = "UPPER_LEFT"
 						scale = 0.75
 					}
 					
 					instantTextBoxType = {
 						name = "capacity_value"
-						position = { x = 245 y = 600 }
+						position = { x = 237 y = 600 }
 						textureFile = ""
 						font = "vic_18"
 						borderSize = {x = 2 y = 2}
@@ -3385,7 +3385,7 @@ guiTypes = {
 					{
 						name ="build_allowed_icon"
 						spriteType = "GFX_technologyView_show_buildings"
-						position = { x= 210 y = 634 }
+						position = { x= 210 y = 632 }
 						Orientation = "UPPER_LEFT"
 					}
 
@@ -3586,13 +3586,13 @@ guiTypes = {
 					{
 						name ="governing_capacity_icon"
 						spriteType = "GFX_governing_capacity"
-						position = { x= 220 y = 634  }
+						position = { x= 212 y = 599 }
 						Orientation = "UPPER_LEFT"
 					}
 					
 					instantTextBoxType = {
 						name = "capacity_value"
-						position = { x = 260 y = 638 }
+						position = { x = 245 y = 600 }
 						textureFile = ""
 						font = "vic_18"
 						borderSize = {x = 2 y = 2}
@@ -3720,7 +3720,7 @@ guiTypes = {
 			listboxType = {
 				name = "institutions"
 				position = { x= 26 y = 178 }
-				size = { x = 256 y = 420 }
+				size = { x = 256 y = 480 }
 				Orientation = "UPPER_LEFT"
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -4423,7 +4423,7 @@ guiTypes = {
 			maxWidth = 125
 			maxHeight = 20
 			fixedsize = yes
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 	}
@@ -4946,7 +4946,7 @@ guiTypes = {
 		instantTextBoxType =
 		{
 			name = "building_name"
-			position = { x = 70 y = 10 }
+			position = { x = 70 y = 0 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "BUILDING_NAME"
@@ -4958,11 +4958,11 @@ guiTypes = {
 		instantTextBoxType =
 		{
 			name = "building_cost"
-			position = { x = -14 y = 10 }
+			position = { x = 215 y = 0 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "CAT"
-			maxWidth = 375
+			maxWidth = 145
 			maxHeight = 64
 			format = right
 		}
@@ -4970,7 +4970,7 @@ guiTypes = {
 		instantTextBoxType =
 		{
 			name = "building_effect"
-			position = { x = 70 y = 30 }
+			position = { x = 70 y = 15 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "BUILDING_EFFECT"
@@ -6553,9 +6553,9 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "progress_label"
-			position = { x = 72 y = 25}
+			position = { x = 72 y = 23}
 			textureFile = ""
-			font = "vic_18s"
+			font = "vic_22s"
 			borderSize = {x = 2 y = 2}
 			text = "..."
 			maxWidth = 180
@@ -6789,8 +6789,8 @@ guiTypes = {
 			listboxType = {
 				name = "edicts_listbox"
 				backGround = ""
-				position = { x = 500 y = 0 }
-				size = { x = 380 y = 450 }
+				position = { x = 500 y = 20 }
+				size = { x = 380 y = 430 }
 				horizontal = 0
 				scrollbartype = "standardlistbox_slider"
 				borderSize = {x = 0 y = 0}

@@ -83,7 +83,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "decisions_label"
-				position = { x = 174 y = 4 }
+				position = { x = 174 y = 2 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -147,7 +147,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "adm_cost"
-				position = { x = 46 y = 54 }
+				position = { x = 46 y = 52 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -160,7 +160,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "dip_cost"
-				position = { x = 46 y = 99 }
+				position = { x = 46 y = 97 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -173,7 +173,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "mil_cost"
-				position = { x = 46 y = 146 }
+				position = { x = 46 y = 144 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -186,7 +186,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "adm_capacity"
-				position = { x = 46 y = 32 }
+				position = { x = 46 y = 30 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -199,7 +199,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "dip_capacity"
-				position = { x = 46 y = 77 }
+				position = { x = 46 y = 75 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -212,7 +212,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "mil_capacity"
-				position = { x = 46 y = 124 }
+				position = { x = 46 y = 122 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -247,7 +247,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "modifiers_title"
-				position = { x = 109 y = 174 }
+				position = { x = 109 y = 172 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"
@@ -286,7 +286,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "decisions_label"
-				position = { x = 159 y = 30 }
+				position = { x = 159 y = 28 }
 				format = centre
 				textureFile = ""
 				font = "vic_22"

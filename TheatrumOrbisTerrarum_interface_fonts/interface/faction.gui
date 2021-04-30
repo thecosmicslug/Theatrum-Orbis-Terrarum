@@ -158,10 +158,10 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "faction_label"
-			position = { x = 0 y =22 }
+			position = { x = 0 y =20 }
 			format = centre
 			textureFile = ""
-			font = "vic_22s" # kryo
+			font = "vic_29s"
 			borderSize = {x = 4 y = 4}
 			text = "FACTIONS_TITLE"	
 			maxWidth = 584
@@ -238,7 +238,7 @@ guiTypes = {
 			
 		instantTextBoxType = {
 			name = "faction_value"
-			position = { x= 460 y = 99 } #kryo
+			position = { x= 460 y = 95 }
 			font = "vic_22"
 			borderSize = {x = 1 y = 1}
 			text = "11"	
@@ -255,8 +255,8 @@ guiTypes = {
 			}
 		instantTextBoxType = {
 			name = "faction_label"
-			position = { x= 170 y = 35 } #kryo
-			font = "vic_18s" #kryo
+			position = { x= 170 y = 33 }
+			font = "vic_22"
 			borderSize = {x = 1 y = 1}
 			text = "The Test Faction"	
 			maxWidth = 225

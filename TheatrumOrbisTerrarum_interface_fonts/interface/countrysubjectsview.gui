@@ -318,7 +318,7 @@ guiTypes = {
 		{
 			name ="subjectspanel_bg_top"
 			spriteType = "GFX_country_diplomacy_view_bg_top"
-			position = { x= -7 y = -10 }
+			position = { x= -4 y = -10 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -342,7 +342,7 @@ guiTypes = {
 		smoothListboxType = {
 			name = "subjects_listbox"
 			backGround = ""
-			position = { x=18 y=160 }
+			position = { x=20 y=160 }
 			size = { x=500 y=242 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
@@ -891,14 +891,14 @@ guiTypes = {
 			smoothListboxType = {
 				name = "list"
 				backGround = ""
-				position = { x = 12 y = 210 }
+				position = { x = 12 y = 240 }
 				if_resolution = {
 					max_height = 1079
-					size = { x = 255 y = 216 }
+					size = { x = 255 y = 183 }
 				}
 				if_resolution = {
 					min_height = 1080
-					size = { x = 255 y = 396 }
+					size = { x = 255 y = 363 }
 				}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
@@ -948,7 +948,7 @@ guiTypes = {
 			{
 				name ="focus_select_button_no_focus"
 				quadTextureSprite= "GFX_subject_focus"
-				position = { x = 15 y = 162 }
+				position = { x = 15 y = 190 }
 				Orientation = "UPPER_LEFT"
 				frame = 1
 			}
@@ -957,7 +957,7 @@ guiTypes = {
 			{
 				name ="focus_select_button_supportive"
 				quadTextureSprite= "GFX_subject_focus"
-				position = { x = 60 y = 162 }
+				position = { x = 60 y = 190 }
 				Orientation = "UPPER_LEFT"
 				frame = 3
 			}
@@ -966,7 +966,7 @@ guiTypes = {
 			{
 				name ="focus_select_button_aggressive"
 				quadTextureSprite= "GFX_subject_focus"
-				position = { x = 105 y = 162 }
+				position = { x = 105 y = 190 }
 				Orientation = "UPPER_LEFT"
 				frame = 2
 			}
@@ -975,7 +975,7 @@ guiTypes = {
 			{
 				name ="focus_select_button_passive"
 				quadTextureSprite= "GFX_subject_focus"
-				position = { x = 150 y = 162 }
+				position = { x = 150 y = 190 }
 				Orientation = "UPPER_LEFT"
 				frame = 4
 			}
@@ -984,7 +984,7 @@ guiTypes = {
 			{
 				name ="focus_select_button_defensive"
 				quadTextureSprite= "GFX_subject_focus"
-				position = { x = 195 y = 162 }
+				position = { x = 195 y = 190 }
 				Orientation = "UPPER_LEFT"
 				frame = 5
 			}
@@ -993,7 +993,7 @@ guiTypes = {
 			{
 				name ="focus_select_button_siege"
 				quadTextureSprite= "GFX_subject_focus"
-				position = { x = 240 y = 162 }
+				position = { x = 240 y = 190 }
 				Orientation = "UPPER_LEFT"
 				frame = 6
 			}
@@ -1003,7 +1003,7 @@ guiTypes = {
 			{
 				name ="tribute_select_button_none"
 				quadTextureSprite= "GFX_subject_tribute"
-				position = { x = 15 y = 162 }
+				position = { x = 15 y = 190 }
 				Orientation = "UPPER_LEFT"
 				frame = 1
 			}
@@ -1011,7 +1011,7 @@ guiTypes = {
 			{
 				name ="tribute_select_button_cash"
 				quadTextureSprite= "GFX_subject_tribute"
-				position = { x = 60 y = 162 }
+				position = { x = 60 y = 190 }
 				Orientation = "UPPER_LEFT"
 				frame = 2
 			}
@@ -1019,7 +1019,7 @@ guiTypes = {
 			{
 				name ="tribute_select_button_adm"
 				quadTextureSprite= "GFX_subject_tribute"
-				position = { x = 105 y = 162 }
+				position = { x = 105 y = 190 }
 				Orientation = "UPPER_LEFT"
 				frame = 3
 			}
@@ -1027,7 +1027,7 @@ guiTypes = {
 			{
 				name ="tribute_select_button_dip"
 				quadTextureSprite= "GFX_subject_tribute"
-				position = { x = 150 y = 162 }
+				position = { x = 150 y = 190 }
 				Orientation = "UPPER_LEFT"
 				frame = 4
 			}
@@ -1035,7 +1035,7 @@ guiTypes = {
 			{
 				name ="tribute_select_button_mil"
 				quadTextureSprite= "GFX_subject_tribute"
-				position = { x = 195 y = 162 }
+				position = { x = 195 y = 190 }
 				Orientation = "UPPER_LEFT"
 				frame = 5
 			}
@@ -1043,7 +1043,7 @@ guiTypes = {
 			{
 				name ="tribute_select_button_manpower"
 				quadTextureSprite= "GFX_subject_tribute"
-				position = { x = 240 y = 162 }
+				position = { x = 240 y = 190 }
 				Orientation = "UPPER_LEFT"
 				frame = 6
 			}
@@ -1052,7 +1052,7 @@ guiTypes = {
 			{
 				name ="development_icon"
 				spriteType = "GFX_development_icon"
-				position = { x= 22 y = 38 }
+				position = { x= 22 y = 40 }
 				Orientation = "UPPER_LEFT"
 			}
 

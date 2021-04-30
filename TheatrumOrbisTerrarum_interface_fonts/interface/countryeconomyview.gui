@@ -91,7 +91,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "incomes_total_text"
-			position = { x = 38 y =375 } #kryo
+			position = { x = 38 y =373 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}	
@@ -103,7 +103,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "incomes_total"
-			position = { x = 143 y =375 } #kryo
+			position = { x = 143 y =373 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}	
@@ -150,7 +150,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "expences_total_text"
-			position = { x = 283 y =400 } #kryo
+			position = { x = 283 y =398 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}	
@@ -162,7 +162,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "expenses_total"
-			position = { x = 388 y =400 } #kryo
+			position = { x = 388 y =398 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}	
@@ -194,7 +194,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "balance"
-			position = { x = 380 y =442 } #kryo
+			position = { x = 380 y =441 }
 			textureFile = ""
 			font = "vic_36"
 			borderSize = {x = 4 y = 4}	

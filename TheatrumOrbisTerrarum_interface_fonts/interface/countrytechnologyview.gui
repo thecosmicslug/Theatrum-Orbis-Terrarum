@@ -68,7 +68,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "total_tech_penalty2"
-			position = { x = 63 y = 119 } #kryo
+			position = { x = 63 y = 115 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}	
@@ -113,7 +113,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "institutions_title"
-				position = { x = 52 y = -25 } #kryo
+				position = { x = 52 y = -28 }
 				textureFile = ""
 				font = "vic_18s" #kryo
 				borderSize = {x = 4 y = 4}	
@@ -136,7 +136,7 @@ guiTypes = {
 			iconType = {
 				name = "institution_red_banner"
 				spriteType ="GFX_institution_red_banner"	
-				position = { x = 21 y = 150 }
+				position = { x = 17 y = 150 }
 				orientation = "UPPER_LEFT"
 			}		
 			
@@ -341,7 +341,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "current_tech_level"
-			position = { x = 52 y = 26 } #kryo
+			position = { x = 52 y = 29 }
 			textureFile = ""
 			font = "vic_22s"
 			borderSize = {x = 4 y = 4}	
@@ -421,7 +421,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "time_value"
-			position = { x = 430 y = 32 } #kryo
+			position = { x = 430 y = 29 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}	
@@ -689,7 +689,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "current_tech_level"
-			position = { x = 52 y = 7 } #kryo
+			position = { x = 52 y = 10 }
 			textureFile = ""
 			font = "vic_22s" #kryo
 			borderSize = {x = 4 y = 4}	
@@ -766,7 +766,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "time_value"
-			position = { x = 430 y = 12 } #kryo
+			position = { x = 430 y = 9 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}	
@@ -1138,7 +1138,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "current_tech_level"
-			position = { x = 52 y = 6 } #kryo
+			position = { x = 52 y = 9 }
 			textureFile = ""
 			font = "vic_22s" #kryo
 			borderSize = {x = 4 y = 4}	
@@ -1215,7 +1215,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "time_value"
-			position = { x = 430 y = 12 } #kryo
+			position = { x = 430 y = 9 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}	
@@ -1593,7 +1593,7 @@ guiTypes = {
 		{
 			name ="item_icon"
 			spriteType = "GFX_unit_types_strip_mil_center_view"
-			position = { x= 0 y = -2 }
+			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.7
 		}	
@@ -1631,7 +1631,7 @@ guiTypes = {
 		{
 			name ="item_icon"
 			spriteType = "GFX_icon_military_tactics"
-			position = { x= 0 y = 2 }
+			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 			#scale = 0.5
 		}		
@@ -1650,7 +1650,7 @@ guiTypes = {
 		{
 			name ="item_icon"
 			spriteType = "GFX_icon_land_moral"
-			position = { x= 0 y = -2 }
+			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 		}		
@@ -1687,7 +1687,7 @@ guiTypes = {
 		{
 			name ="item_icon"
 			spriteType = "GFX_icon_naval_moral"
-			position = { x= 0 y = -2 }
+			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 		}		
@@ -1742,7 +1742,7 @@ guiTypes = {
 		{
 			name ="item_icon"
 			spriteType = "GFX_icon_trade_range"
-			position = { x= 0 y = 2 }
+			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}		
 	}
@@ -1760,7 +1760,7 @@ guiTypes = {
 		{
 			name ="item_icon"
 			spriteType = "GFX_icon_tech_range"
-			position = { x= 0 y = 2 }
+			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}		
 	}
@@ -1806,7 +1806,7 @@ guiTypes = {
 	windowType = {
 		name = "countrytechnologyview_enable_flag"
 		backGround =""
-		position = { x=0 y=0 }	
+		position = { x=2 y=0 }	
 		size = { x=32 y=32 }
 		moveable = 0
 		dontRender = ""
@@ -1816,7 +1816,7 @@ guiTypes = {
 		{
 			name ="item_icon"
 			spriteType = "GFX_icon_tech_may_study_technology"
-			position = { x= -4 y = -4 }
+			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.6
 		}		
@@ -1970,7 +1970,7 @@ guiTypes = {
 		{
 			name ="item_icon"
 			spriteType = "GFX_icon_combat_width"
-			position = { x= 0 y = 2 }
+			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}		
 	}
@@ -2061,7 +2061,7 @@ guiTypes = {
 		{
 			name ="item_button"
 			spriteType = "GFX_icon_maneuver"
-			position = { x= 0 y = 0 }
+			position = { x= -5 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
 	}

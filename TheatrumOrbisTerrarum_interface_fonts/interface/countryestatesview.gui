@@ -33,7 +33,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 48 y = -1 }
+			position = { x = 40 y = 15 }
 			textureFile = ""
 			font = "vic_18s" #kryo vic_18
 			borderSize = {x = 4 y = 4}	
@@ -62,14 +62,14 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "loyalty"
-			position = { x = 31 y = 40 }
+			position = { x = 26 y = 38 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
 			text = "5"	
 			maxWidth = 44
 			maxHeight = 15
-			format = center
+			format = left
 			fixedsize = yes			
 		}
 
@@ -83,14 +83,14 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "influence"
-			position = { x = 91 y = 40 }
+			position = { x = 85 y = 38 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
 			text = "5"	
 			maxWidth = 44
 			maxHeight = 15
-			format = center
+			format = left
 			fixedsize = yes			
 		}
 
@@ -257,7 +257,7 @@ guiTypes = {
 		name = "estate_privilege_item"
 		position = { x = 0 y = 0 }
 		show_position = { x = 0 y = 0 }
-		size = { x = 64 y = 64 }
+		size = { x = 58 y = 64 }
 		moveable = 0
 
 		guiButtonType = {
@@ -269,7 +269,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "privilege_button"
-			position = { x = 0 y = 0 }
+			position = { x = -2 y = 0 }
 			quadTextureSprite ="GFX_idea_unknown"	
 			Orientation = "UPPER_LEFT"
 		}

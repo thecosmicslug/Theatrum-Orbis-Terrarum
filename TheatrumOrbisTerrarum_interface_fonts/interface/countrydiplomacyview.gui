@@ -763,7 +763,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "monarch_heir_label"
-			position = { x = 17 y = 213 }
+			position = { x = 17 y = 243 }
 			font = "vic_18"
 			text = "HEIR"
 			maxWidth = 60
@@ -775,13 +775,13 @@ guiTypes = {
 		{
 			name ="heir_gender"
 			spriteType = "GFX_gender_icon"
-			position = { x = 15 y = 229 }
+			position = { x = 15 y = 259 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "monarch_heir_name"
-			position = { x = 32 y = 229 } #kryo
+			position = { x = 32 y = 257 }
 			textureFile = ""
 			font = "Arial12" #kryo
 			borderSize = {x = 4 y = 4}
@@ -812,7 +812,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "label_enemies"
-			position = { x = 40 y = 264 }
+			position = { x = 40 y = 312 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -826,7 +826,7 @@ guiTypes = {
 
 		OverlappingElementsBoxType = {
 				name = "enemies_box"
-				position = { x = 100 y = 260 }
+				position = { x = 100 y = 305 }
 				size = { x = 180 y = 32 }
 				Orientation = "UPPER_LEFT"
 				format = left
@@ -835,7 +835,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "label_rivals"
-			position = { x = 40 y = 302 }
+			position = { x = 40 y = 346 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -850,7 +850,7 @@ guiTypes = {
 
 		OverlappingElementsBoxType = {
 				name = "rivals_box"
-				position = { x = 100 y = 298 }
+				position = { x = 100 y = 336 }
 				size = { x = 200 y = 32 }
 				Orientation = "UPPER_LEFT"
 				format = left
@@ -860,7 +860,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "label_rivals_not_possible"
-			position = { x = 40 y = 301 }
+			position = { x = 40 y = 341 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -877,7 +877,7 @@ guiTypes = {
 		listboxType = {
 			name = "diplomatic_listbox"
 			backGround = ""
-			position = { x=30 y=335 }
+			position = { x=35 y=385 }
 			if_resolution = {
 				max_height = 867
 				size = { x=243 y=160 }
@@ -902,23 +902,23 @@ guiTypes = {
 		{
 			name ="sort_search"
 			spriteType = "GFX_country_diplomacy_view_search"
-			position = { x= 312 y = 308 }
+			position = { x= 315 y = 343 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		editBoxType = {
-			position = { x = 312 y = 309 }
+			position = { x = 325 y = 346 }
 			name = "sort_search_edit"
 			font = "vic_18"
 			borderSize = {x = 8 y = 3}
-			size = { x=200 y=32}
+			size = { x=180 y=21}
 			text = "SEARCH_FIELD_TEXT"
 			orientation = "UPPER_LEFT"
 		}
 
 		guiButtonType = {
 			name = "sort_name"
-			position = { x=315 y=366}
+			position = { x=315 y=398}
 			quadTextureSprite ="GFX_sort_94"
 			tooltip = ""
 			tooltipText =""
@@ -929,7 +929,7 @@ guiTypes = {
 		}
 		guiButtonType = {
 			name = "sort_opinion"
-			position = { x=412 y=366}
+			position = { x=412 y=398}
 			quadTextureSprite ="GFX_sort_94"
 			tooltip = ""
 			tooltipText =""
@@ -942,7 +942,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "sort_opinion_2"
-			position = { x=318 y=343}
+			position = { x=318 y=375}
 			quadTextureSprite ="GFX_ledger_income_sort_button_neighbors"
 			Orientation = "UPPER_LEFT"
 			buttonFont = "vic_18"
@@ -951,7 +951,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "sort_opinion_3"
-			position = { x=358 y=343}
+			position = { x=358 y=375}
 			quadTextureSprite ="GFX_ledger_income_sort_button_enemies"
 			Orientation = "UPPER_LEFT"
 			buttonFont = "vic_18"
@@ -960,7 +960,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "sort_opinion_4"
-			position = { x=398 y=343}
+			position = { x=398 y=375}
 			quadTextureSprite ="GFX_ledger_income_sort_button_friends"
 			Orientation = "UPPER_LEFT"
 			buttonFont = "vic_18"
@@ -969,7 +969,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "sort_opinion_5"
-			position = { x=438 y=343}
+			position = { x=438 y=375}
 			quadTextureSprite ="GFX_ledger_income_sort_button_neighbors"
 			Orientation = "UPPER_LEFT"
 			buttonFont = "vic_18"
@@ -978,7 +978,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "sort_opinion_1"
-			position = { x=478 y=343}
+			position = { x=478 y=375}
 			quadTextureSprite ="GFX_ledger_income_sort_button_clear"
 			Orientation = "UPPER_LEFT"
 			buttonFont = "vic_18"
@@ -988,9 +988,9 @@ guiTypes = {
 		listboxType =
 		{
 			name ="diploopinion_list"
-			position = { x = 300 y = 388 }
+			position = { x = 300 y = 418 }
 			backGround=""
-			size = { x= 213 y = 141}
+			size = { x= 213 y = 109}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 2
@@ -1011,7 +1011,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "show_opinions"
-			position = { x=400 y=260}
+			position = { x=400 y=297}
 			quadTextureSprite ="GFX_diplomatic_opinions_button"
 			tooltip = ""
 			tooltipText =""
@@ -1022,7 +1022,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "show_diplofeedback"
-			position = { x=440 y=260}
+			position = { x=440 y=297}
 			quadTextureSprite ="GFX_diplomatic_feedback_button"
 			tooltip = ""
 			tooltipText =""
@@ -1055,12 +1055,12 @@ guiTypes = {
 		iconType = {
 			name ="feedback_bg"
 			spriteType = "GFX_diplomacy_feedback_bg"
-			position = { x= 300 y = 310 }
+			position = { x= 305 y = 341 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType= {
-			position = { x = 316 y = 320 }
+			position = { x = 319 y = 350 }
 			name = "trust_label"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1074,21 +1074,21 @@ guiTypes = {
 		iconType = {
 			name ="diplomacy_trust_progress_bar"
 			spriteType = "GFX_diplomacy_progress_bar"
-			position = { x= 409 y = 324 }
+			position = { x= 409 y = 354 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType = {
 			name ="diplomacy_trust_progress_frame"
 			spriteType = "GFX_diplomacy_progress_frame"
-			position = { x= 402 y = 320 }
+			position = { x= 402 y = 350 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType = {
 			name ="diplomacy_trust_progress_indicator"
 			spriteType = "GFX_diplomacy_progress_indicator"
-			position = { x= 433 y = 316 }
+			position = { x= 433 y = 326 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -1105,7 +1105,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType= {
-			position = { x = 316 y = 350 }
+			position = { x = 319 y = 380 }
 			name = "favors_label"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1119,21 +1119,21 @@ guiTypes = {
 		iconType = {
 			name ="diplomacy_favors_progress_bar"
 			spriteType = "GFX_diplomacy_progress_bar"
-			position = { x= 409 y = 354 }
+			position = { x= 409 y = 384 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType = {
 			name ="diplomacy_favors_progress_frame"
 			spriteType = "GFX_diplomacy_progress_frame"
-			position = { x= 402 y = 350 }
+			position = { x= 402 y = 380 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		iconType = {
 			name ="diplomacy_favors_progress_indicator"
 			spriteType = "GFX_diplomacy_progress_indicator"
-			position = { x= 433 y = 346 }
+			position = { x= 433 y = 376 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -1152,7 +1152,7 @@ guiTypes = {
 		iconType = {
 			name = "prepare_for_war_glow"
 			spriteType = "GFX_unitpanel_button_large_glow"
-			position = { x = 348 y = 523 }
+			position = { x = 490 y = 455 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -1176,7 +1176,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType= {
-			position = { x = 345 y = 320 }
+			position = { x = 345 y = 348 }
 			name = "provincelist_label"
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -1188,7 +1188,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType= {
-			position = { x = 315 y = 360 }
+			position = { x = 315 y = 380 }
 			name = "provincelist_desc"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1201,7 +1201,7 @@ guiTypes = {
 
 		listboxType ={
 			name ="provincelist"
-			position = { x = 320 y = 344 }
+			position = { x = 320 y = 374 }
 			backGround=""
 			if_resolution = {
             max_height = 867
@@ -1255,7 +1255,7 @@ guiTypes = {
 		# }
 
 		instantTextBoxType= {
-			position = { x = 316 y = 390 }
+			position = { x = 316 y = 419 }
 			name = "manual_manage_label"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1268,7 +1268,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "manual_manage_checkbox"
-			position = { x=498 y=386 }
+			position = { x=450 y=416 }
 			quadTextureSprite ="GFX_checkbox_gold_24"
 			tooltip = ""
 			tooltipText =""
@@ -1279,13 +1279,13 @@ guiTypes = {
 		iconType = {
 			name ="neutral_icon"
 			spriteType = "GFX_attitude_icons_strip"
-			position = { x= 312 y = 414 }
+			position = { x= 316 y = 444 }
 			Orientation = "UPPER_LEFT"
 			frame = 2
 		}
 
 		instantTextBoxType= {
-			position = { x = 336 y = 416 }
+			position = { x = 342 y = 446 }
 			name = "neutral_label"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1298,7 +1298,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "neutral_checkbox"
-			position = { x=498 y=412 }
+			position = { x=450 y=442 }
 			quadTextureSprite ="GFX_checkbox_gold_24"
 			tooltip = ""
 			tooltipText =""
@@ -1309,13 +1309,13 @@ guiTypes = {
 		iconType = {
 			name ="friendly_icon"
 			spriteType = "GFX_attitude_icons_strip"
-			position = { x= 312 y = 438 }
+			position = { x= 316 y = 468 }
 			Orientation = "UPPER_LEFT"
 			frame = 7
 		}
 
 		instantTextBoxType= {
-			position = { x = 336 y = 442 }
+			position = { x = 342 y = 472 }
 			name = "friendly_label"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1328,7 +1328,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "friendly_checkbox"
-			position = { x=498 y=438 }
+			position = { x=450 y=468 }
 			quadTextureSprite ="GFX_checkbox_gold_24"
 			tooltip = ""
 			tooltipText =""
@@ -1339,13 +1339,13 @@ guiTypes = {
 		iconType = {
 			name ="hostile_icon"
 			spriteType = "GFX_attitude_icons_strip"
-			position = { x= 311 y = 466 }
+			position = { x= 316 y = 496 }
 			Orientation = "UPPER_LEFT"
 			frame = 3
 		}
 
 		instantTextBoxType= {
-			position = { x = 336 y = 470 }
+			position = { x = 342 y = 500 }
 			name = "hostile_label"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1358,7 +1358,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "hostile_checkbox"
-			position = { x=498 y=466 }
+			position = { x=450 y=496 }
 			quadTextureSprite ="GFX_checkbox_gold_24"
 			tooltip = ""
 			tooltipText =""
@@ -1369,13 +1369,13 @@ guiTypes = {
 		iconType = {
 			name ="threatened_icon"
 			spriteType = "GFX_attitude_icons_strip"
-			position = { x= 312 y = 494 }
+			position = { x= 318 y = 524 }
 			Orientation = "UPPER_LEFT"
 			frame = 12
 		}
 
 		instantTextBoxType= {
-			position = { x = 336 y = 498 }
+			position = { x = 342 y = 528 }
 			name = "threat_label"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -1388,7 +1388,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "threat_checkbox"
-			position = { x=498 y=494 }
+			position = { x=450 y=524 }
 			quadTextureSprite ="GFX_checkbox_gold_24"
 			tooltip = ""
 			tooltipText =""
@@ -1470,17 +1470,17 @@ guiTypes = {
 			{
 				name ="choose_rivals_bg"
 				spriteType = "GFX_choose_rivals_bg"
-				position = { x= -12 y = -124 }
+				position = { x= -12 y = -40 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			instantTextBoxType= {
-				position = { x = 105 y = 15 }
+				position = { x = 35 y = 20 }
 				name = "rival_name_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				maxWidth = 100
-				maxHeight = 20
+				maxWidth = 148
+				maxHeight = 18
 				text = "LEDGER_COUNTRY"
 				orientation = "UPPER_LEFT"
 				format = center
@@ -1489,7 +1489,7 @@ guiTypes = {
 			}
 			guiButtonType = {
 				name = "rival_name_button"
-				position = { x = 105 y = 15 }
+				position = { x = 60 y = 19 }
 				quadTextureSprite ="GFX_ledger_invisible_button"
 				buttonFont = "vic_18"
 				clicksound = click
@@ -1500,57 +1500,57 @@ guiTypes = {
 			}
 
 			instantTextBoxType= {
-				position = { x = 193 y = 15 }
+				position = { x = 190 y = 20 }
 				name = "rival_relations_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				maxWidth = 100
-				maxHeight = 20
+				maxWidth = 62
+				maxHeight = 18
 				text = "OPINION"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
 			guiButtonType = {
 				name = "rival_relations_button"
-				position = { x = 193 y = 15 }
+				position = { x = 190 y = 20 }
 				quadTextureSprite ="GFX_ledger_invisible_button"
 				buttonFont = "vic_18"
 				clicksound = click
 			}
 
 			instantTextBoxType= {
-				position = { x = 264 y = 15 }
+				position = { x = 261 y = 20 }
 				name = "rival_army_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				maxWidth = 100
-				maxHeight = 20
+				maxWidth = 67
+				maxHeight = 17
 				text = "CATEGORY_ARMY"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
 			guiButtonType = {
 				name = "rival_army_button"
-				position = { x = 264 y = 15 }
+				position = { x = 245 y = 20 }
 				quadTextureSprite ="GFX_ledger_invisible_button"
 				buttonFont = "vic_18"
 				clicksound = click
 			}
 
 			instantTextBoxType= {
-				position = { x = 324 y = 15 }
+				position = { x = 343 y = 20 }
 				name = "rival_navy_label"
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
-				maxWidth = 100
-				maxHeight = 20
+				maxWidth = 67
+				maxHeight = 17
 				text = "CATEGORY_NAVY"
 				orientation = "UPPER_LEFT"
 				format = center
 			}
 			guiButtonType = {
 				name = "rival_navy_button"
-				position = { x = 324 y = 15 }
+				position = { x = 328 y = 20 }
 				quadTextureSprite ="GFX_ledger_invisible_button"
 				buttonFont = "vic_18"
 				clicksound = click
@@ -1579,9 +1579,9 @@ guiTypes = {
 			listboxType =
 			{
 				name ="list"
-				position = { x = 109 y = 40 }
+				position = { x = 110 y = 40 }
 				backGround=""
-				size = { x=303 y = 368}
+				size = { x=410 y = 375}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 0
@@ -1592,7 +1592,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "back"
-				position = { x= 235 y = 417 }
+				position = { x= 235 y = 410 }
 				quadTextureSprite ="GFX_province_back_button"
 				buttonText = "BACK"
 				buttonFont = "vic_18"
@@ -1693,7 +1693,7 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="shield"
-			position = { x= 0 y = 0 }
+			position = { x= 0 y = -1 }
 			quadTextureSprite = "GFX_shield_small"
 			tooltip = ""
 			tooltipText =""
@@ -1716,7 +1716,7 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="shield"
-			position = { x= 0 y = 0 }
+			position = { x= 0 y = 8 }
 			quadTextureSprite = "GFX_shield_small"
 			tooltip = ""
 			tooltipText =""
@@ -1860,7 +1860,7 @@ guiTypes = {
 		name = "possible_rival_entry"
 		backGround=""
 		position = { x=0 y=20 }
-		size = { x=288 y=28 }
+		size = { x=320 y=45 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -1870,19 +1870,19 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "button_action"
-			position = { x=10 y = 2 }
+			position = { x=-80 y = 5 }
 			quadTextureSprite ="GFX_list_button_rivals"
 		}
 
 		guiButtonType = {
 			name = "flag"
-			position = { x= 17 y = 5 }
+			position = { x= -65 y = 17 }
 			quadTextureSprite ="GFX_flag_small"
 		}
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 40 y = 4 }
+			position = { x = -30 y = 17 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -1897,39 +1897,39 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "opinion"
-			position = { x = 111 y = 4 }
+			position = { x = 88 y = 17 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "+100"
-			maxWidth = 40
+			maxWidth = 53
 			maxHeight = 32
-			format = right
+			format = center
 			fixedsize = yes
 			truncate = yes
 		}
 
 		instantTextBoxType = {
 			name = "army"
-			position = { x = 160 y = 4 }
+			position = { x = 148 y = 17 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "+100"
-			maxWidth = 70
+			maxWidth = 77
 			maxHeight = 32
-			format = right
+			format = center
 			fixedsize = yes
 			truncate = yes
 		}
 		instantTextBoxType = {
 			name = "navy"
-			position = { x = 221 y = 4 }
+			position = { x = 230 y = 17 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "+100"
-			maxWidth = 70
+			maxWidth = 77
 			maxHeight = 32
 			format = center
 			fixedsize = yes
@@ -2877,13 +2877,13 @@ guiTypes = {
 				min_height = 1048
 				spriteType = "GFX_diplomacy_declare_war_bg_huge"
 			}
-			position = { x= -7 y = -9 }
+			position = { x= -12 y = -15 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 				name = "Title"
-				position = { x = 117 y = 138 }
+				position = { x = 117 y = 135 }
 				textureFile = ""
 				font = "vic_22s"
 				borderSize = {x = 0 y = 0}
@@ -2896,15 +2896,15 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "Description"
-			position = { x = 35 y = 212 }
+			position = { x = 45 y = 212 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""
-			maxWidth = 265
+			maxWidth = 255
 			if_resolution = {
 				max_height = 867
-				maxHeight = 170
+				maxHeight = 160
 			}
 			if_resolution = {
 				min_height = 868
@@ -2933,13 +2933,13 @@ guiTypes = {
 			iconType = {
 				name ="aggressive_expansion_icon"
 				spriteType = "GFX_aggresive_exp_icon"
-				position = { x= -10 y = 2 }
+				position = { x= -30 y = -2 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			instantTextBoxType = {
 					name = "aggressive_expansion_desc"
-					position = { x = 25 y = 10 }
+					position = { x = 5 y = 5 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = {x = 0 y = 0}
@@ -2952,7 +2952,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "war_goals_title"
-			position = { x = 330 y = 212 }
+			position = { x = 330 y = 205 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -2993,16 +2993,16 @@ guiTypes = {
 			quadTextureSprite = "GFX_wargoal_list_button"
 			if_resolution = {
 				max_height = 867
-				position = { x = 335 y = 368 }
+				position = { x = 335 y = 358 }
 			}
 			if_resolution = {
 				min_height = 868
 				max_height = 1047
-				position = { x = 335 y = 456 }
+				position = { x = 335 y = 445 }
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x = 335 y = 544 }
+				position = { x = 335 y = 535 }
 			}
 			Orientation = "UPPER_LEFT"
 			frame = 1
@@ -3013,16 +3013,16 @@ guiTypes = {
 			spriteType = "GFX_nocasusbelli"
 			if_resolution = {
 				max_height = 867
-				position = { x = 341 y = 372 }
+				position = { x = 341 y = 362 }
 			}
 			if_resolution = {
 				min_height = 868
 				max_height = 1047
-				position = { x = 341 y = 460 }
+				position = { x = 341 y = 449 }
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x = 341 y = 548 }
+				position = { x = 341 y = 539 }
 			}
 			Orientation = "UPPER_LEFT"
 		}
@@ -3031,16 +3031,16 @@ guiTypes = {
 			name = "no_wargoal_name"
 			if_resolution = {
 				max_height = 867
-				position = { x = 356 y = 373 }
+				position = { x = 356 y = 362 }
 			}
 			if_resolution = {
 				min_height = 868
 				max_height = 1047
-				position = { x = 356 y = 461 }
+				position = { x = 356 y = 449 }
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x = 356 y = 549 }
+				position = { x = 356 y = 539 }
 			}
 			textureFile = ""
 			font = "vic_18"
@@ -3081,16 +3081,16 @@ guiTypes = {
 			name = "allies_title"
 			if_resolution = {
 				max_height = 867
-				position = { x = 285 y = 397 }
+				position = { x = 285 y = 388 }
 			}
 			if_resolution = {
 				min_height = 868
 				max_height = 1047
-				position = { x = 285 y = 484 }
+				position = { x = 285 y = 476 }
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x = 285 y = 573 }
+				position = { x = 280 y = 568 }
 			}
 			textureFile = ""
 			font = "vic_22"
@@ -3107,18 +3107,18 @@ guiTypes = {
 			if_resolution = {
 				max_height = 867
 				position = { x = 331 y = 427 }
-				size = { x= 185 y = 100 }
+				size = { x= 197 y = 50 }
 			}
 			if_resolution = {
 				min_height = 868
 				max_height = 1047
 				position = { x = 331 y = 515 }
-				size = { x= 185 y = 166 }
+				size = { x= 197 y = 116 }
 			}
 			if_resolution = {
 				min_height = 1048
 				position = { x = 331 y = 603 }
-				size = { x= 185 y = 254 }
+				size = { x= 197 y = 194 }
 			}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
@@ -3131,16 +3131,16 @@ guiTypes = {
 			name = "enemies_title"
 			if_resolution = {
 				max_height = 867
-				position = { x = 18 y = 397 }
+				position = { x = 18 y = 388 }
 			}
 			if_resolution = {
 				min_height = 868
 				max_height = 1047
-				position = { x = 18 y = 484 }
+				position = { x = 18 y = 476 }
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x = 18 y = 573 }
+				position = { x = 18 y = 568 }
 			}
 			textureFile = ""
 			font = "vic_22"
@@ -3157,18 +3157,18 @@ guiTypes = {
 			if_resolution = {
 				max_height = 867
 				position = { x = 42 y = 427 }
-				size = { x= 200 y = 100 }
+				size = { x= 197 y = 50 }
 			}
 			if_resolution = {
 				min_height = 868
 				max_height = 1047
 				position = { x = 42 y = 515 }
-				size = { x= 200 y = 166 }
+				size = { x= 197 y = 116 }
 			}
 			if_resolution = {
 				min_height = 1048
 				position = { x = 42 y = 603 }
-				size = { x= 200 y = 254 }
+				size = { x= 197 y = 194 }
 			}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
@@ -4921,7 +4921,7 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 300
-			maxHeight = 200
+			maxHeight = 140
 			fixedsize = yes
 		} 
 

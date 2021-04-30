@@ -191,7 +191,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "sort_loyalty"
-				position = { x = 51 y = 260 }
+				position = { x = 42 y = 258 }
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -221,7 +221,7 @@ guiTypes = {
 		}
 		guiButtonType = {
 				name = "sort_invested"
-				position = { x = 300 y =258 }
+				position = { x = 301 y =258 }
 				quadTextureSprite ="GFX_sort_100"
 				tooltip = ""
 				tooltipText =""
@@ -256,7 +256,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "active_label"
-			position = { x = 169 y = 230 }
+			position = { x = 173 y = 228 }
 
 			textureFile = ""
 			font = "vic_18s" #kryo
@@ -351,7 +351,7 @@ guiTypes = {
 		{
 			name ="controller_shield"
 			quadTextureSprite = "GFX_shield_thin"
-			position = { x= 225 y = 106 }
+			position = { x= 226 y = 106 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -363,7 +363,7 @@ guiTypes = {
 		{
 			name ="diplomatic_actions_icon"
 			spriteType = "GFX_more_dip_actions_icon"
-			position = { x= 325 y = 184 }
+			position = { x= 195 y = 180 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_papalactions"
 		}
@@ -372,7 +372,7 @@ guiTypes = {
 		{
 			name ="crusade_target_shield"
 			quadTextureSprite = "GFX_crusade_target_shield"
-			position = { x= 400 y = 156 }
+			position = { x= 270 y = 136 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -382,7 +382,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "close_button"
-				position = { x=345 y =646}
+				position = { x=200 y =646}
 				quadTextureSprite ="button_type_1"
 				tooltip = ""
 				tooltipText =""
@@ -699,7 +699,7 @@ guiTypes = {
 		name = "cardinal_window"
 		backGround=""
 		position = { x=-200 y=0 }
-		size = { x=400 y=26 }
+		size = { x=400 y=34 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -709,7 +709,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="cardinal_vote_shield"
 			quadTextureSprite = "GFX_shield_small"
-			position = { x= 35 y = -2 }
+			position = { x= 35 y = 0 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -719,12 +719,12 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "number_of_cardinals"
-				position = { x = 88 y = 4 }
+				position = { x = 104 y = 4 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 2}
 				text = "PAPACY_MEMBER_STATES"
-				maxWidth =80
+				maxWidth =50
 				maxHeight = 32
 				format = center
 				fixedsize = yes

@@ -94,7 +94,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "monarch_title"
-			position = { x = 35 y = 115 } #kryo
+			position = { x = 35 y = 118 }
 			textureFile = ""
 			font = "vic_18s" #kryo
 			borderSize = {x = 4 y = 4}	
@@ -107,7 +107,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "monarch_ruler_age"
-			position = { x = 450 y = 115 }
+			position = { x = 450 y = 118 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -121,7 +121,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "monarch_adm_value"
-			position = { x = 28 y = 142 } #kryo
+			position = { x = 28 y = 148 }
 			textureFile = ""
 			font = "vic_22s" #kryo
 			borderSize = {x = 4 y = 4}	
@@ -142,7 +142,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "monarch_dip_value"
-			position = { x = 78 y = 142 } #kryo
+			position = { x = 78 y = 148 }
 			textureFile = ""
 			font = "vic_22s" #kryo
 			borderSize = {x = 4 y = 4}	
@@ -163,7 +163,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "monarch_mil_value"
-			position = { x = 128 y = 142 } #kryo
+			position = { x = 128 y = 148 }
 			textureFile = ""
 			font = "vic_22s" #kryo
 			borderSize = {x = 4 y = 4}	
@@ -185,9 +185,9 @@ guiTypes = {
 		listboxType = 
 		{
 			name ="monarch_ruler_personality_list"
-			position = { x=160 y =130}
+			position = { x=160 y =128}
 			backGround=""
-			size = { x=300 y =300}
+			size = { x=250 y =300}
 			Orientation = "UPPER_LEFT"
 			horizontal = 1
 			spacing = 2
@@ -219,7 +219,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "monarch_heir_name"
-			position = { x = 35 y = 179 } #kryo
+			position = { x = 35 y = 181 }
 			textureFile = ""
 			font = "vic_18s" #kryo
 			borderSize = {x = 4 y = 4}	
@@ -232,7 +232,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "monarch_heir_age"
-			position = { x = 450 y = 179 }
+			position = { x = 450 y = 181 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -386,9 +386,9 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "monarch_queen_name"
-			position = { x = 35 y = 242 } #kryo
+			position = { x = 35 y = 244 }
 			textureFile = ""
-			font = "vic_18s"
+			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
 			text = ""	
 			maxWidth = 400
@@ -399,7 +399,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "monarch_queen_age"
-			position = { x = 450 y = 242 }
+			position = { x = 450 y = 244 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -610,7 +610,7 @@ guiTypes = {
 				name = "description"
 				position = { x = 70 y =139 }
 				format = centre
-				font = "vic_18s" #kryo
+				font = "vic_22"
 				maxWidth = 420
 				maxHeight = 32	
 				Orientation = "UPPER_LEFT"
@@ -750,7 +750,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "advisor_activefor"
-			position = { x = 271 y = 50 }
+			position = { x = 271 y = 51 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
@@ -850,7 +850,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "ability_skill"
-			position = { x = 445 y = 5 } #kryo
+			position = { x = 445 y = 4 }
 			textureFile = ""
 			font = "vic_36"
 			borderSize = {x = 4 y = 4}	

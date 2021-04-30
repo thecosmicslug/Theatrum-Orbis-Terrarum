@@ -84,7 +84,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "achievement_name"
 			position = { x = 80 y = 3 }
-			font = "vic_18s"
+			font = "vic_22"
 			borderSize = {x = 0 y = 0}
 			text = "name"	
 			maxWidth = 460
