@@ -489,7 +489,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "corruption_value"
-			position = { x = 492 y = 220 }
+			position = { x = 489 y = 220 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}

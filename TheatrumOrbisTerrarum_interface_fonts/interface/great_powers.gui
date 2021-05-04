@@ -43,7 +43,7 @@ guiTypes = {
 		{
 			name ="great_power_rank_sort"
 			spriteType = "GFX_great_power_rank_sort"
-			position = { x= 45 y = 88 }
+			position = { x= 49 y = 90 }
 		}
 		
 		iconType =

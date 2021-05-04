@@ -2411,6 +2411,13 @@ guiTypes = {
 				position = { x = 277 y = 9 }
 			}
 
+			iconType =
+			{
+				name = "is_territory"
+				spriteType = "GFX_in_territory_icon"
+				position = { x = 277 y = 9 }
+			}
+
 			guiButtonType =
 			{
 				name = "concentrate_development"
@@ -2903,7 +2910,7 @@ guiTypes = {
 					font = "vic_18"
 					borderSize = {x = 2 y = 2}
 					text = "0"
-					maxWidth = 60
+					maxWidth = 40
 					maxHeight = 20
 					format = right
 				}

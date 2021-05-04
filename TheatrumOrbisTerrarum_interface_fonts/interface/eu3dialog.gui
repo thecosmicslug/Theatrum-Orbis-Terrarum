@@ -2063,11 +2063,11 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = {x = 23 y = 17 }
+			position = {x = 10 y = 15 }
 			name = "info_text"
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 210
+			maxWidth = 150
 			maxHeight = 16
 			text = ""	
 			orientation = "UPPER_LEFT"

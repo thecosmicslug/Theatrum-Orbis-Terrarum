@@ -516,9 +516,9 @@ guiTypes = {
 			position = { x = 248 y = 287 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x = 6 y = 6}
+			borderSize = {x = 4 y = 4}
 			text = "STATES_AND_TERRITORIES"
-			maxWidth = 200
+			maxWidth = 128
 			maxHeight = 32
 			format = left
 		}
@@ -535,7 +535,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "states_text"
-			position = { x =225 y = 312 }
+			position = { x =230 y = 311 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -547,7 +547,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "territories_text"
-			position = { x =225 y = 330 }
+			position = { x =230 y = 329 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
