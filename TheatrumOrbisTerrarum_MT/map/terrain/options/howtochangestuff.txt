@@ -1,2 +1,0 @@
-- pick a file you want to use from the options folder.
-- Replace the corresponding file in map\terrain with the one you chose.
