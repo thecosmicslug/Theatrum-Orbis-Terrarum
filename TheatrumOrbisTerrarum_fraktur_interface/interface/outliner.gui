@@ -598,7 +598,7 @@ guiTypes = {
 				borderSize = {x = 4 y = 0}
 				text = ""	
 				maxWidth = 80
-				maxHeight = 32
+				maxHeight = 18
 				alwaystransparent = yes
 				format = left
 				fixedsize = yes

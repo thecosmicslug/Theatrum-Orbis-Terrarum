@@ -144,7 +144,8 @@ guiTypes = {
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "CANCEL"
 			buttonFont = "vic_18"
-			shortcut = "ESCAPE"
+			shortcut = "z"
+			extra_shortcut = "ESCAPE"
 		}
 		
 		guiButtonType = {
@@ -153,7 +154,8 @@ guiTypes = {
 			quadTextureSprite ="largefloaterbutton"
 			buttonText = "OK"
 			buttonFont = "vic_18"
-			shortcut = "RETURN"
+			shortcut = "c"
+			extra_shortcut = "RETURN"
 			clicksound = ok_click
 		}
 		

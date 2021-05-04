@@ -191,7 +191,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "sort_loyalty"
-				position = { x = 51 y = 260 }
+				position = { x = 42 y = 258 }
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -351,7 +351,7 @@ guiTypes = {
 		{
 			name ="controller_shield"
 			quadTextureSprite = "GFX_shield_thin"
-			position = { x= 225 y = 106 }
+			position = { x= 226 y = 106 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -363,7 +363,7 @@ guiTypes = {
 		{
 			name ="diplomatic_actions_icon"
 			spriteType = "GFX_more_dip_actions_icon"
-			position = { x= 325 y = 184 }
+			position = { x= 195 y = 180 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_papalactions"
 		}
@@ -372,7 +372,7 @@ guiTypes = {
 		{
 			name ="crusade_target_shield"
 			quadTextureSprite = "GFX_crusade_target_shield"
-			position = { x= 400 y = 156 }
+			position = { x= 270 y = 136 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -382,7 +382,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "close_button"
-				position = { x=345 y =646}
+				position = { x=200 y =646}
 				quadTextureSprite ="button_type_1"
 				tooltip = ""
 				tooltipText =""

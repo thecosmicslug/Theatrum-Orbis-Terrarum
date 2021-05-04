@@ -43,7 +43,7 @@ guiTypes = {
 			spacing = 2.5
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	
 		########
@@ -111,7 +111,7 @@ guiTypes = {
 			spacing = 2.5
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	
 		########
@@ -179,7 +179,7 @@ guiTypes = {
 			spacing = 2.5
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	
 		########

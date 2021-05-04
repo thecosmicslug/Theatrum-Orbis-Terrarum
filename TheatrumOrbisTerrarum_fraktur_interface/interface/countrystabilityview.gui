@@ -216,7 +216,7 @@ guiTypes = {
 		{
 			name ="overex_manage"
 			quadTextureSprite= "GFX_standard_button_105"
-			position = { x= 273 y = 252 }
+			position = { x= 277 y = 252 }
 			Orientation = "UPPER_LEFT"
 			buttonText = "STABEX_MANAGEOVEX"
 			buttonFont = "vic_18"
@@ -227,7 +227,7 @@ guiTypes = {
 		iconType = {
 			name ="native_policy_bg"
 			spriteType = "GFX_native_policy_bg"
-			position = { x= 405 y = 262 }
+			position = { x= 403 y = 280 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -407,7 +407,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "colonial_range_value"
-			position = { x = 408 y = 258 }
+			position = { x = 406 y = 258 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -429,7 +429,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "colonial_growth_value"
-			position = { x = 464 y = 258 }
+			position = { x = 469 y = 257 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -466,14 +466,14 @@ guiTypes = {
 		{
 			name ="governing_capacity_icon"
 			spriteType = "GFX_governing_capacity"
-			position = { x= 20 y = 278 }
+			position = { x= 32 y = 290 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.75
 		}
 
 		instantTextBoxType = {
 			name = "Governing Capacity_label"
-			position = { x = 58 y = 287 }
+			position = { x = 56 y = 287 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -535,7 +535,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "states_text"
-			position = { x =90 y = 301 }
+			position = { x =230 y = 311 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -547,7 +547,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "territories_text"
-			position = { x =90 y = 319 }
+			position = { x =230 y = 329 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -635,7 +635,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "base_unrest_value"
-			position = { x = 312 y = 382 }
+			position = { x = 470 y = 323 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -647,7 +647,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "break_country"
-			position = { x = 40 y = 383 }
+			position = { x = 291 y = 353 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -662,7 +662,7 @@ guiTypes = {
 		{
 			name ="break_country_progress"
 			spriteType = "GFX_rebelsView_progressbar"
-			position = { x= 200 y = 390 }
+			position = { x= 430 y = 360 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -670,7 +670,7 @@ guiTypes = {
 		{
 			name ="break_country_progress_frame"
 			spriteType = "GFX_provinceView_morale_frame_long"
-			position = { x= 190 y = 387 }
+			position = { x= 420 y = 357 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -678,8 +678,8 @@ guiTypes = {
 		listboxType = {
 			name = "revolters_listbox"
 			backGround = ""
-			position = { x=37 y=413 }
-			size = { x=462 y=150 }
+			position = { x=25 y=385 }
+			size = { x=482 y=143 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 1.5
@@ -859,7 +859,7 @@ guiTypes = {
 				borderSize = {x = 4 y = 4}
 				text = "..."
 				maxWidth = 180
-				maxHeight = 64
+				maxHeight = 32
 				format = left
 				fixedsize = yes
 			}
@@ -910,12 +910,12 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "rebelsize_desc"
-				position = { x = 54 y = 394}
+				position = { x = 56 y = 394}
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 4}
 				text = ""
-				maxWidth = 248
+				maxWidth = 246
 				maxHeight = 48
 				format = left
 				fixedsize = yes
@@ -931,12 +931,12 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "onsiegewon_desc"
-				position = { x = 54 y = 438}
+				position = { x = 56 y = 438}
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 4 y = 4}
 				text = ""
-				maxWidth = 248
+				maxWidth = 246
 				maxHeight = 48
 				format = left
 				fixedsize = yes
@@ -1042,14 +1042,14 @@ guiTypes = {
 		{
 			name ="army_type"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 364 y = 13}
+			position = { x= 383 y = 13}
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 		}
 
 		instantTextBoxType = {
 			name = "army_num"
-			position = { x = 392 y = 12 }
+			position = { x = 411 y = 12 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -1065,14 +1065,14 @@ guiTypes = {
 		{
 			name ="icon_provs"
 			spriteType = "GFX_icon_overextension"	#TODO replace
-			position = { x= 278 y = 11}
+			position = { x= 297 y = 11}
 			Orientation = "UPPER_LEFT"
 			scale = 0.85
 		}
 
 		instantTextBoxType = {
 			name = "controlled_provs"
-			position = { x = 288 y = 11 }
+			position = { x = 307 y = 11 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -1114,14 +1114,14 @@ guiTypes = {
 		{
 			name ="uprising_progress_icon"
 			spriteType = "GFX_icon_unrest"
-			position = { x= 275 y = 38}
+			position = { x= 297 y = 38}
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_revoltrisk"
 		}
 
 		instantTextBoxType = {
 			name = "uprising_progress"
-			position = { x = 288 y = 40 }
+			position = { x = 307 y = 40 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -1139,7 +1139,7 @@ guiTypes = {
 		{
 			name ="handlethem"
 			quadTextureSprite= "GFX_button_straight_96_32"
-			position = { x= 358 y = 35 }
+			position = { x= 377 y = 35 }
 			Orientation = "UPPER_LEFT"
 			buttonFont = "vic_18"
 			buttonText = "HANDLE_THEM"
@@ -1228,14 +1228,14 @@ guiTypes = {
 		{
 			name ="uprising_progress_icon"
 			spriteType = "GFX_icon_unrest"
-			position = { x= 275 y = 38}
+			position = { x= 296 y = 38}
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_revoltrisk"
 		}
 
 		instantTextBoxType = {
 			name = "uprising_progress"
-			position = { x = 288 y = 40 }
+			position = { x = 307 y = 42 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -1250,14 +1250,14 @@ guiTypes = {
 		{
 			name ="army_type"
 			spriteType = "GFX_unit_types_strip_mil_view"
-			position = { x= 364 y = 13}
+			position = { x= 383 y = 13}
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 		}
 
 		instantTextBoxType = {
 			name = "army_num"
-			position = { x = 392 y = 12 }
+			position = { x = 411 y = 12 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -1273,14 +1273,14 @@ guiTypes = {
 		{
 			name ="icon_provs"
 			spriteType = "GFX_icon_overextension"	#TODO replace
-			position = { x= 278 y = 11}
+			position = { x= 297 y = 11}
 			Orientation = "UPPER_LEFT"
 			scale = 0.85
 		}
 
 		instantTextBoxType = {
 			name = "provinces"
-			position = { x = 288 y = 11 }
+			position = { x = 307 y = 11 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -1296,7 +1296,7 @@ guiTypes = {
 		{
 			name ="handlethem"
 			quadTextureSprite= "GFX_button_straight_96_32"
-			position = { x= 358 y = 35 }
+			position = { x= 377 y = 39 }
 			Orientation = "UPPER_LEFT"
 			buttonText = "HANDLE_THEM"
 			buttonFont = "vic_18"
@@ -1595,7 +1595,7 @@ guiTypes = {
 			maxHeight = 22
 			fixedsize = yes
 			format = centre
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 	}
@@ -1632,7 +1632,7 @@ guiTypes = {
 			maxHeight = 22
 			fixedsize = yes
 			format = centre
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 
@@ -1668,7 +1668,7 @@ guiTypes = {
 			maxHeight = 22
 			fixedsize = yes
 			format = centre
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 
@@ -1683,7 +1683,7 @@ guiTypes = {
 	horizontalBorder= ""
 	verticalBorder= ""
 	fullScreen = no
-	#allwaystransparent = yes
+	#alwaystransparent = yes
 
 	instantTextBoxType = {
 		name = "demand_text"
@@ -1696,7 +1696,7 @@ guiTypes = {
 		maxHeight = 70
 		format = left
 		fixedsize = yes
-		allwaystransparent = yes
+		alwaystransparent = yes
 	}
 }
 

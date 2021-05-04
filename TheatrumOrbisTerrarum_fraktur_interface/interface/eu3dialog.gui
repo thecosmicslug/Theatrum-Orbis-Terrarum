@@ -404,12 +404,12 @@ guiTypes = {
 			
 		instantTextBoxType = {
 			name = "Line2"
-			position = { x = 79 y = 60 }
+			position = { x = 75 y = 60 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""	
-			maxWidth = 340
+			maxWidth = 348
 			maxHeight = 20	
 			format = centre
 		}

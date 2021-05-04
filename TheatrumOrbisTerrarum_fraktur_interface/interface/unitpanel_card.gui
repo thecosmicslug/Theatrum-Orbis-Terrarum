@@ -731,7 +731,7 @@ guiTypes = {
 			maxWidth = 390
 			maxHeight = 32
 			format = center
-			allwaystransparent = yes
+			alwaystransparent = yes
 			fixedsize = yes
 			truncate = yes
 		}	
@@ -785,7 +785,7 @@ guiTypes = {
 			maxWidth = 200
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 			fixedsize = yes
 			truncate = yes
 		}	
@@ -799,7 +799,7 @@ guiTypes = {
 			maxWidth =64
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		instantTextBoxType = {
 			name = "cav"
@@ -810,7 +810,7 @@ guiTypes = {
 			maxWidth =64
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		instantTextBoxType = {
 			name = "art"
@@ -821,7 +821,7 @@ guiTypes = {
 			maxWidth =64
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 	
@@ -851,7 +851,7 @@ guiTypes = {
 			maxWidth = 200
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 			fixedsize = yes
 			truncate = yes
 		}	
@@ -865,7 +865,7 @@ guiTypes = {
 			maxWidth =64
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		instantTextBoxType = {
 			name = "light"
@@ -876,7 +876,7 @@ guiTypes = {
 			maxWidth =64
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		instantTextBoxType = {
 			name = "galley"
@@ -887,7 +887,7 @@ guiTypes = {
 			maxWidth =64
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		instantTextBoxType = {
 			name = "transport"
@@ -898,7 +898,7 @@ guiTypes = {
 			maxWidth =64
 			maxHeight = 32
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 

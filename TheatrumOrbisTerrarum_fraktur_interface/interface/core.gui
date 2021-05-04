@@ -18,7 +18,7 @@ guiTypes = {
 			size = { x=500 y=365 }
 			borderSize = { x=0 y=0 }
 			scrollbartype = "standardlistbox_slider"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		# Text edit box
@@ -235,55 +235,105 @@ guiTypes = {
 	#####
 
 	scrollbarType = {
-			name = "standardlistbox_noslider"	
-			slider = "listboxSliderButton"
-			track= "listboxTrackButton"
-			leftbutton = "upButton"
-			rightbutton = "downButton"
-			size = {x =16 y =16 }
-			position = {x= 0 y =0}
-			priority = 100			
-			borderSize = {x = 24 y = 24}	
-			maxValue =1
-			minValue =0
-			stepSize =0.01
-			startValue = 0
-			horizontal = 0
+		name = "standardlistbox_noslider"	
+		slider = "listboxSliderButton"
+		track= "listboxTrackButton"
+		leftbutton = "upButton"
+		rightbutton = "downButton"
+		size = {x =16 y =16 }
+		position = {x= 0 y =0}
+		priority = 100			
+		borderSize = {x = 24 y = 24}	
+		maxValue =1
+		minValue =0
+		stepSize =0.01
+		startValue = 0
+		horizontal = 0
 
 
-			guiButtonType = {
-				name = "listboxSliderButton"	
-				quadTextureSprite = "slider_noslider"
-				tooltip = ""
-				tooltipText =""	
-				delayedTooltipText = ""
-				position = { x=0 y =0}
-			}
+		guiButtonType = {
+			name = "listboxSliderButton"	
+			quadTextureSprite = "slider_noslider"
+			tooltip = ""
+			tooltipText =""	
+			delayedTooltipText = ""
+			position = { x=0 y =0}
+		}
 
-			guiButtonType = {
-				name = "listboxTrackButton"
-				quadTextureSprite = "slider_nobackground"
-				position = { x=24 y =24}	
-				tooltip = ""
-				tooltipText =""
-				delayedTooltipText = ""	
+		guiButtonType = {
+			name = "listboxTrackButton"
+			quadTextureSprite = "slider_nobackground"
+			position = { x=24 y =24}	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""	
 
-			}	
+		}	
 
-			guiButtonType = {
-				parent = "listboxSliderButton"
-				name = "upButton"
-				quadTextureSprite = "slider_downbutton"
-				position = { x=0 y =0}	
-			}
-			
-			guiButtonType = {
-				parent = "listboxSliderButton"
-				name = "downButton"
-				quadTextureSprite = "slider_upbutton"
-				position = { x=0 y =120}	
-			}
+		guiButtonType = {
+			parent = "listboxSliderButton"
+			name = "upButton"
+			quadTextureSprite = "slider_downbutton"
+			position = { x=0 y =0}	
+		}
+		
+		guiButtonType = {
+			parent = "listboxSliderButton"
+			name = "downButton"
+			quadTextureSprite = "slider_upbutton"
+			position = { x=0 y =120}	
+		}
 	}
 
 
+	scrollbarType = {
+		name = "standardlistbox_invisible"	
+		slider = "listboxSliderButton"
+		track= "listboxTrackButton"
+		leftbutton = "upButton"
+		rightbutton = "downButton"
+		size = {x =16 y =16 }
+		position = {x= 0 y =0}
+		priority = 100			
+		borderSize = {x = 24 y = 24}	
+		maxValue =1
+		minValue =0
+		stepSize =0.01
+		startValue = 0
+		horizontal = 0
+
+
+		guiButtonType = {
+			name = "listboxSliderButton"	
+			quadTextureSprite = "slider_noslider"
+			tooltip = ""
+			tooltipText =""	
+			delayedTooltipText = ""
+			position = { x=0 y =0}
+		}
+
+		guiButtonType = {
+			name = "listboxTrackButton"
+			quadTextureSprite = "slider_nobackground"
+			position = { x=24 y =24}	
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""	
+
+		}	
+
+		guiButtonType = {
+			parent = "listboxSliderButton"
+			name = "upButton"
+			#quadTextureSprite = "slider_downbutton"
+			position = { x=0 y =0}	
+		}
+		
+		guiButtonType = {
+			parent = "listboxSliderButton"
+			name = "downButton"
+			#quadTextureSprite = "slider_upbutton"
+			position = { x=0 y =120}	
+		}
+	}	
 }

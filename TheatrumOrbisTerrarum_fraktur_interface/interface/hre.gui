@@ -37,7 +37,6 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
 			clicksound = close_window
-			shortcut = "ESCAPE"
 			frame = 1
 		}
 
@@ -50,7 +49,6 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
 			clicksound = close_window
-			shortcut = "ESCAPE"
 			frame = 1
 		}
 
@@ -60,7 +58,7 @@ guiTypes = {
 			spriteType = "GFX_province_view_religion"
 			position = { x= 42 y = 115 }
 			hint_tag = "hint_religion"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		iconType =
@@ -129,7 +127,7 @@ guiTypes = {
 			spriteType = "GFX_province_view_religion"
 			position = { x= 597 y = 114 }
 			hint_tag = "hint_religion"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
@@ -437,7 +435,7 @@ guiTypes = {
 
 		gridBoxType = {
 			name = "hre_electors"
-			position = { x = 128 y = 285 }
+			position = { x = 128 y = 293 }
 			size = { width = 200 height = 600 }
 			slotsize = { width = 88 height = 96 }
 			max_slots_horizontal = 2
@@ -634,7 +632,7 @@ guiTypes = {
 			spriteType = "GFX_imperial_reform_selected_frame"
 			position = { x=0 y=8 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
         guiButtonType = {
 			name = "reform_checkbox"
@@ -688,7 +686,7 @@ guiTypes = {
 			spriteType = "GFX_imperial_reform_selected_frame"
 			position = { x=0 y=8 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
         guiButtonType = {
 			name = "reform_checkbox"

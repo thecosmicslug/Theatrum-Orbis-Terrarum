@@ -329,7 +329,7 @@ guiTypes = {
 			maxWidth = 100
 			maxHeight = 32
 			format = right
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}		
 		
 		guiButtonType =
