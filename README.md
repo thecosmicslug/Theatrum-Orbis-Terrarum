@@ -19,33 +19,32 @@ Improves performance
 
 Works with EU4 1.29.* | Ironman compatible | Achievement compatible | No checksum change
 
-I have also had to upload fixes for:
+The Full "Theatrum Orbis Terrarum Revival" Collection:
 
-Theatrum Orbis Terrarum (Add-On: Dark Water)
-https://steamcommunity.com/sharedfiles/filedetails/?id=1871173505
+Theatrum Orbis Terrarum for 1.30+ https://steamcommunity.com/sharedfiles/filedetails/?id=1867433999
 
-Theatrum Orbis Terrarum (Add-On: Deep Blue Water)
-https://steamcommunity.com/sharedfiles/filedetails/?id=1867739203
+Theatrum Orbis Terrarum for 1.30+ (Add-On: Interface Fonts) https://steamcommunity.com/sharedfiles/filedetails/?id=2127152376
 
-Theatrum Orbis Terrarum (Add-On: Blue Water)
-https://steamcommunity.com/sharedfiles/filedetails/?id=1868260444
+Theatrum Orbis Terrarum for 1.30+ (Add-On: Fraktur Interface Fonts) https://steamcommunity.com/sharedfiles/filedetails/?id=2155177022
 
-Theatrum Orbis Terrarum (Add-On: Medium Opacity)
-https://steamcommunity.com/sharedfiles/filedetails/?id=1867768464
+Theatrum Orbis Terrarum for 1.30+ (Add-On: Dark Water) https://steamcommunity.com/sharedfiles/filedetails/?id=1871173505
 
-Theatrum Orbis Terrarum (Add-On: More Opacity)
-https://steamcommunity.com/sharedfiles/filedetails/?id=1976651882
+Theatrum Orbis Terrarum for 1.30+ (Add-On: Deep Blue Water) https://steamcommunity.com/sharedfiles/filedetails/?id=1867739203
 
-Theatrum Orbis Terrarum (Add-On: Even More Opacity)
-https://steamcommunity.com/sharedfiles/filedetails/?id=1869087770
+Theatrum Orbis Terrarum for 1.30+ (Add-On: Blue Water) https://steamcommunity.com/sharedfiles/filedetails/?id=1868260444
 
-The Following Addons give a compatibility warning, but appear to work fine without a fix.
+Theatrum Orbis Terrarum for 1.30+ (Add-On: Medium Opacity) https://steamcommunity.com/sharedfiles/filedetails/?id=1867768464
 
-Theatrum Orbis Terrarum (Add-On: Dynamic Borders)
-https://steamcommunity.com/sharedfiles/filedetails/?id=790533313
+Theatrum Orbis Terrarum for 1.30+ (Add-On: More Opacity) https://steamcommunity.com/sharedfiles/filedetails/?id=1976651882
 
-Theatrum Orbis Terrarum (Add-On: Warm Colors)
-https://steamcommunity.com/sharedfiles/filedetails/?id=579035821
+Theatrum Orbis Terrarum for 1.30+ (Add-On: Even More Opacity) https://steamcommunity.com/sharedfiles/filedetails/?id=1869087770
 
-Theatrum Orbis Terrarum - Interface Fonts
-https://steamcommunity.com/sharedfiles/filedetails/?id=794921274
+Theatrum Orbis Terrarum for 1.30+ (Add-On: Random New World) https://steamcommunity.com/sharedfiles/filedetails/?id=2155628326
+
+Theatrum Orbis Terrarum for 1.30+ (Add-On: Flat Map) https://steamcommunity.com/sharedfiles/filedetails/?id=2155176359
+
+Theatrum Orbis Terrarum for 1.30+ (Add-On: Dark Borders) https://steamcommunity.com/sharedfiles/filedetails/?id=2155175305
+
+Theatrum Orbis Terrarum for 1.30+ (Add-On: Dynamic Borders) https://steamcommunity.com/sharedfiles/filedetails/?id=2127907482
+
+Theatrum Orbis Terrarum for 1.30+ (Add-On: Warm Colors) https://steamcommunity.com/sharedfiles/filedetails/?id=1973690584
