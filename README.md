@@ -32,7 +32,7 @@ Theatrum Orbis Terrarum for 1.30+ (Add-On: Interface Fonts)
 https://steamcommunity.com/sharedfiles/filedetails/?id=2127152376
 
 Theatrum Orbis Terrarum for 1.30+ (Add-On: Fraktur Interface Fonts) 
-----===[ COMING SOON ]===---
+https://steamcommunity.com/sharedfiles/filedetails/?id=2155177022
 
 Theatrum Orbis Terrarum for 1.30+ (Add-On: Dark Water)
 https://steamcommunity.com/sharedfiles/filedetails/?id=1871173505
@@ -51,11 +51,6 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1976651882
 
 Theatrum Orbis Terrarum for 1.30+ (Add-On: Even More Opacity)
 https://steamcommunity.com/sharedfiles/filedetails/?id=1869087770
-
-Theatrum Orbis Terrarum for 1.30+ (Add-On: M&T Fix)
-https://steamcommunity.com/sharedfiles/filedetails/?id=1981837759
-
-The Following Addons give a compatibility warning but appear to work, and have been added to the collection just incase.
 
 Theatrum Orbis Terrarum for 1.30+ (Add-On: Random New World)
 https://steamcommunity.com/sharedfiles/filedetails/?id=2155628326
