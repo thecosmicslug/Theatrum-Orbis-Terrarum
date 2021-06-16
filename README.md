@@ -34,6 +34,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2127152376
 Theatrum Orbis Terrarum for 1.30+ (Add-On: Fraktur Interface Fonts) 
 https://steamcommunity.com/sharedfiles/filedetails/?id=2155177022
 
+
 Theatrum Orbis Terrarum for 1.30+ (Add-On: Dark Water)
 https://steamcommunity.com/sharedfiles/filedetails/?id=1871173505
 
@@ -42,6 +43,10 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1867739203
 
 Theatrum Orbis Terrarum for 1.30+ (Add-On: Blue Water)
 https://steamcommunity.com/sharedfiles/filedetails/?id=1868260444
+
+Theatrum Orbis Terrarum for 1.30+  (Add-On: Original Water)
+https://steamcommunity.com/sharedfiles/filedetails/?id=2514589527
+
 
 Theatrum Orbis Terrarum for 1.30+ (Add-On: Medium Opacity)
 https://steamcommunity.com/sharedfiles/filedetails/?id=1867768464
@@ -52,11 +57,13 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1976651882
 Theatrum Orbis Terrarum for 1.30+ (Add-On: Even More Opacity)
 https://steamcommunity.com/sharedfiles/filedetails/?id=1869087770
 
+
 Theatrum Orbis Terrarum for 1.30+ (Add-On: Random New World)
 https://steamcommunity.com/sharedfiles/filedetails/?id=2155628326
 
 Theatrum Orbis Terrarum for 1.30+ (Add-On: Flat Map)
 https://steamcommunity.com/sharedfiles/filedetails/?id=2155176359
+
 
 Theatrum Orbis Terrarum for 1.30+ (Add-On: Dark Borders)
 https://steamcommunity.com/sharedfiles/filedetails/?id=2155175305
@@ -64,5 +71,15 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2155175305
 Theatrum Orbis Terrarum for 1.30+  (Add-On: Dynamic Borders)
 https://steamcommunity.com/sharedfiles/filedetails/?id=2127907482
 
+
 Theatrum Orbis Terrarum for 1.30+  (Add-On: Warm Colors)
 https://steamcommunity.com/sharedfiles/filedetails/?id=1973690584
+
+
+Theatrum Orbis Terrarum for 1.30+  (Add-On: White Map Font)
+https://steamcommunity.com/sharedfiles/filedetails/?id=2516759866
+
+Theatrum Orbis Terrarum for 1.30+  (Add-On: Gold Map Font)
+https://steamcommunity.com/sharedfiles/filedetails/?id=2518774904
+
+
