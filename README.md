@@ -28,6 +28,9 @@ The Full "Theatrum Orbis Terrarum Revival" Collection:
 Theatrum Orbis Terrarum for 1.30+
 https://steamcommunity.com/sharedfiles/filedetails/?id=1867433999
 
+Theatrum Orbis Terrarum for 1.30+ (Add-On: Extended Timeline Compatibility)
+https://steamcommunity.com/sharedfiles/filedetails/?id=2520382130
+
 Theatrum Orbis Terrarum for 1.30+ (Add-On: Interface Fonts)
 https://steamcommunity.com/sharedfiles/filedetails/?id=2127152376
 
