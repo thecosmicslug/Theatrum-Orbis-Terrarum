@@ -3173,6 +3173,12 @@ guiTypes = {
 		}
 		
 		iconType = {
+			name = "is_territory_status"
+			position = { x = 100 y = 3 }
+			spriteType = "GFX_in_territory_icon"
+		}
+		
+		iconType = {
 			name = "is_trade_company_status"
 			position = { x = 100 y = 3 }
 			spriteType = "GFX_trade_company_icon"
