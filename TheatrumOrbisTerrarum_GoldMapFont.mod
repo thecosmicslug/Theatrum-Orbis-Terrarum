@@ -4,6 +4,10 @@ tags={
 	"Graphics"
 	"Map Font"
 }
+dependencies={
+	"Theatrum Orbis Terrarum for 1.30+"
+	"Theatrum Orbis Terrarum for 1.30+,Theatrum Orbis Terrarum (Addon: Extended Timeline Patch)"
+}
 picture="thumbnail.png"
 supported_version="1.31.*"
 path="mod/TheatrumOrbisTerrarum_GoldMapFont"
