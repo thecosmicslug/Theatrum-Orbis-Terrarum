@@ -338,7 +338,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "name"
-			position = { x = 64 y = 4 }
+			position = { x = 64 y = 2 }
 			font = "vic_18" # kryo vic_18
 			borderSize = {x = 0 y = 0}
 			text = "name"	
@@ -350,7 +350,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "desc"
-			position = { x = 64 y = 22 }
+			position = { x = 64 y = 20 }
 			font = "Arial12" # kryo vic_18
 			borderSize = {x = 0 y = 0}
 			text = "desc"	
@@ -381,7 +381,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "progress_text"
-			position = { x = 470 y = 10 }
+			position = { x = 470 y = 8 }
 			font = "vic_18" #kryo
 			borderSize = {x = 0 y = 0}
 			text = "7/14"	

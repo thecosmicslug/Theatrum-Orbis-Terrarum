@@ -21,10 +21,10 @@ guiTypes = {
 		
 		textBoxType = {
 			name = "title"
-			position = { x = 0 y =-260 }
+			position = { x = -200 y =-260 }
 			format = centre
 			textureFile = ""
-			font = "vic_22s"
+			font = "vic_22"
 			borderSize = {x = 4 y = 4}
 			text = "The History of France"	
 			maxWidth = 400
@@ -55,7 +55,7 @@ guiTypes = {
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = "CLOSE"
-			buttonFont = "vic_18s"
+			buttonFont = "vic_18"
 			shortcut = "ESCAPE"
 		}
 	}

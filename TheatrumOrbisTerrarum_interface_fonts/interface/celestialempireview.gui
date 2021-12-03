@@ -23,10 +23,10 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "celestial_label"
-			position = { x = 82 y = 58 }
+			position = { x = 76 y = 58 }
 			format = centre
 			textureFile = ""
-			font = "vic_29s"
+			font = "vic_29"
 			borderSize = {x = 4 y = 4}
 			text = "CELESTIAL_CELESTIAL"
 			maxWidth = 584
@@ -35,7 +35,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "emperor_label"
-			position = { x = 154 y = 266 }
+			position = { x = 154 y = 264 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}

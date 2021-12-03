@@ -107,12 +107,12 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "monarch_ruler_age"
-			position = { x = 440 y = 114 }
+			position = { x = 450 y = 118 }
 			textureFile = ""
 			font = "vic_18" #kryo
 			borderSize = {x = 4 y = 4}
 			text = ""
-			maxWidth = 70
+			maxWidth = 60
 			maxHeight = 16
 			format = right
 			fixedsize = yes
@@ -388,11 +388,11 @@ guiTypes = {
 			name = "monarch_queen_name"
 			position = { x = 35 y = 244 }
 			textureFile = ""
-			font = "vic_18s"
+			font = "vic_18"
 			borderSize = {x = 4 y = 4}	
 			text = ""	
 			maxWidth = 400
-			maxHeight = 14
+			maxHeight = 32
 			format = left
 			fixedsize = yes
 		}		

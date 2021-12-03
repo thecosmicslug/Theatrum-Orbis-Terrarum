@@ -76,8 +76,8 @@ guiTypes = {
 		font = "Foglighten_Tooltipfont_big"
 		borderSize = { x=18 y=18 }
 		position = { x= 560 y=10 }
-		maxWidth = 530 #320
-		maxHeight = 300
+		maxWidth = 400 #320
+		maxHeight = 256
 	}
 
 
