@@ -12,6 +12,6 @@ dependencies={
 	"Theatrum Orbis Terrarum for 1.30+"
 }
 picture="thumbnail.png"
-supported_version="1.31.*.*"
-path="mod/TheatrumOrbisTerrarum_ETFix"
+supported_version="1.32.*.*"
+path="/home/danny/.local/share/Paradox Interactive/Europa Universalis IV/mod/TheatrumOrbisTerrarum_ETFix"
 remote_file_id="2520382130"

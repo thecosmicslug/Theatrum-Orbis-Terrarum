@@ -5,7 +5,10 @@ tags={
 	"Map"
 	"Theatrum Orbis Terrarum"
 }
+dependencies={
+	"Theatrum Orbis Terrarum for 1.30+"
+}
 picture="thumbnail.png"
-supported_version="1.31.*.*"
-path="mod/TheatrumOrbisTerrarum_flatmap_addon"
+supported_version="1.32.*.*"
+path="/home/danny/.local/share/Paradox Interactive/Europa Universalis IV/mod/TheatrumOrbisTerrarum_flatmap_addon"
 remote_file_id="2155176359"
