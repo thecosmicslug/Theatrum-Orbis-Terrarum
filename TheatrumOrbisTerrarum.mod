@@ -6,6 +6,6 @@ tags={
 	"Theatrum Orbis Terrarum"
 }
 picture="thumbnail.png"
-supported_version="1.32.*.*"
+supported_version="1.33.*.*"
 path="/home/danny/.local/share/Paradox Interactive/Europa Universalis IV/mod/TheatrumOrbisTerrarum"
 remote_file_id="1867433999"
