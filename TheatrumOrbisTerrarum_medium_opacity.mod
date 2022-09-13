@@ -10,6 +10,6 @@ dependencies={
 	"Theatrum Orbis Terrarum (Addon: Extended Timeline Patch)"
 }
 picture="thumbnail.png"
-supported_version="1.33.*.*"
+supported_version="1.34.*.*"
 path="/home/danny/.local/share/Paradox Interactive/Europa Universalis IV/mod/TheatrumOrbisTerrarum_medium_opacity"
 remote_file_id="1867768464"

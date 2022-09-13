@@ -8,5 +8,5 @@ dependencies={
 }
 picture="thumbnail.png"
 name="Theatrum Orbis Terrarum for 1.30+ (Add-On: Original Water)"
-supported_version="1.33.*.*"
+supported_version="1.34.*.*"
 remote_file_id="2514589527"
