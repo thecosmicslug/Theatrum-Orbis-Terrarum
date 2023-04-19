@@ -18,7 +18,7 @@ Map lighting, water, dynamic transparency for colored map modes and some other t
 Extremely customizable
 Improves performance
 
-Works with EU4 1.34.* | Ironman compatible | Achievement compatible | No checksum change
+Works with EU4 1.35.* | Ironman compatible | Achievement compatible | No checksum change
 
 The sourcecode can be viewed & downloaded for non-steam users from my GitHub page - https://github.com/thecosmicslug/Theatrum-Orbis-Terrarum
 This includes past versions from 1.28 onwards.
