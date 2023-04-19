@@ -67,7 +67,7 @@ guiTypes = {
 			position = { x = 65 y =43 }
 			format = centre
 			textureFile = ""
-			font = "vic_22s" #kryo
+			font = "vic_29"
 			borderSize = {x = 4 y = 4}
 			text = "PAPACY_THE_HOLY_SEE"
 			maxWidth = 400

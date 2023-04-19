@@ -612,7 +612,7 @@ guiTypes = {
 			format = centre
 
 			textureFile = ""
-			font = "vic_22s" #kryo
+			font = "vic_29s"
 			borderSize = {x = 4 y = 0}
 			text = "UNIT_PANEL"	
 			maxWidth = 512

@@ -176,8 +176,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "label_battlename"
-			#position = { x = 45 y = 28 }
-			position = { x = 45 y = 30 } #kryo
+			position = { x = 45 y = 28 }
 			textureFile = ""
 			font = "vic_18s" #kryo
 			borderSize = {x = 4 y = 4}

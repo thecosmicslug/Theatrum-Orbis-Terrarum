@@ -37,7 +37,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType={
-			position = { x=29 y=2} #kryo
+			position = { x=29 y=4}
 			name = "NextNodeButton_label"
 			font = "vic_18s" # kryo vic_18
 			borderSize = {x = 2 y = 0}
@@ -244,7 +244,7 @@ guiTypes = {
 
 
 			instantTextBoxType={
-				position = {x = 390 y  = 235 }
+				position = {x = 388 y  = 220 }
 				name = "our_from_this"
 				font = "vic_18s" #kryo vic_22
 				borderSize = {x = 0 y = 0}
@@ -712,7 +712,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 392 y  = 235 }
+				position = {x = 388 y  = 220 }
 				name = "our_from_this"
 				font = "vic_18s" #kryo
 				borderSize = {x = 0 y = 0}
