@@ -764,7 +764,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "time_value"
-			position = { x = 430 y = 9 }
+			position = { x = 430 y = 10 }
 			textureFile = ""
 			font = "standard" #kryo vic_22
 			borderSize = {x = 4 y = 4}	
