@@ -10,5 +10,5 @@ dependencies={
 }
 picture="thumbnail.png"
 supported_version="1.35.*.*"
-path="/mod/TheatrumOrbisTerrarum_flatmap_addon"
+path="mod/TheatrumOrbisTerrarum_flatmap_addon"
 remote_file_id="2155176359"

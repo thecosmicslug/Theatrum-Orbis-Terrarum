@@ -10,5 +10,5 @@ dependencies={
 }
 picture="thumbnail.png"
 supported_version="1.35.*.*"
-path="/mod/TheatrumOrbisTerrarum_fraktur_interface"
+path="mod/TheatrumOrbisTerrarum_fraktur_interface"
 remote_file_id="2155177022"

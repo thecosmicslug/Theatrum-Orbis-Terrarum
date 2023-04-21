@@ -10,5 +10,5 @@ dependencies={
 }
 picture="thumbnail.png"
 supported_version="1.35.*.*"
-path="/mod/TheatrumOrbisTerrarum_interface_fonts"
+path="mod/TheatrumOrbisTerrarum_interface_fonts"
 remote_file_id="2127152376"

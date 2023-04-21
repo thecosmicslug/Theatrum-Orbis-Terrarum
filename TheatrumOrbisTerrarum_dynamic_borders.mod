@@ -10,5 +10,5 @@ dependencies={
 }
 picture="thumbnail.png"
 supported_version="1.35.*.*"
-path="/mod/TheatrumOrbisTerrarum_dynamic_borders"
+path="mod/TheatrumOrbisTerrarum_dynamic_borders"
 remote_file_id="2127907482"

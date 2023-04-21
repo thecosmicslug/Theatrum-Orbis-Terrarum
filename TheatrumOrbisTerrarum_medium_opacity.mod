@@ -11,5 +11,5 @@ dependencies={
 }
 picture="thumbnail.png"
 supported_version="1.35.*.*"
-path="/mod/TheatrumOrbisTerrarum_medium_opacity"
+path="mod/TheatrumOrbisTerrarum_medium_opacity"
 remote_file_id="1867768464"

@@ -11,5 +11,5 @@ dependencies={
 }
 picture="thumbnail.png"
 supported_version="1.35.*.*"
-path="/mod/TheatrumOrbisTerrarum_emoa"
+path="mod/TheatrumOrbisTerrarum_emoa"
 remote_file_id="1869087770"

@@ -10,5 +10,5 @@ dependencies={
 }
 picture="thumbnail.png"
 supported_version="1.35.*.*"
-path="/mod/TheatrumOrbisTerrarum_GoldMapFont"
+path="mod/TheatrumOrbisTerrarum_GoldMapFont"
 remote_file_id="2518774904"

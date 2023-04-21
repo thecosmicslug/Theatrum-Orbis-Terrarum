@@ -7,5 +7,5 @@ tags={
 }
 picture="thumbnail.png"
 supported_version="1.35.*.*"
-path="/mod/TheatrumOrbisTerrarum"
+path="mod/TheatrumOrbisTerrarum"
 remote_file_id="1867433999"

@@ -10,5 +10,5 @@ dependencies={
 }
 picture="thumbnail.png"
 supported_version="1.35.*.*"
-path="/mod/TheatrumOrbisTerrarum_blue_water"
+path="mod/TheatrumOrbisTerrarum_blue_water"
 remote_file_id="1868260444"
