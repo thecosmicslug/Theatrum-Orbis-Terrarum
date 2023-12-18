@@ -10,5 +10,5 @@ dependencies={
 }
 picture="thumbnail.png"
 supported_version="1.35.*.*"
-path="/home/danny/.local/share/Paradox Interactive/Europa Universalis IV/mod/TheatrumOrbisTerrarum_WhiteMapFont"
+path="mod/TheatrumOrbisTerrarum_WhiteMapFont"
 remote_file_id="2516759866"
