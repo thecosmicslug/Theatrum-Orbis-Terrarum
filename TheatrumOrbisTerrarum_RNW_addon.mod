@@ -10,5 +10,5 @@ dependencies={
 }
 picture="thumbnail.png"
 supported_version="1.36.*.*"
-path="/home/danny/.local/share/Paradox Interactive/Europa Universalis IV/mod/TheatrumOrbisTerrarum_RNW_addon"
+path="mod/TheatrumOrbisTerrarum_RNW_addon"
 remote_file_id="2155628326"
