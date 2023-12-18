@@ -9,5 +9,5 @@ dependencies={
 	"Theatrum Orbis Terrarum for 1.30+"
 }
 picture="thumbnail.png"
-supported_version="1.35.*.*"
+supported_version="1.36.*.*"
 remote_file_id="1867739203"

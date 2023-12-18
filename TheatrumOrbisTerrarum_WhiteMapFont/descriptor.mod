@@ -9,5 +9,5 @@ dependencies={
 	"Theatrum Orbis Terrarum for 1.30+,Theatrum Orbis Terrarum (Addon: Extended Timeline Patch)"
 }
 picture="thumbnail.png"
-supported_version="1.35.*.*"
+supported_version="1.36.*.*"
 remote_file_id="2516759866"

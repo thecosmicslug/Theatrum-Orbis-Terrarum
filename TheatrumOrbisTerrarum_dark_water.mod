@@ -10,6 +10,6 @@ dependencies={
 	"Theatrum Orbis Terrarum (Addon: Extended Timeline Patch)"
 }
 picture="thumbnail.png"
-supported_version="1.35.*.*"
+supported_version="1.36.*.*"
 path="mod/TheatrumOrbisTerrarum_dark_water"
 remote_file_id="1871173505"
